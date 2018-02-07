@@ -13,12 +13,15 @@
     
     
     <item>
-      <title>How I Created This Website</title>
+      <title>Git(Hub), Hugo and Academic</title>
       <link>https://scott-love.github.io/post/create-this-site/</link>
       <pubDate>Wed, 07 Feb 2018 18:31:37 +0100</pubDate>
       
       <guid>https://scott-love.github.io/post/create-this-site/</guid>
-      <description>Hello World</description>
+      <description>A quick tutorial on how I created my personal but work related website using Git(Hub), Hugo and Academic. So what did I do:
+ I already had Git installed and you will need it too.
+ Then install Hugo. There are several options but I used the Tarball method. Full details can be found here but here is a brief description.
+ Chose install location e.g., /usr/local/bin, in your executable PATH.</description>
     </item>
     
   </channel>

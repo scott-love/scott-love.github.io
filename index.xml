@@ -11,12 +11,51 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>How I Created This Website</title>
+      <title>Git(Hub), Hugo and Academic</title>
       <link>https://scott-love.github.io/post/create-this-site/</link>
       <pubDate>Wed, 07 Feb 2018 18:31:37 +0100</pubDate>
       
       <guid>https://scott-love.github.io/post/create-this-site/</guid>
-      <description>&lt;p&gt;Hello World&lt;/p&gt;
+      <description>&lt;p&gt;A quick tutorial on how I created my personal but work related &lt;a href=&#34;https://scott-love.github.io&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; using Git(Hub), Hugo and Academic. So what did I do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I already had &lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Git installed&lt;/a&gt; and you will need it too.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then install &lt;a href=&#34;https://gohugo.io/about/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. There are several options but I used the Tarball method. Full details can be found &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; but here is a brief description.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Chose install location e.g., /usr/local/bin, in your executable PATH.&lt;/li&gt;
+&lt;li&gt;Download the latest &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34;&gt;Tarball&lt;/a&gt; for your system.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install Hugo in your chosen location.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# extract the tarball
+tar -xvzf ~/Downloads/hugo_X.Y_osx-64bit.tgz
+# verify that it runs
+./hugo version
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/fork-a-repo/&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Academic Kickstart&lt;/a&gt; repository to your GitHub account.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Clone the repository onto your system.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/USERNAME/academic-kickstart.git My_Website
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Initialise the theme.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd My_Website
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create your GitHub website repository.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;In your GitHub page click the “+” icon in the top right corner and choose “New Repository”.&lt;/li&gt;
+&lt;li&gt;Repository name = USERNAME.github.io.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

@@ -12,5 +12,23 @@
 	<atom:link href="https://scott-love.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Familiarity and Voice Representation: From Acoustic-Based Representation to Voice Averages</title>
+      <link>https://scott-love.github.io/publication/fontaine2017/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/publication/fontaine2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Left Brain Asymmetry of the Planum Temporale in a Nonhominid Primate: Redefining the Origin of Brain Specialization for Language</title>
+      <link>https://scott-love.github.io/publication/marie2017/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/publication/marie2017/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

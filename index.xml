@@ -6,9 +6,19 @@
     <description>Recent content in scott love on scott love</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2018 Scott Love</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How I Created This Website</title>
+      <link>https://scott-love.github.io/post/create-this-site/</link>
+      <pubDate>Wed, 07 Feb 2018 18:31:37 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/post/create-this-site/</guid>
+      <description>&lt;p&gt;Hello World&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Familiarity and Voice Representation: From Acoustic-Based Representation to Voice Averages</title>

@@ -5,6 +5,33 @@
     
     <url>
     
+      <loc>https://scott-love.github.io/project/phenomathyp/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/project/neuro2co/</loc>
+      <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/project/prebiostress/</loc>
+      <lastmod>2018-02-08T18:03:41+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://scott-love.github.io/post/create-this-site/</loc>
       <lastmod>2018-02-07T18:31:37+01:00</lastmod>
     </url>
@@ -187,7 +214,57 @@
     
     <url>
     
+      <loc>https://scott-love.github.io/tags/brain/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://scott-love.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/maturation/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/mri/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/ovine/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/project/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -207,6 +284,7 @@
     <url>
     
       <loc>https://scott-love.github.io/tags/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
       <priority>0</priority>
     </url>
     

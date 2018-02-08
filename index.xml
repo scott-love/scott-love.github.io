@@ -16,7 +16,11 @@
       <pubDate>Wed, 07 Feb 2018 18:31:37 +0100</pubDate>
       
       <guid>https://scott-love.github.io/post/create-this-site/</guid>
-      <description>&lt;p&gt;A quick tutorial on how I created my personal but work related &lt;a href=&#34;https://scott-love.github.io&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; using Git(Hub), Hugo and Academic. So what did I do:&lt;/p&gt;
+      <description>
+
+&lt;p&gt;A quick(ish) tutorial on how I created my personal but work related &lt;a href=&#34;https://scott-love.github.io&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; using Git(Hub), Hugo and Academic on a Mac. The process came from two main sources: 1. The &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; for Academic and; 2. A blog post by &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-what-did-i-do&#34;&gt;So what did I do:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;I already had &lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Git installed&lt;/a&gt; and you will need it too.&lt;/p&gt;&lt;/li&gt;
@@ -24,23 +28,30 @@
 &lt;li&gt;&lt;p&gt;Then install &lt;a href=&#34;https://gohugo.io/about/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. There are several options but I used the Tarball method. Full details can be found &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; but here is a brief description.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Chose install location e.g., /usr/local/bin, in your executable PATH.&lt;/li&gt;
-&lt;li&gt;Download the latest &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34;&gt;Tarball&lt;/a&gt; for your system.&lt;/li&gt;
+&lt;li&gt;Chose install location (e.g., /usr/local/bin), in your executable PATH.&lt;/li&gt;
+&lt;li&gt;Download the latest &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34;&gt;Tarball&lt;/a&gt; for your system to the Downloads folder.&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Install Hugo in your chosen location.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# extract the tarball
+&lt;pre&gt;&lt;code&gt;cd /usr/local/bin # CHOSEN_INSTALL_LOCATION
+# extract the tarball
 tar -xvzf ~/Downloads/hugo_X.Y_osx-64bit.tgz
 # verify that it runs
 ./hugo version
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/fork-a-repo/&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Academic Kickstart&lt;/a&gt; repository to your GitHub account.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/fork-a-repo/&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Academic Kickstart&lt;/a&gt; repository to your GitHub account.&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;Clone the repository onto your system.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Login to your GitHub account.&lt;/li&gt;
+&lt;li&gt;Click &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; or search for sourcethemes/academic-kickstart inside GitHub.&lt;/li&gt;
+&lt;li&gt;Click on the fork icon towards the top right of the screen.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
 
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/USERNAME/academic-kickstart.git My_Website
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://git-scm.com/docs/git-clone&#34; target=&#34;_blank&#34;&gt;Clone&lt;/a&gt; the repository onto your local system. Note that you need to change &amp;lt;USERNAME&amp;gt; to your GitHub username and that My_Website can be changed to any name you want.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/&amp;lt;USERNAME&amp;gt;/academic-kickstart.git My_Website
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Initialise the theme.&lt;/p&gt;
@@ -52,10 +63,38 @@ git submodule update --init --recursive
 &lt;li&gt;&lt;p&gt;Create your GitHub website repository.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;In your GitHub page click the “+” icon in the top right corner and choose “New Repository”.&lt;/li&gt;
-&lt;li&gt;Repository name = USERNAME.github.io.&lt;/li&gt;
+&lt;li&gt;On your GitHub page click the “+” icon in the top right corner and choose “New Repository”.&lt;/li&gt;
+&lt;li&gt;Repository name = &amp;lt;USERNAME&amp;gt;.github.io.&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add your &amp;lt;USERNAME&amp;gt;.github.io repository into a submodule folder named public.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git submodule add https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://git-scm.com/docs/git-add&#34; target=&#34;_blank&#34;&gt;Add&lt;/a&gt; to the local git repository then &lt;a href=&#34;https://git-scm.com/docs/git-push&#34; target=&#34;_blank&#34;&gt;push&lt;/a&gt; to the remote repository.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;Initial commit&amp;quot;
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Run Hugo to create the HTML for the site.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;View the built site in your browser (&lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34;&gt;http://localhost:1313/&lt;/a&gt;) but note this is only a local copy and not visible to others.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Upload the built site to Github for everyone to see @ &amp;lt;USERNAME&amp;gt;.github.io. Note it will take 2 or 3 minutes to be viewable.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;Build website&amp;quot;
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;NEEDS TO BE FINISHED&lt;/p&gt;
 </description>
     </item>
     
@@ -74,6 +113,24 @@ git submodule update --init --recursive
       <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
       
       <guid>https://scott-love.github.io/publication/marie2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The average baboon brain: MRI templates and tissue probability maps from 89 individuals</title>
+      <link>https://scott-love.github.io/publication/love2016/</link>
+      <pubDate>Fri, 11 Mar 2016 14:12:48 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/publication/love2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A practical guide for the identification of major sulcogyral structures of the human cortex</title>
+      <link>https://scott-love.github.io/publication/destrieux2016/</link>
+      <pubDate>Mon, 08 Feb 2016 14:06:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/publication/destrieux2016/</guid>
       <description></description>
     </item>
     

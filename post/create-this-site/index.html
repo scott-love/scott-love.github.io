@@ -17,9 +17,8 @@
       
     
   
-  <meta name="description" content="A quick(ish) tutorial on how I created my personal but work related website using Git(Hub), Hugo and Academic on a Mac. The process came from two main sources: 1. The documentation for Academic and; 2. A blog post by George Cushen.
-So what did I do:  I already had Git installed and you will need it too.
- Then install Hugo. There are several options but I used the Tarball method.">
+  <meta name="description" content="A quick(ish) tutorial on how I setup my personal but work related website using Git(Hub), Hugo and Academic on a Mac. This is a fairly simple and completely free way to host an academic personal website. The process came from two main sources: 1. The documentation for Academic and; 2. A blog post by George Cushen.
+So what did I do:  I already had Git installed and you will need it too.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://scott-love.github.io/post/create-this-site/">
@@ -81,9 +80,8 @@ So what did I do:  I already had Git installed and you will need it too.
   <meta property="og:site_name" content="scott love">
   <meta property="og:url" content="https://scott-love.github.io/post/create-this-site/">
   <meta property="og:title" content="Git(Hub), Hugo and Academic | scott love">
-  <meta property="og:description" content="A quick(ish) tutorial on how I created my personal but work related website using Git(Hub), Hugo and Academic on a Mac. The process came from two main sources: 1. The documentation for Academic and; 2. A blog post by George Cushen.
-So what did I do:  I already had Git installed and you will need it too.
- Then install Hugo. There are several options but I used the Tarball method.">
+  <meta property="og:description" content="A quick(ish) tutorial on how I setup my personal but work related website using Git(Hub), Hugo and Academic on a Mac. This is a fairly simple and completely free way to host an academic personal website. The process came from two main sources: 1. The documentation for Academic and; 2. A blog post by George Cushen.
+So what did I do:  I already had Git installed and you will need it too.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-02-07T18:31:37&#43;01:00">
@@ -333,7 +331,7 @@ So what did I do:  I already had Git installed and you will need it too.
     <div class="article-style" itemprop="articleBody">
       
 
-<p>A quick(ish) tutorial on how I created my personal but work related <a href="https://scott-love.github.io" target="_blank">website</a> using Git(Hub), Hugo and Academic on a Mac. The process came from two main sources: 1. The <a href="https://sourcethemes.com/academic/docs/" target="_blank">documentation</a> for Academic and; 2. A blog post by <a href="https://georgecushen.com/create-your-website-with-hugo/" target="_blank">George Cushen</a>.</p>
+<p>A quick(ish) tutorial on how I setup my personal but work related <a href="https://scott-love.github.io" target="_blank">website</a> using Git(Hub), Hugo and Academic on a Mac. This is a fairly <em>simple</em> and completely <em>free</em> way to host an academic personal website. The process came from two main sources: 1. The <a href="https://sourcethemes.com/academic/docs/" target="_blank">documentation</a> for Academic and; 2. A blog post by <a href="https://georgecushen.com/create-your-website-with-hugo/" target="_blank">George Cushen</a>.</p>
 
 <h2 id="so-what-did-i-do">So what did I do:</h2>
 
@@ -361,7 +359,8 @@ tar -xvzf ~/Downloads/hugo_X.Y_osx-64bit.tgz
 <ol>
 <li>Login to your GitHub account.</li>
 <li>Click <a href="https://github.com/sourcethemes/academic-kickstart#fork-destination-box" target="_blank">here</a> or search for sourcethemes/academic-kickstart inside GitHub.</li>
-<li>Click on the fork icon towards the top right of the screen.</li>
+<li>Click on the fork icon towards the top right of the screen.
+<br/><br/></li>
 </ol></li>
 
 <li><p><a href="https://git-scm.com/docs/git-clone" target="_blank">Clone</a> the repository onto your local system. Note that you need to change &lt;USERNAME&gt; to your GitHub username and that My_Website can be changed to any name you want.</p>
@@ -379,7 +378,8 @@ git submodule update --init --recursive
 
 <ol>
 <li>On your GitHub page click the “+” icon in the top right corner and choose “New Repository”.</li>
-<li>Repository name = &lt;USERNAME&gt;.github.io.</li>
+<li>Repository name = &lt;USERNAME&gt;.github.io.
+<br/><br/></li>
 </ol></li>
 
 <li><p>Add your &lt;USERNAME&gt;.github.io repository into a submodule folder named public.</p>
@@ -390,7 +390,7 @@ git submodule update --init --recursive
 <li><p><a href="https://git-scm.com/docs/git-add" target="_blank">Add</a> to the local git repository then <a href="https://git-scm.com/docs/git-push" target="_blank">push</a> to the remote repository.</p>
 
 <pre><code>git add .
-git commit -m &quot;Initial commit&quot;
+git commit -m &quot;initial commit&quot;
 git push -u origin master
 </code></pre></li>
 
@@ -404,12 +404,10 @@ git push -u origin master
 <li><p>Upload the built site to Github for everyone to see @ &lt;USERNAME&gt;.github.io. Note it will take 2 or 3 minutes to be viewable.</p>
 
 <pre><code>git add .
-git commit -m &quot;Build website&quot;
+git commit -m &quot;build website&quot;
 git push -u origin master
 </code></pre></li>
 </ul>
-
-<p>NEEDS TO BE FINISHED</p>
 
     </div>
 

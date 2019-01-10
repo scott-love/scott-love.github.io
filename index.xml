@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Overlapping but Divergent Neural Correlates Underpinning Audiovisual Synchrony and Temporal Order Judgments</title>
+      <link>https://scott-love.github.io/publication/love2018/</link>
+      <pubDate>Thu, 10 Jan 2019 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/publication/love2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Phenomathyp</title>
       <link>https://scott-love.github.io/project/phenomathyp/</link>
       <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
@@ -217,15 +226,6 @@ git push -u origin master
       <pubDate>Fri, 08 Feb 2013 16:41:54 +0100</pubDate>
       
       <guid>https://scott-love.github.io/publication/mcaleer2013/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Crossmodal Integration of Emotional Stimuli in Alcohol Dependence</title>
-      <link>https://scott-love.github.io/publication/maurage2013/</link>
-      <pubDate>Tue, 08 Jan 2013 17:05:46 +0100</pubDate>
-      
-      <guid>https://scott-love.github.io/publication/maurage2013/</guid>
       <description></description>
     </item>
     

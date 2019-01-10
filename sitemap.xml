@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://scott-love.github.io/publication/love2018/</loc>
+      <lastmod>2019-01-10T12:18:50+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://scott-love.github.io/project/phenomathyp/</loc>
       <lastmod>2018-02-08T18:08:18+01:00</lastmod>
     </url>
@@ -204,6 +213,16 @@
     
     <url>
     
+      <loc>https://scott-love.github.io/publication_types/23/</loc>
+      <lastmod>2019-01-10T12:18:50+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://scott-love.github.io/publication_types/6/</loc>
       <lastmod>2015-02-08T16:23:21+01:00</lastmod>
       <priority>0</priority>
@@ -214,7 +233,16 @@
     
     <url>
     
-      <loc>https://scott-love.github.io/tags/brain/</loc>
+      <loc>https://scott-love.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/project/</loc>
       <lastmod>2018-02-08T18:08:18+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -224,7 +252,27 @@
     
     <url>
     
-      <loc>https://scott-love.github.io/categories/</loc>
+      <loc>https://scott-love.github.io/publication_types/</loc>
+      <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/brain/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -273,38 +321,18 @@
     
     <url>
     
-      <loc>https://scott-love.github.io/project/</loc>
-      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/publication_types/</loc>
-      <lastmod>2017-02-07T17:23:02+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/</loc>
-      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://scott-love.github.io/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/texture-analysis/</loc>
+      <lastmod>2018-02-08T18:08:18+01:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -11,15 +11,6 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Sheep Cortex</title>
-      <link>https://scott-love.github.io/project/sheep-cortex/</link>
-      <pubDate>Fri, 11 Jan 2019 23:41:46 +0100</pubDate>
-      
-      <guid>https://scott-love.github.io/project/sheep-cortex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Overlapping but Divergent Neural Correlates Underpinning Audiovisual Synchrony and Temporal Order Judgments</title>
       <link>https://scott-love.github.io/publication/love2018/</link>
       <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
@@ -164,6 +155,16 @@ git push -u origin master
       
       <guid>https://scott-love.github.io/publication/marie2017/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Sheep Cortex</title>
+      <link>https://scott-love.github.io/project/sheep-cortex/</link>
+      <pubDate>Wed, 11 Jan 2017 23:41:46 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/project/sheep-cortex/</guid>
+      <description>&lt;p&gt;See this poster on &lt;a href=&#34;https://figshare.com/articles/Surface-based_cortical_parcellation_of_the_sheep_brain/5426518&#34; target=&#34;_blank&#34;&gt;Figshare&lt;/a&gt; for some more details.&lt;/p&gt;
+</description>
     </item>
     
     <item>

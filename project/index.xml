@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Scott Love</copyright>
-    <lastBuildDate>Fri, 11 Jan 2019 23:41:46 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Feb 2018 18:08:18 +0100</lastBuildDate>
     
 	<atom:link href="https://scott-love.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Sheep Cortex</title>
-      <link>https://scott-love.github.io/project/sheep-cortex/</link>
-      <pubDate>Fri, 11 Jan 2019 23:41:46 +0100</pubDate>
-      
-      <guid>https://scott-love.github.io/project/sheep-cortex/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Phenomathyp</title>
@@ -47,6 +38,15 @@ Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)</descript
       
       <guid>https://scott-love.github.io/project/prebiostress/</guid>
       <description>ADD TEXT HERE</description>
+    </item>
+    
+    <item>
+      <title>Sheep Cortex</title>
+      <link>https://scott-love.github.io/project/sheep-cortex/</link>
+      <pubDate>Wed, 11 Jan 2017 23:41:46 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/project/sheep-cortex/</guid>
+      <description>See this poster on Figshare for some more details.</description>
     </item>
     
   </channel>

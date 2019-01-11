@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anatomy on Scott Love</title>
+    <link>https://scott-love.github.io/tags/anatomy/</link>
+    <description>Recent content in anatomy on Scott Love</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Scott Love</copyright>
+    <lastBuildDate>Wed, 11 Jan 2017 23:41:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://scott-love.github.io/tags/anatomy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sheep Cortex</title>
+      <link>https://scott-love.github.io/project/sheep-cortex/</link>
+      <pubDate>Wed, 11 Jan 2017 23:41:46 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/project/sheep-cortex/</guid>
+      <description>See this poster on Figshare for some more details.</description>
+    </item>
+    
+  </channel>
+</rss>

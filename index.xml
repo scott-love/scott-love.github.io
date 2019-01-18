@@ -136,6 +136,23 @@ git commit -m &amp;quot;build website&amp;quot;
 git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;adding-content&#34;&gt;Adding content:&lt;/h2&gt;
+
+&lt;p&gt;OK, the website is built it&amp;rsquo;s time to add content. You can make additions/changes to your website and check out the results before deploying to your actual site.&lt;/p&gt;
+
+&lt;p&gt;A good place to start is the config.toml file in the main directory of your site.
+It contains a bunch of key-value pairs. change the title value to the title of your website, e.g., your name. Then run Hugo server to create the HTML for the site.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;View the local copy of the built site in your browser (&lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34;&gt;http://localhost:1313/&lt;/a&gt;).
+Leave the server running and any other changes you make will be automatically visible in local site just created. Go through all the key-value pairs and change, edit or remove any that you want.&lt;/p&gt;
+
+&lt;h2 id=&#34;github-version-control&#34;&gt;Github version control:&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages&#34; target=&#34;_blank&#34;&gt;Host on GitHub&lt;/a&gt; page from Hugo outlines a nice way to store all the files of your site on GitHub.&lt;/p&gt;
 </description>
     </item>
     

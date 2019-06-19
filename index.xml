@@ -153,9 +153,25 @@ Leave the server running and any other changes you make will be automatically vi
 
 &lt;p&gt;The &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages&#34; target=&#34;_blank&#34;&gt;Host on GitHub&lt;/a&gt; page from Hugo outlines a nice way to store all the files of your site on GitHub.&lt;/p&gt;
 
-&lt;h2 id=&#34;update-academic-kickstart-version&#34;&gt;Update Academic-Kickstart version:&lt;/h2&gt;
+&lt;h2 id=&#34;updating-the-website-content&#34;&gt;Updating the website content:&lt;/h2&gt;
 
-&lt;p&gt;I have found updating the Academic-Kickstart version and subsequently the website to be very complicated!&lt;/p&gt;
+&lt;p&gt;Using the GitHub method above I do not keep a local copy of any of the files. Here is the process I follow to update the website content.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;YOUR-PROJECT&amp;gt;
+cd &amp;lt;YOUR-PROJECT&amp;gt;/
+git rm -r public
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At this point you can make changes to the content of your website and push those to the remote repository.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;updating content&amp;quot;
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;update-academic-kickstart-version&#34;&gt;Update academic-kickstart version:&lt;/h2&gt;
+
+&lt;p&gt;I have found updating the academic-kickstart version and subsequently the website to be very complicated!&lt;/p&gt;
 </description>
     </item>
     

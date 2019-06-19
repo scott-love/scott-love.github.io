@@ -130,7 +130,7 @@ So what did I do:  I already had Git installed and you will need it too."><meta 
   
   <meta property="article:published_time" content="2018-02-07T18:31:37&#43;01:00">
   
-  <meta property="article:modified_time" content="2019-06-19T11:57:01&#43;02:00">
+  <meta property="article:modified_time" content="2019-06-19T14:51:23&#43;02:00">
   
 
   
@@ -355,7 +355,7 @@ So what did I do:  I already had Git installed and you will need it too."><meta 
         Last updated on
     
     <meta content="2018-02-07 18:31:37 &#43;0100 CET" itemprop="datePublished">
-    <time datetime="2019-06-19 11:57:01 &#43;0200 CEST" itemprop="dateModified">
+    <time datetime="2019-06-19 14:51:23 &#43;0200 CEST" itemprop="dateModified">
       Jun 19, 2019
     </time>
   </span>
@@ -542,9 +542,25 @@ Leave the server running and any other changes you make will be automatically vi
 
 <p>The <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages" target="_blank">Host on GitHub</a> page from Hugo outlines a nice way to store all the files of your site on GitHub.</p>
 
-<h2 id="update-academic-kickstart-version">Update Academic-Kickstart version:</h2>
+<h2 id="updating-the-website-content">Updating the website content:</h2>
 
-<p>I have found updating the Academic-Kickstart version and subsequently the website to be very complicated!</p>
+<p>Using the GitHub method above I do not keep a local copy of any of the files. Here is the process I follow to update the website content.</p>
+
+<pre><code>git clone https://github.com/&lt;USERNAME&gt;/&lt;YOUR-PROJECT&gt;
+cd &lt;YOUR-PROJECT&gt;/
+git rm -r public
+</code></pre>
+
+<p>At this point you can make changes to the content of your website and push those to the remote repository.</p>
+
+<pre><code>git add .
+git commit -m &quot;updating content&quot;
+git push origin master
+</code></pre>
+
+<h2 id="update-academic-kickstart-version">Update academic-kickstart version:</h2>
+
+<p>I have found updating the academic-kickstart version and subsequently the website to be very complicated!</p>
 
     </div>
 

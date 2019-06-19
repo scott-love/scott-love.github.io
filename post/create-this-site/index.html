@@ -558,6 +558,14 @@ git commit -m &quot;updating content&quot;
 git push origin master
 </code></pre>
 
+<p>However, this only keeps the content in synchrony with the remote repository it does not update the website.</p>
+
+<pre><code>git submodule add https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
+./deploy.sh &quot;comment&quot;
+</code></pre>
+
+<p>The contents of deploy.sh can be seen <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages" target="_blank">here</a></p>
+
 <h2 id="update-academic-kickstart-version">Update academic-kickstart version:</h2>
 
 <p>I have found updating the academic-kickstart version and subsequently the website to be very complicated!</p>

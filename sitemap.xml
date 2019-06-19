@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/publication_types/23/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     <url>
@@ -12,8 +20,98 @@
     
     <url>
     
+      <loc>https://scott-love.github.io/publication_types/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/</loc>
+      <lastmod>2019-06-19T11:57:01+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://scott-love.github.io/project/phenomathyp/</loc>
       <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/project/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/brain/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/maturation/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/mri/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/ovine/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/pituitary-gland/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/texture-analysis/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -37,7 +135,16 @@
     <url>
     
       <loc>https://scott-love.github.io/post/create-this-site/</loc>
-      <lastmod>2019-01-18T00:07:20+01:00</lastmod>
+      <lastmod>2019-06-19T11:57:01+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/publication_types/2/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -62,6 +169,24 @@
     
       <loc>https://scott-love.github.io/project/sheep-cortex/</loc>
       <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/anatomy/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/tags/cortex/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -110,6 +235,15 @@
     
       <loc>https://scott-love.github.io/publication/latinus2015/</loc>
       <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://scott-love.github.io/publication_types/6/</loc>
+      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -188,141 +322,7 @@
     
     <url>
     
-      <loc>https://scott-love.github.io/publication_types/2/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/publication_types/23/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/publication_types/6/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://scott-love.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/project/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/publication_types/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/anatomy/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/brain/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/cortex/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/maturation/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/mri/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/ovine/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/pituitary-gland/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://scott-love.github.io/tags/texture-analysis/</loc>
-      <lastmod>2019-01-17T22:23:05+01:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scott Love on Scott Love</title>
@@ -7,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Scott Love</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 12:18:50 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -153,6 +152,10 @@ Leave the server running and any other changes you make will be automatically vi
 &lt;h2 id=&#34;github-version-control&#34;&gt;Github version control:&lt;/h2&gt;
 
 &lt;p&gt;The &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages&#34; target=&#34;_blank&#34;&gt;Host on GitHub&lt;/a&gt; page from Hugo outlines a nice way to store all the files of your site on GitHub.&lt;/p&gt;
+
+&lt;h2 id=&#34;update-academic-kickstart-version&#34;&gt;Update Academic-Kickstart version:&lt;/h2&gt;
+
+&lt;p&gt;I have found updating the Academic-Kickstart version and subsequently the website to be very complicated!&lt;/p&gt;
 </description>
     </item>
     

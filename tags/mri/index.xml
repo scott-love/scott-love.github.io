@@ -4,12 +4,12 @@
     <title>mri on Scott Love</title>
     <link>https://scott-love.github.io/tags/mri/</link>
     <description>Recent content in mri on Scott Love</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Scott Love</copyright>
     <lastBuildDate>Thu, 08 Feb 2018 18:08:18 +0100</lastBuildDate>
     
-	<atom:link href="https://scott-love.github.io/tags/mri/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://scott-love.github.io/tags/mri/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,8 +18,10 @@
       <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
       
       <guid>https://scott-love.github.io/project/phenomathyp/</guid>
-      <description>ADD TEXT HERE
-Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)</description>
+      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
+
+&lt;p&gt;Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,7 +30,8 @@ Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)</descript
       <pubDate>Thu, 08 Feb 2018 18:06:20 +0100</pubDate>
       
       <guid>https://scott-love.github.io/project/neuro2co/</guid>
-      <description>ADD TEXT HERE</description>
+      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -37,7 +40,8 @@ Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)</descript
       <pubDate>Thu, 08 Feb 2018 18:03:41 +0100</pubDate>
       
       <guid>https://scott-love.github.io/project/prebiostress/</guid>
-      <description>ADD TEXT HERE</description>
+      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -46,7 +50,8 @@ Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)</descript
       <pubDate>Wed, 11 Jan 2017 23:41:46 +0100</pubDate>
       
       <guid>https://scott-love.github.io/project/sheep-cortex/</guid>
-      <description>See this poster on Figshare for some more details.</description>
+      <description>&lt;p&gt;See this poster on &lt;a href=&#34;https://figshare.com/articles/Surface-based_cortical_parcellation_of_the_sheep_brain/5426518&#34; target=&#34;_blank&#34;&gt;Figshare&lt;/a&gt; for some more details.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

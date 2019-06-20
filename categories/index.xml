@@ -4,11 +4,11 @@
     <title>Categories on Scott Love</title>
     <link>https://scott-love.github.io/categories/</link>
     <description>Recent content in Categories on Scott Love</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Scott Love</copyright>
     
-	<atom:link href="https://scott-love.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://scott-love.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

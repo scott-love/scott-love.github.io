@@ -4,12 +4,12 @@
     <title>pituitary gland on Scott Love</title>
     <link>https://scott-love.github.io/tags/pituitary-gland/</link>
     <description>Recent content in pituitary gland on Scott Love</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Scott Love</copyright>
     <lastBuildDate>Thu, 08 Feb 2018 18:08:18 +0100</lastBuildDate>
     
-	<atom:link href="https://scott-love.github.io/tags/pituitary-gland/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://scott-love.github.io/tags/pituitary-gland/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,8 +18,10 @@
       <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
       
       <guid>https://scott-love.github.io/project/phenomathyp/</guid>
-      <description>ADD TEXT HERE
-Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)</description>
+      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
+
+&lt;p&gt;Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

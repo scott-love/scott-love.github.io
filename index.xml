@@ -182,7 +182,9 @@ git push origin master
 
 &lt;h2 id=&#34;update-academic-kickstart-version&#34;&gt;Update academic-kickstart version:&lt;/h2&gt;
 
-&lt;p&gt;I have found updating the academic-kickstart version and subsequently the website to be very complicated! I succeeded once following the instructions &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; but the second time I tried I failed.&lt;/p&gt;
+&lt;p&gt;I have found updating the academic-kickstart version and subsequently the website to be tricky! Follow the instructions &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. However, I was only ever able to update using the ZIP  there. Uninstall the current version by deleting the contents of the &amp;ldquo;themes/academic/&amp;rdquo; folder inside &amp;lt;YOUR-PROJECT&amp;gt; and replacing it with the downloaded files.&lt;/p&gt;
+
+&lt;p&gt;At this point you still need to follow the release notes and update your content and config files to take into account the &amp;ldquo;Breaking changes&amp;rdquo;. If you have jumped a few versions you will need to do this in sequence for each version change (e.g. v3.1 to v3.2 before doing v3.2 to v3.3)&lt;/p&gt;
 </description>
     </item>
     

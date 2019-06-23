@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Scott Love</title>
+    <link>https://scott-love.github.io/fr/post/</link>
+    <description>Recent content in Posts on Scott Love</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Scott Love</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	    <atom:link href="https://scott-love.github.io/fr/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git(Hub), Hugo and Academic</title>
+      <link>https://scott-love.github.io/fr/post/create-this-site/</link>
+      <pubDate>Wed, 07 Feb 2018 18:31:37 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/post/create-this-site/</guid>
+      <description>
+
+&lt;p&gt;A quick(ish) tutorial on how I setup my personal but work related &lt;a href=&#34;https://scott-love.github.io&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; using Git(Hub), Hugo and Academic on a Mac. This is a fairly &lt;em&gt;simple&lt;/em&gt; and completely &lt;em&gt;free&lt;/em&gt; way to host an academic personal website. The process came from two main sources: 1. The &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; for Academic and; 2. A blog post by &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-what-did-i-do&#34;&gt;So what did I do:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I already had &lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Git installed&lt;/a&gt; and you will need it too.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then install &lt;a href=&#34;https://gohugo.io/about/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. There are several options but I used the Tarball method. Full details can be found &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; but here is a brief description.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Chose install location (e.g., /usr/local/bin), in your executable PATH.&lt;/li&gt;
+&lt;li&gt;Download the latest &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34;&gt;Tarball&lt;/a&gt; for your system to the Downloads folder.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install Hugo in your chosen location.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd /usr/local/bin # CHOSEN_INSTALL_LOCATION
+# extract the tarball
+tar -xvzf ~/Downloads/hugo_X.Y_osx-64bit.tgz
+# verify that it runs
+./hugo version
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/fork-a-repo/&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Academic Kickstart&lt;/a&gt; repository to your GitHub account.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Login to your GitHub account.&lt;/li&gt;
+&lt;li&gt;Click &lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; or search for sourcethemes/academic-kickstart inside GitHub.&lt;/li&gt;
+&lt;li&gt;Click on the fork icon towards the top right of the screen.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://git-scm.com/docs/git-clone&#34; target=&#34;_blank&#34;&gt;Clone&lt;/a&gt; the repository onto your local system. Note that you need to change &amp;lt;USERNAME&amp;gt; to your GitHub username and that My_Website can be changed to any name you want.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/&amp;lt;USERNAME&amp;gt;/academic-kickstart.git My_Website
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Initialise the theme.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd My_Website
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create your GitHub website repository.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;On your GitHub page click the “+” icon in the top right corner and choose “New Repository”.&lt;/li&gt;
+&lt;li&gt;Repository name = &amp;lt;USERNAME&amp;gt;.github.io.
+&lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add your &amp;lt;USERNAME&amp;gt;.github.io repository into a submodule folder named public.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git submodule add https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://git-scm.com/docs/git-add&#34; target=&#34;_blank&#34;&gt;Add&lt;/a&gt; to the local git repository then &lt;a href=&#34;https://git-scm.com/docs/git-push&#34; target=&#34;_blank&#34;&gt;push&lt;/a&gt; to the remote repository.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;initial commit&amp;quot;
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Run Hugo to create the HTML for the site.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;View the built site in your browser (&lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34;&gt;http://localhost:1313/&lt;/a&gt;) but note this is only a local copy and not visible to others.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Upload the built site to Github for everyone to see @ &amp;lt;USERNAME&amp;gt;.github.io. Note it will take 2 or 3 minutes to be viewable.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;build website&amp;quot;
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;adding-content&#34;&gt;Adding content:&lt;/h2&gt;
+
+&lt;p&gt;OK, the website is built it&amp;rsquo;s time to add content. You can make additions/changes to your website and check out the results before deploying to your actual site.&lt;/p&gt;
+
+&lt;p&gt;A good place to start is the config.toml file in the main directory of your site.
+It contains a bunch of key-value pairs. change the title value to the title of your website, e.g., your name. Then run Hugo server to create the HTML for the site.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;View the local copy of the built site in your browser (&lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34;&gt;http://localhost:1313/&lt;/a&gt;).
+Leave the server running and any other changes you make will be automatically visible in local site just created. Go through all the key-value pairs and change, edit or remove any that you want.&lt;/p&gt;
+
+&lt;h2 id=&#34;github-version-control&#34;&gt;Github version control:&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages&#34; target=&#34;_blank&#34;&gt;Host on GitHub&lt;/a&gt; page from Hugo outlines a nice way to store all the files of your site on GitHub.&lt;/p&gt;
+
+&lt;h2 id=&#34;updating-the-website-content&#34;&gt;Updating the website content:&lt;/h2&gt;
+
+&lt;p&gt;Using the GitHub method above I do not keep a local copy of any of the files. Here is the process I follow to update the website content.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;YOUR-PROJECT&amp;gt;
+cd &amp;lt;YOUR-PROJECT&amp;gt;/
+git rm -r public
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At this point you can make changes to the content of your website and push those to the remote repository.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;updating content&amp;quot;
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, this only keeps the content in synchrony with the remote repository it does not update the website.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git submodule add https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
+./deploy.sh &amp;quot;comment&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The contents of deploy.sh can be seen &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;update-academic-kickstart-version&#34;&gt;Update academic-kickstart version:&lt;/h2&gt;
+
+&lt;p&gt;I have found updating the academic-kickstart version and subsequently the website to be tricky! Follow the instructions &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. However, I was only ever able to update using the ZIP  there. Uninstall the current version by deleting the contents of the &amp;ldquo;themes/academic/&amp;rdquo; folder inside &amp;lt;YOUR-PROJECT&amp;gt; and replacing it with the downloaded files.&lt;/p&gt;
+
+&lt;p&gt;At this point you still need to follow the release notes and update your content and config files to take into account the &amp;ldquo;Breaking changes&amp;rdquo;. If you have jumped a few versions you will need to do this in sequence for each version change (e.g. v3.1 to v3.2 before doing v3.2 to v3.3)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

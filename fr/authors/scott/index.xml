@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scott Love</title>
+    <link>https://scott-love.github.io/fr/authors/scott/</link>
+    <description>Recent content on Scott Love</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Scott Love</copyright>
+    
+	    <atom:link href="https://scott-love.github.io/fr/authors/scott/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://scott-love.github.io/fr/authors/scott/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/authors/scott/</guid>
+      <description>
+
+&lt;h1 id=&#34;a-propos&#34;&gt;A propos&lt;/h1&gt;
+
+&lt;p&gt;Je suis chercheur en neurosciences cognitives utilisant actuellement des techniques de neuroimagerie chez des animaux de ferme pour étudier : 1) l&amp;rsquo;influence de l&amp;rsquo;environnement précoce sur le développement comportemental et neurobiologique et 2) la perception sociale et ses mechanismes neuronaux sous jacent.&lt;/p&gt;
+
+&lt;p&gt;Depuis novembre 2017, je suis Chargé de Recherche à l&amp;rsquo;Unité Mixte de Recherche &lt;a href=&#34;https://www6.val-de-loire.inra.fr/physiologie_reproduction_comportements&#34; target=&#34;_blank&#34;&gt;PRC&lt;/a&gt; (Physiologie de la Reproduction et des Comportements) à &lt;a href=&#34;https://www.google.com/maps/place/Inra+Centre+Val+De+Loire/@47.544757,0.782861,15z/data=!4m5!3m4!1s0x0:0xe0400dff4907150e!8m2!3d47.544757!4d0.782861&#34; target=&#34;_blank&#34;&gt;Nouzilly&lt;/a&gt;, France.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

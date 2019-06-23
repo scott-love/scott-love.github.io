@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Scott Love">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A quick(ish) tutorial on how I setup my personal but work related website using Git(Hub), Hugo and Academic on a Mac. This is a fairly simple and completely free way to host an academic personal website. The process came from two main sources: 1. The documentation for Academic and; 2. A blog post by George Cushen.
+So what did I do:  I already had Git installed and you will need it too.">
+
+  
+  <link rel="alternate" hreflang="en" href="https://scott-love.github.io/post/create-this-site/">
+  
+  <link rel="alternate" hreflang="fr" href="https://scott-love.github.io/fr/post/create-this-site/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.ffb37c7483c51e7f1ce5eae30bf0839b.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-115123153-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://scott-love.github.io/fr/post/create-this-site/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@love_a_scott">
+  <meta property="twitter:creator" content="@love_a_scott">
+  
+  <meta property="og:site_name" content="Scott Love">
+  <meta property="og:url" content="https://scott-love.github.io/fr/post/create-this-site/">
+  <meta property="og:title" content="Git(Hub), Hugo and Academic | Scott Love">
+  <meta property="og:description" content="A quick(ish) tutorial on how I setup my personal but work related website using Git(Hub), Hugo and Academic on a Mac. This is a fairly simple and completely free way to host an academic personal website. The process came from two main sources: 1. The documentation for Academic and; 2. A blog post by George Cushen.
+So what did I do:  I already had Git installed and you will need it too."><meta property="og:image" content="https://scott-love.github.io/img/icon-192.png">
+  <meta property="og:locale" content="fr">
+  
+  <meta property="article:published_time" content="2018-02-07T18:31:37&#43;01:00">
+  
+  <meta property="article:modified_time" content="2019-06-21T17:34:14&#43;02:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Git(Hub), Hugo and Academic | Scott Love</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Rechercher</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Recherche..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/fr/">Scott Love</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Ouvrir la barre de navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#about"><span>Accueil</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#projects"><span>Projets</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <span>Français</span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://scott-love.github.io/post/create-this-site/">
+                <span>English</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Git(Hub), Hugo and Academic</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2018-02-07 18:31:37 &#43;0100 CET" itemprop="datePublished">
+<meta content="2019-06-21 17:34:14 &#43;0200 CEST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Dernière mise à jour le
+      
+    
+    <time>Jun 21, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min de lecture
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://scott-love.github.io/fr/post/create-this-site/&amp;text=Git%28Hub%29,%20Hugo%20and%20Academic" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://scott-love.github.io/fr/post/create-this-site/&amp;t=Git%28Hub%29,%20Hugo%20and%20Academic" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Git%28Hub%29,%20Hugo%20and%20Academic&amp;body=https://scott-love.github.io/fr/post/create-this-site/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://scott-love.github.io/fr/post/create-this-site/&amp;title=Git%28Hub%29,%20Hugo%20and%20Academic" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Git%28Hub%29,%20Hugo%20and%20Academic%20https://scott-love.github.io/fr/post/create-this-site/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://scott-love.github.io/fr/post/create-this-site/&amp;title=Git%28Hub%29,%20Hugo%20and%20Academic" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>A quick(ish) tutorial on how I setup my personal but work related <a href="https://scott-love.github.io" target="_blank">website</a> using Git(Hub), Hugo and Academic on a Mac. This is a fairly <em>simple</em> and completely <em>free</em> way to host an academic personal website. The process came from two main sources: 1. The <a href="https://sourcethemes.com/academic/docs/" target="_blank">documentation</a> for Academic and; 2. A blog post by <a href="https://georgecushen.com/create-your-website-with-hugo/" target="_blank">George Cushen</a>.</p>
+
+<h2 id="so-what-did-i-do">So what did I do:</h2>
+
+<ul>
+<li><p>I already had <a href="https://git-scm.com/downloads" target="_blank">Git installed</a> and you will need it too.</p></li>
+
+<li><p>Then install <a href="https://gohugo.io/about/" target="_blank">Hugo</a>. There are several options but I used the Tarball method. Full details can be found <a href="https://gohugo.io/getting-started/installing/" target="_blank">here</a> but here is a brief description.</p>
+
+<ol>
+<li>Chose install location (e.g., /usr/local/bin), in your executable PATH.</li>
+<li>Download the latest <a href="https://github.com/gohugoio/hugo/releases" target="_blank">Tarball</a> for your system to the Downloads folder.</li>
+
+<li><p>Install Hugo in your chosen location.</p>
+
+<pre><code>cd /usr/local/bin # CHOSEN_INSTALL_LOCATION
+# extract the tarball
+tar -xvzf ~/Downloads/hugo_X.Y_osx-64bit.tgz
+# verify that it runs
+./hugo version
+</code></pre></li>
+</ol></li>
+
+<li><p><a href="https://help.github.com/articles/fork-a-repo/" target="_blank">Fork</a> the <a href="https://github.com/sourcethemes/academic-kickstart#fork-destination-box" target="_blank">Academic Kickstart</a> repository to your GitHub account.</p>
+
+<ol>
+<li>Login to your GitHub account.</li>
+<li>Click <a href="https://github.com/sourcethemes/academic-kickstart#fork-destination-box" target="_blank">here</a> or search for sourcethemes/academic-kickstart inside GitHub.</li>
+<li>Click on the fork icon towards the top right of the screen.
+<br/><br/></li>
+</ol></li>
+
+<li><p><a href="https://git-scm.com/docs/git-clone" target="_blank">Clone</a> the repository onto your local system. Note that you need to change &lt;USERNAME&gt; to your GitHub username and that My_Website can be changed to any name you want.</p>
+
+<pre><code>git clone https://github.com/&lt;USERNAME&gt;/academic-kickstart.git My_Website
+</code></pre></li>
+
+<li><p>Initialise the theme.</p>
+
+<pre><code>cd My_Website
+git submodule update --init --recursive
+</code></pre></li>
+
+<li><p>Create your GitHub website repository.</p>
+
+<ol>
+<li>On your GitHub page click the “+” icon in the top right corner and choose “New Repository”.</li>
+<li>Repository name = &lt;USERNAME&gt;.github.io.
+<br/><br/></li>
+</ol></li>
+
+<li><p>Add your &lt;USERNAME&gt;.github.io repository into a submodule folder named public.</p>
+
+<pre><code>git submodule add https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
+</code></pre></li>
+
+<li><p><a href="https://git-scm.com/docs/git-add" target="_blank">Add</a> to the local git repository then <a href="https://git-scm.com/docs/git-push" target="_blank">push</a> to the remote repository.</p>
+
+<pre><code>git add .
+git commit -m &quot;initial commit&quot;
+git push -u origin master
+</code></pre></li>
+
+<li><p>Run Hugo to create the HTML for the site.</p>
+
+<pre><code>hugo server
+</code></pre></li>
+
+<li><p>View the built site in your browser (<a href="http://localhost:1313/" target="_blank">http://localhost:1313/</a>) but note this is only a local copy and not visible to others.</p></li>
+
+<li><p>Upload the built site to Github for everyone to see @ &lt;USERNAME&gt;.github.io. Note it will take 2 or 3 minutes to be viewable.</p>
+
+<pre><code>git add .
+git commit -m &quot;build website&quot;
+git push -u origin master
+</code></pre></li>
+</ul>
+
+<h2 id="adding-content">Adding content:</h2>
+
+<p>OK, the website is built it&rsquo;s time to add content. You can make additions/changes to your website and check out the results before deploying to your actual site.</p>
+
+<p>A good place to start is the config.toml file in the main directory of your site.
+It contains a bunch of key-value pairs. change the title value to the title of your website, e.g., your name. Then run Hugo server to create the HTML for the site.</p>
+
+<pre><code>hugo server
+</code></pre>
+
+<p>View the local copy of the built site in your browser (<a href="http://localhost:1313/" target="_blank">http://localhost:1313/</a>).
+Leave the server running and any other changes you make will be automatically visible in local site just created. Go through all the key-value pairs and change, edit or remove any that you want.</p>
+
+<h2 id="github-version-control">Github version control:</h2>
+
+<p>The <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages" target="_blank">Host on GitHub</a> page from Hugo outlines a nice way to store all the files of your site on GitHub.</p>
+
+<h2 id="updating-the-website-content">Updating the website content:</h2>
+
+<p>Using the GitHub method above I do not keep a local copy of any of the files. Here is the process I follow to update the website content.</p>
+
+<pre><code>git clone https://github.com/&lt;USERNAME&gt;/&lt;YOUR-PROJECT&gt;
+cd &lt;YOUR-PROJECT&gt;/
+git rm -r public
+</code></pre>
+
+<p>At this point you can make changes to the content of your website and push those to the remote repository.</p>
+
+<pre><code>git add .
+git commit -m &quot;updating content&quot;
+git push origin master
+</code></pre>
+
+<p>However, this only keeps the content in synchrony with the remote repository it does not update the website.</p>
+
+<pre><code>git submodule add https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
+./deploy.sh &quot;comment&quot;
+</code></pre>
+
+<p>The contents of deploy.sh can be seen <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages" target="_blank">here</a></p>
+
+<h2 id="update-academic-kickstart-version">Update academic-kickstart version:</h2>
+
+<p>I have found updating the academic-kickstart version and subsequently the website to be tricky! Follow the instructions <a href="https://sourcethemes.com/academic/docs/update/" target="_blank">here</a>. However, I was only ever able to update using the ZIP  there. Uninstall the current version by deleting the contents of the &ldquo;themes/academic/&rdquo; folder inside &lt;YOUR-PROJECT&gt; and replacing it with the downloaded files.</p>
+
+<p>At this point you still need to follow the release notes and update your content and config files to take into account the &ldquo;Breaking changes&rdquo;. If you have jumped a few versions you will need to do this in sequence for each version change (e.g. v3.1 to v3.2 before doing v3.2 to v3.3)</p>
+
+    </div>
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/fr/authors/scott/avatar_hu6ccf9dfc0f9b3cc082d898ed8909f234_65530_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://scott-love.github.io/">Scott Love</a></h5>
+      <h6 class="card-subtitle">Chargé de Recherche</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/love_a_scott" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=jiIfA5IAAAAJ&amp;hl=fr" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/scott-love" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://publons.com/a/359622/" target="_blank" rel="noopener">
+              <i class="ai ai-publons"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0001-7416-9210" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/fr/index.json";
+      const i18n = {
+        'placeholder': "Recherche...",
+        'results': "Résultats trouvés",
+        'no_results': "Aucun résultat n'a été trouvé"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projets",
+        'publication' : "Publications",
+        'talk' : "Présentations"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 Scott Love &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copier
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Télécharger
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -7,10 +7,46 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Scott Love</copyright>
-    <lastBuildDate>Thu, 08 Feb 2018 18:08:18 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 12:18:50 +0100</lastBuildDate>
     
 	    <atom:link href="https://scott-love.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>audiovisual</title>
+      <link>https://scott-love.github.io/tags/audiovisual/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/audiovisual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fmri</title>
+      <link>https://scott-love.github.io/tags/fmri/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/fmri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multisensory</title>
+      <link>https://scott-love.github.io/tags/multisensory/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/multisensory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>synchrony</title>
+      <link>https://scott-love.github.io/tags/synchrony/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/synchrony/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>brain</title>
@@ -67,6 +103,33 @@
     </item>
     
     <item>
+      <title>baboon</title>
+      <link>https://scott-love.github.io/tags/baboon/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/baboon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comparative</title>
+      <link>https://scott-love.github.io/tags/comparative/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/comparative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evolution</title>
+      <link>https://scott-love.github.io/tags/evolution/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>experience</title>
       <link>https://scott-love.github.io/tags/experience/</link>
       <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
@@ -81,6 +144,15 @@
       <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
       
       <guid>https://scott-love.github.io/tags/identity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lateralization</title>
+      <link>https://scott-love.github.io/tags/lateralization/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/lateralization/</guid>
       <description></description>
     </item>
     
@@ -112,6 +184,78 @@
     </item>
     
     <item>
+      <title>segmentation</title>
+      <link>https://scott-love.github.io/tags/segmentation/</link>
+      <pubDate>Fri, 11 Mar 2016 14:12:48 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>https://scott-love.github.io/tags/template/</link>
+      <pubDate>Fri, 11 Mar 2016 14:12:48 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eeg</title>
+      <link>https://scott-love.github.io/tags/eeg/</link>
+      <pubDate>Sun, 08 Feb 2015 16:29:26 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/eeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gaze</title>
+      <link>https://scott-love.github.io/tags/gaze/</link>
+      <pubDate>Sun, 08 Feb 2015 16:29:26 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/gaze/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attention</title>
+      <link>https://scott-love.github.io/tags/attention/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>face</title>
+      <link>https://scott-love.github.io/tags/face/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/face/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social</title>
+      <link>https://scott-love.github.io/tags/social/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/social/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biological motion</title>
+      <link>https://scott-love.github.io/tags/biological-motion/</link>
+      <pubDate>Sat, 08 Feb 2014 16:33:49 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/biological-motion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>dance</title>
       <link>https://scott-love.github.io/tags/dance/</link>
       <pubDate>Fri, 08 Feb 2013 16:49:42 +0100</pubDate>
@@ -121,20 +265,47 @@
     </item>
     
     <item>
-      <title>fmri</title>
-      <link>https://scott-love.github.io/tags/fmri/</link>
-      <pubDate>Fri, 08 Feb 2013 16:49:42 +0100</pubDate>
+      <title>animacy</title>
+      <link>https://scott-love.github.io/tags/animacy/</link>
+      <pubDate>Fri, 08 Feb 2013 16:41:54 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/tags/fmri/</guid>
+      <guid>https://scott-love.github.io/tags/animacy/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>multisensory</title>
-      <link>https://scott-love.github.io/tags/multisensory/</link>
-      <pubDate>Fri, 08 Feb 2013 16:49:42 +0100</pubDate>
+      <title>behaviour</title>
+      <link>https://scott-love.github.io/tags/behaviour/</link>
+      <pubDate>Fri, 08 Feb 2013 16:41:54 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/tags/multisensory/</guid>
+      <guid>https://scott-love.github.io/tags/behaviour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emotion</title>
+      <link>https://scott-love.github.io/tags/emotion/</link>
+      <pubDate>Tue, 08 Jan 2013 17:05:46 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/emotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>connectivity</title>
+      <link>https://scott-love.github.io/tags/connectivity/</link>
+      <pubDate>Tue, 08 Feb 2011 17:13:15 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/connectivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://scott-love.github.io/tags/music/</link>
+      <pubDate>Sat, 08 Jan 2011 17:15:35 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/tags/music/</guid>
       <description></description>
     </item>
     

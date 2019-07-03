@@ -7,17 +7,80 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>fr</language>
     <copyright>&amp;copy; 2018 Scott Love</copyright>
-    <lastBuildDate>Thu, 08 Feb 2018 18:08:18 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 12:18:50 +0100</lastBuildDate>
     
 	    <atom:link href="https://scott-love.github.io/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>brain</title>
-      <link>https://scott-love.github.io/fr/tags/brain/</link>
+      <title>audio-visuel</title>
+      <link>https://scott-love.github.io/fr/tags/audio-visuel/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/audio-visuel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>irmf</title>
+      <link>https://scott-love.github.io/fr/tags/irmf/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/irmf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multisensoriel</title>
+      <link>https://scott-love.github.io/fr/tags/multisensoriel/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/multisensoriel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>synchronie</title>
+      <link>https://scott-love.github.io/fr/tags/synchronie/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/synchronie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analyse de texture</title>
+      <link>https://scott-love.github.io/fr/tags/analyse-de-texture/</link>
       <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/brain/</guid>
+      <guid>https://scott-love.github.io/fr/tags/analyse-de-texture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cerveau</title>
+      <link>https://scott-love.github.io/fr/tags/cerveau/</link>
+      <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/cerveau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hypothyse</title>
+      <link>https://scott-love.github.io/fr/tags/hypothyse/</link>
+      <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/hypothyse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>irm</title>
+      <link>https://scott-love.github.io/fr/tags/irm/</link>
+      <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/irm/</guid>
       <description></description>
     </item>
     
@@ -31,43 +94,34 @@
     </item>
     
     <item>
-      <title>mri</title>
-      <link>https://scott-love.github.io/fr/tags/mri/</link>
+      <title>ovin</title>
+      <link>https://scott-love.github.io/fr/tags/ovin/</link>
       <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/mri/</guid>
+      <guid>https://scott-love.github.io/fr/tags/ovin/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>ovine</title>
-      <link>https://scott-love.github.io/fr/tags/ovine/</link>
-      <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
+      <title>babouin</title>
+      <link>https://scott-love.github.io/fr/tags/babouin/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/ovine/</guid>
+      <guid>https://scott-love.github.io/fr/tags/babouin/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>pituitary gland</title>
-      <link>https://scott-love.github.io/fr/tags/pituitary-gland/</link>
-      <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
+      <title>comparative</title>
+      <link>https://scott-love.github.io/fr/tags/comparative/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/pituitary-gland/</guid>
+      <guid>https://scott-love.github.io/fr/tags/comparative/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>texture analysis</title>
-      <link>https://scott-love.github.io/fr/tags/texture-analysis/</link>
-      <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
-      
-      <guid>https://scott-love.github.io/fr/tags/texture-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>experience</title>
+      <title>expérience</title>
       <link>https://scott-love.github.io/fr/tags/experience/</link>
       <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
       
@@ -76,29 +130,47 @@
     </item>
     
     <item>
-      <title>identity</title>
-      <link>https://scott-love.github.io/fr/tags/identity/</link>
+      <title>identité</title>
+      <link>https://scott-love.github.io/fr/tags/identite/</link>
       <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/identity/</guid>
+      <guid>https://scott-love.github.io/fr/tags/identite/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>voice</title>
-      <link>https://scott-love.github.io/fr/tags/voice/</link>
+      <title>latéralisation</title>
+      <link>https://scott-love.github.io/fr/tags/lateralisation/</link>
       <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/voice/</guid>
+      <guid>https://scott-love.github.io/fr/tags/lateralisation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>anatomy</title>
-      <link>https://scott-love.github.io/fr/tags/anatomy/</link>
+      <title>voix</title>
+      <link>https://scott-love.github.io/fr/tags/voix/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/voix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>évolution</title>
+      <link>https://scott-love.github.io/fr/tags/evolution/</link>
+      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anatomie</title>
+      <link>https://scott-love.github.io/fr/tags/anatomie/</link>
       <pubDate>Wed, 11 Jan 2017 23:41:46 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/anatomy/</guid>
+      <guid>https://scott-love.github.io/fr/tags/anatomie/</guid>
       <description></description>
     </item>
     
@@ -112,29 +184,128 @@
     </item>
     
     <item>
-      <title>dance</title>
-      <link>https://scott-love.github.io/fr/tags/dance/</link>
-      <pubDate>Fri, 08 Feb 2013 16:49:42 +0100</pubDate>
+      <title>segmentation</title>
+      <link>https://scott-love.github.io/fr/tags/segmentation/</link>
+      <pubDate>Fri, 11 Mar 2016 14:12:48 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/dance/</guid>
+      <guid>https://scott-love.github.io/fr/tags/segmentation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>fmri</title>
-      <link>https://scott-love.github.io/fr/tags/fmri/</link>
-      <pubDate>Fri, 08 Feb 2013 16:49:42 +0100</pubDate>
+      <title>template</title>
+      <link>https://scott-love.github.io/fr/tags/template/</link>
+      <pubDate>Fri, 11 Mar 2016 14:12:48 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/fmri/</guid>
+      <guid>https://scott-love.github.io/fr/tags/template/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>multisensory</title>
-      <link>https://scott-love.github.io/fr/tags/multisensory/</link>
+      <title>EEG</title>
+      <link>https://scott-love.github.io/fr/tags/eeg/</link>
+      <pubDate>Sun, 08 Feb 2015 16:29:26 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/eeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regard</title>
+      <link>https://scott-love.github.io/fr/tags/regard/</link>
+      <pubDate>Sun, 08 Feb 2015 16:29:26 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/regard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attention</title>
+      <link>https://scott-love.github.io/fr/tags/attention/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sociale</title>
+      <link>https://scott-love.github.io/fr/tags/sociale/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/sociale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visage</title>
+      <link>https://scott-love.github.io/fr/tags/visage/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/visage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mouvement biologique</title>
+      <link>https://scott-love.github.io/fr/tags/mouvement-biologique/</link>
+      <pubDate>Sat, 08 Feb 2014 16:33:49 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/mouvement-biologique/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>danse</title>
+      <link>https://scott-love.github.io/fr/tags/danse/</link>
       <pubDate>Fri, 08 Feb 2013 16:49:42 +0100</pubDate>
       
-      <guid>https://scott-love.github.io/fr/tags/multisensory/</guid>
+      <guid>https://scott-love.github.io/fr/tags/danse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animation</title>
+      <link>https://scott-love.github.io/fr/tags/animation/</link>
+      <pubDate>Fri, 08 Feb 2013 16:41:54 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comportement</title>
+      <link>https://scott-love.github.io/fr/tags/comportement/</link>
+      <pubDate>Fri, 08 Feb 2013 16:41:54 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/comportement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>émotion</title>
+      <link>https://scott-love.github.io/fr/tags/emotion/</link>
+      <pubDate>Tue, 08 Jan 2013 17:05:46 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/emotion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>connectivité</title>
+      <link>https://scott-love.github.io/fr/tags/connectivite/</link>
+      <pubDate>Tue, 08 Feb 2011 17:13:15 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/connectivite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>la musique</title>
+      <link>https://scott-love.github.io/fr/tags/la-musique/</link>
+      <pubDate>Sat, 08 Jan 2011 17:15:35 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/tags/la-musique/</guid>
       <description></description>
     </item>
     

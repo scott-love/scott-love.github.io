@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hypothyse on Scott Love</title>
+    <link>https://scott-love.github.io/fr/tags/hypothyse/</link>
+    <description>Recent content in hypothyse on Scott Love</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Scott Love</copyright>
+    <lastBuildDate>Thu, 08 Feb 2018 18:08:18 +0100</lastBuildDate>
+    
+	    <atom:link href="https://scott-love.github.io/fr/tags/hypothyse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phenomathyp</title>
+      <link>https://scott-love.github.io/fr/project/phenomathyp/</link>
+      <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
+      
+      <guid>https://scott-love.github.io/fr/project/phenomathyp/</guid>
+      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
+
+&lt;p&gt;Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

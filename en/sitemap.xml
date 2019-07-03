@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication_types/23/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -20,7 +20,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/</loc>
-    <lastmod>2019-06-24T09:47:21+02:00</lastmod>
+    <lastmod>2019-07-04T00:24:11+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -36,7 +36,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/cyril-r.-pernet/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -52,7 +52,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/frank-e.-pollick/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -68,7 +68,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/karin-petrini/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -84,7 +84,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/marianne-latinus/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -100,7 +100,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication/love2018/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -115,7 +115,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication_types/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -131,7 +131,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/scott-a.-love/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -147,7 +147,7 @@
   
   <url>
     <loc>https://scott-love.github.io/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -159,6 +159,46 @@
                 hreflang="en"
                 href="https://scott-love.github.io/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/audiovisual/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/fmri/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/multisensory/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/synchrony/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -193,35 +233,9 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/tags/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/tags/brain/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/brain/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/brain/"
-                />
   </url>
   
   <url>
@@ -242,66 +256,26 @@
   
   <url>
     <loc>https://scott-love.github.io/tags/mri/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/mri/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/mri/"
-                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/tags/ovine/</loc>
     <lastmod>2019-06-21T17:34:14+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/ovine/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/ovine/"
-                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/tags/pituitary-gland/</loc>
     <lastmod>2019-06-21T17:34:14+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/pituitary-gland/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/pituitary-gland/"
-                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/tags/texture-analysis/</loc>
     <lastmod>2019-06-21T17:34:14+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/texture-analysis/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/texture-analysis/"
-                />
   </url>
   
   <url>
@@ -351,7 +325,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication_types/2/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -367,7 +341,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/adrien-meguerditchian/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -383,7 +357,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/bertello-alice/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -399,7 +373,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/bruno-nazarian/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -415,7 +389,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/damian-marie/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -446,7 +420,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/jean-luc-anton/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -462,7 +436,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/konstantina-margiotoudi/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -478,7 +452,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication/marie2017/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -509,7 +483,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/muriel-roth/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -525,7 +499,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/romain-lacoste/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -541,7 +515,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/william-d.-hopkins/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -556,8 +530,46 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/baboon/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/comparative/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/comparative/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/comparative/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/evolution/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/evolution/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/evolution/"
+                />
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/tags/experience/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -575,32 +587,18 @@
     <loc>https://scott-love.github.io/tags/identity/</loc>
     <lastmod>2019-06-21T17:34:14+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/identity/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/identity/"
-                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/lateralization/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scott-love.github.io/tags/voice/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/voice/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/voice/"
-                />
   </url>
   
   <url>
@@ -620,18 +618,8 @@
   
   <url>
     <loc>https://scott-love.github.io/tags/anatomy/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/anatomy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/anatomy/"
-                />
   </url>
   
   <url>
@@ -697,7 +685,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/alice-bertello/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -713,7 +701,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/damien-marie/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -729,7 +717,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/olivier-coulon/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -745,7 +733,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication/love2016/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -755,6 +743,38 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scott-love.github.io/publication/love2016/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/segmentation/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/segmentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/segmentation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/template/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/template/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/template/"
                 />
   </url>
   
@@ -903,7 +923,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/aina-puce/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -919,7 +939,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/alejandra-rossi/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -935,7 +955,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/francisco-j.-parada/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -951,7 +971,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/karin-james/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -967,7 +987,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/laurence-conty/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -983,7 +1003,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/lisa-huang/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -999,7 +1019,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/nathalie-george/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1015,7 +1035,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication/latinus2015/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1029,8 +1049,30 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/eeg/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/eeg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/eeg/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/gaze/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/publication_types/6/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1046,7 +1088,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/arian-ashourvan/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1062,7 +1104,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/elizabeth-dasilva/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1078,7 +1120,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/francisco-parada/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1094,7 +1136,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication/puce2015/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1109,7 +1151,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/scott-love/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1125,7 +1167,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/swapnaa-jayaraman/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1140,8 +1182,36 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/attention/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/attention/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/attention/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/face/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/social/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/authors/frances-crabbe/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1157,7 +1227,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/jeffrey-m.-zacks/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1173,7 +1243,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/phil-mcaleer/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1189,7 +1259,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication/mcaleer2014/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1203,8 +1273,14 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/biological-motion/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/publication/love2013/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1219,7 +1295,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/adam-cheng/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1300,53 +1376,11 @@
     <loc>https://scott-love.github.io/tags/dance/</loc>
     <lastmod>2019-06-21T17:34:14+02:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/dance/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/dance/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/tags/fmri/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/fmri/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/fmri/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/tags/multisensory/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/multisensory/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/multisensory/"
-                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/publication/mcaleer2013/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1360,8 +1394,20 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/animacy/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/behaviour/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/publication/maurage2013/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1376,7 +1422,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/fabien-dhondt/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1392,7 +1438,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/pierre-maurage/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1407,8 +1453,24 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/emotion/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/emotion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/emotion/"
+                />
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/publication/love2012/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1423,7 +1485,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication/love2011/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1437,8 +1499,14 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/connectivity/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/publication/petrini2011/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1453,7 +1521,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/carl-haakon-waadeland/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1469,7 +1537,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/davide-rocchesso/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1485,7 +1553,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/federico-avanzini/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1501,7 +1569,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/lawrie-s-mckay/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1517,7 +1585,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/sofia-dahl/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -1532,8 +1600,14 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/music/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/authors/scott/</loc>
-    <lastmod>2019-06-24T09:47:21+02:00</lastmod>
+    <lastmod>2019-07-04T00:24:11+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"

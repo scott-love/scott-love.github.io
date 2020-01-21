@@ -20,7 +20,7 @@
   
   <url>
     <loc>https://scott-love.github.io/fr/authors/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <lastmod>2020-01-21T10:55:14+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -954,6 +954,22 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/fr/tags/eeg/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/eeg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/eeg/"
+                />
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/fr/authors/francisco-j.-parada/</loc>
     <lastmod>2019-06-24T17:05:22+02:00</lastmod>
     <priority>0</priority>
@@ -1045,22 +1061,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://scott-love.github.io/fr/publication/latinus2015/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/eeg/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/eeg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/eeg/"
                 />
   </url>
   
@@ -1607,7 +1607,7 @@
   
   <url>
     <loc>https://scott-love.github.io/fr/authors/scott/</loc>
-    <lastmod>2019-06-24T09:47:21+02:00</lastmod>
+    <lastmod>2020-01-21T10:55:14+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

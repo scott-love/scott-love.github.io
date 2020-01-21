@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication_types/2/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -36,7 +36,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -195,7 +195,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication_types/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -211,7 +211,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/scott-a.-love/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -227,7 +227,7 @@
   
   <url>
     <loc>https://scott-love.github.io/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -243,7 +243,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/cyril-r.-pernet/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -259,7 +259,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/frank-e.-pollick/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -275,7 +275,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/karin-petrini/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -291,7 +291,7 @@
   
   <url>
     <loc>https://scott-love.github.io/authors/marianne-latinus/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -307,7 +307,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication/love2018/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -322,7 +322,7 @@
   
   <url>
     <loc>https://scott-love.github.io/tags/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -338,25 +338,25 @@
   
   <url>
     <loc>https://scott-love.github.io/tags/audiovisual/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scott-love.github.io/tags/fmri/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scott-love.github.io/tags/multisensory/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scott-love.github.io/tags/synchrony/</loc>
-    <lastmod>2020-01-21T13:02:24+01:00</lastmod>
+    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1097,6 +1097,22 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tags/eeg/</loc>
+    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/eeg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/eeg/"
+                />
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/authors/francisco-j.-parada/</loc>
     <lastmod>2019-06-24T17:05:22+02:00</lastmod>
     <priority>0</priority>
@@ -1188,22 +1204,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scott-love.github.io/publication/latinus2015/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/tags/eeg/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/eeg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/eeg/"
                 />
   </url>
   

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucile Hervé | Scott Love</title>
+    <link>https://scott-love.github.io/author/lucile-herve/</link>
+      <atom:link href="https://scott-love.github.io/author/lucile-herve/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lucile Hervé</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Mon, 02 Dec 2019 16:23:21 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Lucile Hervé</title>
+      <link>https://scott-love.github.io/author/lucile-herve/</link>
+    </image>
+    
+    <item>
+      <title>Object and food novelty induce distinct patterns of c-fos immunoreactivity in amygdala and striatum in domestic male chicks (Gallus gallus domesticus)</title>
+      <link>https://scott-love.github.io/publication/perez2020/</link>
+      <pubDate>Mon, 02 Dec 2019 16:23:21 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/perez2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

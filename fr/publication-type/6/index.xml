@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 | Scott Love</title>
+    <link>https://scott-love.github.io/fr/publication-type/6/</link>
+      <atom:link href="https://scott-love.github.io/fr/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Sun, 08 Feb 2015 16:23:21 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>6</title>
+      <link>https://scott-love.github.io/fr/publication-type/6/</link>
+    </image>
+    
+    <item>
+      <title>Neural Bases for Social Attention in Healthy Humans</title>
+      <link>https://scott-love.github.io/fr/publication/puce2015/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/puce2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceiving intention in animacy displays created from human motion</title>
+      <link>https://scott-love.github.io/fr/publication/mcaleer2013/</link>
+      <pubDate>Fri, 08 Feb 2013 16:41:54 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/mcaleer2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crossmodal Integration of Emotional Stimuli in Alcohol Dependence</title>
+      <link>https://scott-love.github.io/fr/publication/maurage2013/</link>
+      <pubDate>Tue, 08 Jan 2013 17:05:46 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/maurage2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Experience, Training and Expertise on Multisensory Perception: Investigating the Link between Brain and Behavior</title>
+      <link>https://scott-love.github.io/fr/publication/love2012/</link>
+      <pubDate>Tue, 08 Feb 2011 17:13:15 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/love2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

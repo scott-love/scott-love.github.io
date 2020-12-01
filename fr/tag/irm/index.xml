@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>irm | Scott Love</title>
+    <link>https://scott-love.github.io/fr/tag/irm/</link>
+      <atom:link href="https://scott-love.github.io/fr/tag/irm/index.xml" rel="self" type="application/rss+xml" />
+    <description>irm</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Thu, 08 Feb 2018 18:06:20 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>irm</title>
+      <link>https://scott-love.github.io/fr/tag/irm/</link>
+    </image>
+    
+    <item>
+      <title>SheepVoice</title>
+      <link>https://scott-love.github.io/fr/project/sheepvoice/</link>
+      <pubDate>Thu, 08 Feb 2018 18:06:20 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/project/sheepvoice/</guid>
+      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sheep Cortex</title>
+      <link>https://scott-love.github.io/fr/project/sheep-cortex/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://scott-love.github.io/fr/project/sheep-cortex/</guid>
+      <description>&lt;p&gt;See this poster on &lt;a href=&#34;https://figshare.com/articles/Surface-based_cortical_parcellation_of_the_sheep_brain/5426518&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figshare&lt;/a&gt; for some more details.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frances Crabbe | Scott Love</title>
+    <link>https://scott-love.github.io/author/frances-crabbe/</link>
+      <atom:link href="https://scott-love.github.io/author/frances-crabbe/index.xml" rel="self" type="application/rss+xml" />
+    <description>Frances Crabbe</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Sat, 08 Feb 2014 16:33:49 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Frances Crabbe</title>
+      <link>https://scott-love.github.io/author/frances-crabbe/</link>
+    </image>
+    
+    <item>
+      <title>The role of kinematics in cortical regions for continuous human motion perception</title>
+      <link>https://scott-love.github.io/publication/mcaleer2014/</link>
+      <pubDate>Sat, 08 Feb 2014 16:33:49 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/mcaleer2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

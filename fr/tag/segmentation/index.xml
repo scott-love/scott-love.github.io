@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>segmentation | Scott Love</title>
+    <link>https://scott-love.github.io/fr/tag/segmentation/</link>
+      <atom:link href="https://scott-love.github.io/fr/tag/segmentation/index.xml" rel="self" type="application/rss+xml" />
+    <description>segmentation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Fri, 11 Mar 2016 14:12:48 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>segmentation</title>
+      <link>https://scott-love.github.io/fr/tag/segmentation/</link>
+    </image>
+    
+    <item>
+      <title>The average baboon brain: MRI templates and tissue probability maps from 89 individuals</title>
+      <link>https://scott-love.github.io/fr/publication/love2016/</link>
+      <pubDate>Fri, 11 Mar 2016 14:12:48 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/love2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

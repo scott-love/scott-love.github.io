@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>biological motion | Scott Love</title>
+    <link>https://scott-love.github.io/fr/tag/biological-motion/</link>
+      <atom:link href="https://scott-love.github.io/fr/tag/biological-motion/index.xml" rel="self" type="application/rss+xml" />
+    <description>biological motion</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Mon, 02 Dec 2019 16:23:21 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>biological motion</title>
+      <link>https://scott-love.github.io/fr/tag/biological-motion/</link>
+    </image>
+    
+    <item>
+      <title>Object and food novelty induce distinct patterns of c-fos immunoreactivity in amygdala and striatum in domestic male chicks (Gallus gallus domesticus)</title>
+      <link>https://scott-love.github.io/fr/publication/perez2020/</link>
+      <pubDate>Mon, 02 Dec 2019 16:23:21 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/perez2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The role of kinematics in cortical regions for continuous human motion perception</title>
+      <link>https://scott-love.github.io/fr/publication/mcaleer2014/</link>
+      <pubDate>Sat, 08 Feb 2014 16:33:49 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/mcaleer2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceiving intention in animacy displays created from human motion</title>
+      <link>https://scott-love.github.io/fr/publication/mcaleer2013/</link>
+      <pubDate>Fri, 08 Feb 2013 16:41:54 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/mcaleer2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

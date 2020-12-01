@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Scott Love</title>
+    <title>Projects | Scott Love</title>
     <link>https://scott-love.github.io/fr/project/</link>
-    <description>Recent content in Projects on Scott Love</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>fr</language>
-    <copyright>&amp;copy; 2018 Scott Love</copyright>
-    <lastBuildDate>Thu, 08 Feb 2018 18:08:18 +0100</lastBuildDate>
-    
-	    <atom:link href="https://scott-love.github.io/fr/project/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://scott-love.github.io/fr/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Thu, 08 Feb 2018 18:06:20 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://scott-love.github.io/fr/project/</link>
+    </image>
     
     <item>
-      <title>Phenomathyp</title>
-      <link>https://scott-love.github.io/fr/project/phenomathyp/</link>
-      <pubDate>Thu, 08 Feb 2018 18:08:18 +0100</pubDate>
-      
-      <guid>https://scott-love.github.io/fr/project/phenomathyp/</guid>
+      <title>Neuro2Co</title>
+      <link>https://scott-love.github.io/fr/project/neoru2co/</link>
+      <pubDate>Thu, 08 Feb 2018 18:06:20 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/project/neoru2co/</guid>
       <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
-
-&lt;p&gt;Funded by INRA Department PHASE Crédits Incitatifs 2018 (19000 euros)&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Neuro2co</title>
-      <link>https://scott-love.github.io/fr/project/neuro2co/</link>
+      <title>SheepVoice</title>
+      <link>https://scott-love.github.io/fr/project/sheepvoice/</link>
       <pubDate>Thu, 08 Feb 2018 18:06:20 +0100</pubDate>
-      
-      <guid>https://scott-love.github.io/fr/project/neuro2co/</guid>
+      <guid>https://scott-love.github.io/fr/project/sheepvoice/</guid>
+      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PhenoMatHyp</title>
+      <link>https://scott-love.github.io/fr/project/phenomathyp/</link>
+      <pubDate>Thu, 08 Feb 2018 18:03:41 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/project/phenomathyp/</guid>
       <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
 </description>
     </item>
@@ -38,7 +43,6 @@
       <title>Prebiostress</title>
       <link>https://scott-love.github.io/fr/project/prebiostress/</link>
       <pubDate>Thu, 08 Feb 2018 18:03:41 +0100</pubDate>
-      
       <guid>https://scott-love.github.io/fr/project/prebiostress/</guid>
       <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
 </description>
@@ -47,10 +51,9 @@
     <item>
       <title>Sheep Cortex</title>
       <link>https://scott-love.github.io/fr/project/sheep-cortex/</link>
-      <pubDate>Wed, 11 Jan 2017 23:41:46 +0100</pubDate>
-      
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://scott-love.github.io/fr/project/sheep-cortex/</guid>
-      <description>&lt;p&gt;See this poster on &lt;a href=&#34;https://figshare.com/articles/Surface-based_cortical_parcellation_of_the_sheep_brain/5426518&#34; target=&#34;_blank&#34;&gt;Figshare&lt;/a&gt; for some more details.&lt;/p&gt;
+      <description>&lt;p&gt;See this poster on &lt;a href=&#34;https://figshare.com/articles/Surface-based_cortical_parcellation_of_the_sheep_brain/5426518&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Figshare&lt;/a&gt; for some more details.&lt;/p&gt;
 </description>
     </item>
     

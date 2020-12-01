@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alejandra Rossi | Scott Love</title>
+    <link>https://scott-love.github.io/fr/author/alejandra-rossi/</link>
+      <atom:link href="https://scott-love.github.io/fr/author/alejandra-rossi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alejandra Rossi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Sun, 08 Feb 2015 16:29:26 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Alejandra Rossi</title>
+      <link>https://scott-love.github.io/fr/author/alejandra-rossi/</link>
+    </image>
+    
+    <item>
+      <title>Social decisions affect neural activity to perceived dynamic gaze</title>
+      <link>https://scott-love.github.io/fr/publication/latinus2015/</link>
+      <pubDate>Sun, 08 Feb 2015 16:29:26 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/latinus2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Bases for Social Attention in Healthy Humans</title>
+      <link>https://scott-love.github.io/fr/publication/puce2015/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/puce2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

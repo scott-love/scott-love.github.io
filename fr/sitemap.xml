@@ -1,43 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://scott-love.github.io/fr/publication_types/2/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/publication-type/2/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/publication_types/2/"
+                href="https://scott-love.github.io/publication-type/2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/publication_types/2/"
+                href="https://scott-love.github.io/fr/publication-type/2/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/aline-bertin/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/audiovisual/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/aline-bertin/"
+                href="https://scott-love.github.io/tag/audiovisual/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/aline-bertin/"
+                href="https://scott-love.github.io/fr/tag/audiovisual/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/authors/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -51,152 +48,113 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/emilie-c.-perez/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/publication/petrini2020/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/emilie-c.-perez/"
+                href="https://scott-love.github.io/publication/petrini2020/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/emilie-c.-perez/"
+                href="https://scott-love.github.io/fr/publication/petrini2020/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/fabien-cornilleau/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/development/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/fabien-cornilleau/"
+                href="https://scott-love.github.io/tag/development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/fabien-cornilleau/"
+                href="https://scott-love.github.io/fr/tag/development/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/frederic-levy/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/face/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/frederic-levy/"
+                href="https://scott-love.github.io/tag/face/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/frederic-levy/"
+                href="https://scott-love.github.io/fr/tag/face/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/lucile-herve/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/georgina-denis/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/lucile-herve/"
+                href="https://scott-love.github.io/author/georgina-denis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/lucile-herve/"
+                href="https://scott-love.github.io/fr/author/georgina-denis/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/ludovic-calandreau/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/karin-petrini/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/ludovic-calandreau/"
+                href="https://scott-love.github.io/author/karin-petrini/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/ludovic-calandreau/"
+                href="https://scott-love.github.io/fr/author/karin-petrini/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/marion-georgelin/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/marko-nardini/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/marion-georgelin/"
+                href="https://scott-love.github.io/author/marko-nardini/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/marion-georgelin/"
+                href="https://scott-love.github.io/fr/author/marko-nardini/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/maryse-meurisse/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/multisensory/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/maryse-meurisse/"
+                href="https://scott-love.github.io/tag/multisensory/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/maryse-meurisse/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/publication/perez2020/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/publication/perez2020/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/publication/perez2020/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/paul-constantin/</loc>
-    <lastmod>2020-01-21T12:54:57+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/paul-constantin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/paul-constantin/"
+                href="https://scott-love.github.io/fr/tag/multisensory/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication_types/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -210,25 +168,38 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/scott-a.-love/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/publication/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/scott-a.-love/"
+                href="https://scott-love.github.io/publication/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/scott-a.-love/"
+                href="https://scott-love.github.io/fr/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/scott-a.-love/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/scott-a.-love/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/scott-a.-love/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -242,88 +213,23 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/cyril-r.-pernet/</loc>
-    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/synchrony/</loc>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/cyril-r.-pernet/"
+                href="https://scott-love.github.io/tag/synchrony/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/cyril-r.-pernet/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/frank-e.-pollick/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/frank-e.-pollick/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/frank-e.-pollick/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/karin-petrini/</loc>
-    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/karin-petrini/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/karin-petrini/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/marianne-latinus/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/marianne-latinus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/marianne-latinus/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/publication/love2018/</loc>
-    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/publication/love2018/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/publication/love2018/"
+                href="https://scott-love.github.io/fr/tag/synchrony/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/tags/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-10-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -337,48 +243,328 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/audio-visuel/</loc>
-    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/irmf/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/multisensoriel/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/synchronie/</loc>
-    <lastmod>2020-01-21T14:00:43+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/project/phenomathyp/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
+    <loc>https://scott-love.github.io/fr/author/aline-bertin/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/project/phenomathyp/"
+                href="https://scott-love.github.io/author/aline-bertin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/project/phenomathyp/"
+                href="https://scott-love.github.io/fr/author/aline-bertin/"
                 />
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/fr/tag/biological-motion/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/biological-motion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/biological-motion/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/emilie-c.-perez/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/emilie-c.-perez/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/emilie-c.-perez/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/fabien-cornilleau/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/fabien-cornilleau/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/fabien-cornilleau/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/fmri/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/fmri/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/fmri/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/frederic-levy/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/frederic-levy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/frederic-levy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/lucile-herve/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/lucile-herve/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/lucile-herve/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/ludovic-calandreau/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/ludovic-calandreau/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/ludovic-calandreau/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/marion-georgelin/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/marion-georgelin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/marion-georgelin/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/maryse-meurisse/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/maryse-meurisse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/maryse-meurisse/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/publication/perez2020/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/publication/perez2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/publication/perez2020/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/paul-constantin/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/paul-constantin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/paul-constantin/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/cyril-r.-pernet/</loc>
+    <lastmod>2018-07-10T12:18:50+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/cyril-r.-pernet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/cyril-r.-pernet/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/frank-e.-pollick/</loc>
+    <lastmod>2018-07-10T12:18:50+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/frank-e.-pollick/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/frank-e.-pollick/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/marianne-latinus/</loc>
+    <lastmod>2018-07-10T12:18:50+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/marianne-latinus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/marianne-latinus/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/publication/love2018/</loc>
+    <lastmod>2018-07-10T12:18:50+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/publication/love2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/publication/love2018/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/brain/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/brain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/brain/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/cerveau/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/irm/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/irmf/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/maturation/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/maturation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/maturation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/mri/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/mri/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/mri/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/project/neoru2co/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/project/neoru2co/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/project/neoru2co/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/ovin/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/fr/project/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -392,69 +578,78 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/analyse-de-texture/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/cerveau/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/hypothyse/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/irm/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/maturation/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/quail/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/tags/maturation/"
+                href="https://scott-love.github.io/tag/quail/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/maturation/"
+                href="https://scott-love.github.io/fr/tag/quail/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/ovin/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/project/neuro2co/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
+    <loc>https://scott-love.github.io/fr/tag/sheep/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/project/neuro2co/"
+                href="https://scott-love.github.io/tag/sheep/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/project/neuro2co/"
+                href="https://scott-love.github.io/fr/tag/sheep/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/project/sheepvoice/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/project/sheepvoice/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/project/sheepvoice/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/sociale/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/voix/</loc>
+    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/project/phenomathyp/</loc>
+    <lastmod>2018-02-08T18:03:41+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/project/phenomathyp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/project/phenomathyp/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/project/prebiostress/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
+    <lastmod>2018-02-08T18:03:41+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -469,7 +664,7 @@
   
   <url>
     <loc>https://scott-love.github.io/fr/post/create-this-site/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2018-02-07T18:31:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -483,337 +678,8 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/adrien-meguerditchian/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/adrien-meguerditchian/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/adrien-meguerditchian/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/bertello-alice/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/bertello-alice/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/bertello-alice/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/bruno-nazarian/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/bruno-nazarian/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/bruno-nazarian/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/damian-marie/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/damian-marie/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/damian-marie/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/publication/fontaine2017/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/publication/fontaine2017/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/publication/fontaine2017/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/jean-luc-anton/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/jean-luc-anton/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/jean-luc-anton/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/konstantina-margiotoudi/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/konstantina-margiotoudi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/konstantina-margiotoudi/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/publication/marie2017/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/publication/marie2017/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/publication/marie2017/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/maureen-fontaine/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/maureen-fontaine/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/maureen-fontaine/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/muriel-roth/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/muriel-roth/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/muriel-roth/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/romain-lacoste/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/romain-lacoste/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/romain-lacoste/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/william-d.-hopkins/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/william-d.-hopkins/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/william-d.-hopkins/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/babouin/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/comparative/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/comparative/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/comparative/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/experience/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/experience/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/experience/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/identite/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/lateralisation/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/voix/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/evolution/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/evolution/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/evolution/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/project/sheep-cortex/</loc>
-    <lastmod>2019-06-24T17:05:22+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/project/sheep-cortex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/project/sheep-cortex/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/anatomie/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/cortex/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/cortex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/cortex/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/publication/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/publication/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/talk/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/talk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/talk/"
-                />
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/fr/post/</loc>
-    <lastmod>2019-06-21T17:34:14+02:00</lastmod>
+    <lastmod>2018-02-07T18:31:37+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -827,56 +693,403 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/alice-bertello/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/adrien-meguerditchian/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/alice-bertello/"
+                href="https://scott-love.github.io/author/adrien-meguerditchian/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/alice-bertello/"
+                href="https://scott-love.github.io/fr/author/adrien-meguerditchian/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/damien-marie/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/alice-bertello/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/damien-marie/"
+                href="https://scott-love.github.io/author/alice-bertello/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/damien-marie/"
+                href="https://scott-love.github.io/fr/author/alice-bertello/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/olivier-coulon/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/baboon/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/olivier-coulon/"
+                href="https://scott-love.github.io/tag/baboon/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/olivier-coulon/"
+                href="https://scott-love.github.io/fr/tag/baboon/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/comparative/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/comparative/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/comparative/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/damian-marie/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/damian-marie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/damian-marie/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/evolution/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/evolution/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/evolution/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/experience/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/experience/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/experience/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/publication/fontaine2017/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/publication/fontaine2017/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/publication/fontaine2017/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/identity/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/identity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/identity/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/jean-luc-anton/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/jean-luc-anton/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/jean-luc-anton/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/konstantina-margiotoudi/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/konstantina-margiotoudi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/konstantina-margiotoudi/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/lateralization/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/lateralization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/lateralization/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/publication/marie2017/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/publication/marie2017/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/publication/marie2017/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/maureen-fontaine/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/maureen-fontaine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/maureen-fontaine/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/muriel-roth/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/muriel-roth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/muriel-roth/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/romain-lacoste/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/romain-lacoste/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/romain-lacoste/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/voice/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/voice/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/voice/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/william-d.-hopkins/</loc>
+    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/william-d.-hopkins/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/william-d.-hopkins/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/anatomie/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/cortex/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/cortex/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/cortex/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/project/sheep-cortex/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/project/sheep-cortex/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/project/sheep-cortex/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/anatomy/</loc>
+    <lastmod>2016-03-11T14:12:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/anatomy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/anatomy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/bruno-nazarian/</loc>
+    <lastmod>2016-03-11T14:12:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/bruno-nazarian/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/bruno-nazarian/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/damien-marie/</loc>
+    <lastmod>2016-03-11T14:12:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/damien-marie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/damien-marie/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/olivier-coulon/</loc>
+    <lastmod>2016-03-11T14:12:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/olivier-coulon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/olivier-coulon/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/segmentation/</loc>
+    <lastmod>2016-03-11T14:12:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/segmentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/segmentation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/template/</loc>
+    <lastmod>2016-03-11T14:12:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/template/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/template/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication/love2016/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <lastmod>2016-03-11T14:12:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -890,40 +1103,8 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/segmentation/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/segmentation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/segmentation/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/template/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/template/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/template/"
-                />
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/fr/publication/destrieux2016/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -937,248 +1118,278 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/christophe-destrieux/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/christophe-destrieux/</loc>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/christophe-destrieux/"
+                href="https://scott-love.github.io/author/christophe-destrieux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/christophe-destrieux/"
+                href="https://scott-love.github.io/fr/author/christophe-destrieux/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/frederic-andersson/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/frederic-andersson/</loc>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/frederic-andersson/"
+                href="https://scott-love.github.io/author/frederic-andersson/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/frederic-andersson/"
+                href="https://scott-love.github.io/fr/author/frederic-andersson/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/henri-duvernoy/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/henri-duvernoy/</loc>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/henri-duvernoy/"
+                href="https://scott-love.github.io/author/henri-duvernoy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/henri-duvernoy/"
+                href="https://scott-love.github.io/fr/author/henri-duvernoy/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/ilyess-zemmoura/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/ilyess-zemmoura/</loc>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/ilyess-zemmoura/"
+                href="https://scott-love.github.io/author/ilyess-zemmoura/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/ilyess-zemmoura/"
+                href="https://scott-love.github.io/fr/author/ilyess-zemmoura/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/jean-philippe-cottier/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/jean-philippe-cottier/</loc>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/jean-philippe-cottier/"
+                href="https://scott-love.github.io/author/jean-philippe-cottier/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/jean-philippe-cottier/"
+                href="https://scott-love.github.io/fr/author/jean-philippe-cottier/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/kevin-janot/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/kevin-janot/</loc>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/kevin-janot/"
+                href="https://scott-love.github.io/author/kevin-janot/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/kevin-janot/"
+                href="https://scott-love.github.io/fr/author/kevin-janot/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/louis-marie-terrier/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/louis-marie-terrier/</loc>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/louis-marie-terrier/"
+                href="https://scott-love.github.io/author/louis-marie-terrier/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/louis-marie-terrier/"
+                href="https://scott-love.github.io/fr/author/louis-marie-terrier/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/stephane-velut/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/stephane-velut/</loc>
+    <lastmod>2016-02-08T14:06:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/stephane-velut/"
+                href="https://scott-love.github.io/author/stephane-velut/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/stephane-velut/"
+                href="https://scott-love.github.io/fr/author/stephane-velut/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/aina-puce/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/aina-puce/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/aina-puce/"
+                href="https://scott-love.github.io/author/aina-puce/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/aina-puce/"
+                href="https://scott-love.github.io/fr/author/aina-puce/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/alejandra-rossi/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/alejandra-rossi/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/alejandra-rossi/"
+                href="https://scott-love.github.io/author/alejandra-rossi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/alejandra-rossi/"
+                href="https://scott-love.github.io/fr/author/alejandra-rossi/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/francisco-j.-parada/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/eeg/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/francisco-j.-parada/"
+                href="https://scott-love.github.io/tag/eeg/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/francisco-j.-parada/"
+                href="https://scott-love.github.io/fr/tag/eeg/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/karin-james/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/francisco-j.-parada/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/karin-james/"
+                href="https://scott-love.github.io/author/francisco-j.-parada/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/karin-james/"
+                href="https://scott-love.github.io/fr/author/francisco-j.-parada/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/laurence-conty/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/gaze/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/laurence-conty/"
+                href="https://scott-love.github.io/tag/gaze/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/laurence-conty/"
+                href="https://scott-love.github.io/fr/tag/gaze/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/lisa-huang/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/karin-james/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/lisa-huang/"
+                href="https://scott-love.github.io/author/karin-james/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/lisa-huang/"
+                href="https://scott-love.github.io/fr/author/karin-james/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/nathalie-george/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/laurence-conty/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/nathalie-george/"
+                href="https://scott-love.github.io/author/laurence-conty/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/nathalie-george/"
+                href="https://scott-love.github.io/fr/author/laurence-conty/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/lisa-huang/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/lisa-huang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/lisa-huang/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/nathalie-george/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/nathalie-george/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/nathalie-george/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/social/</loc>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/social/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/social/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication/latinus2015/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
+    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1192,94 +1403,83 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/eeg/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/publication-type/6/</loc>
+    <lastmod>2015-02-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/tags/eeg/"
+                href="https://scott-love.github.io/publication-type/6/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/eeg/"
+                href="https://scott-love.github.io/fr/publication-type/6/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/regard/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/publication_types/6/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/arian-ashourvan/</loc>
+    <lastmod>2015-02-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/publication_types/6/"
+                href="https://scott-love.github.io/author/arian-ashourvan/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/publication_types/6/"
+                href="https://scott-love.github.io/fr/author/arian-ashourvan/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/arian-ashourvan/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/attention/</loc>
+    <lastmod>2015-02-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/arian-ashourvan/"
+                href="https://scott-love.github.io/tag/attention/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/arian-ashourvan/"
+                href="https://scott-love.github.io/fr/tag/attention/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/elizabeth-dasilva/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/elizabeth-dasilva/</loc>
+    <lastmod>2015-02-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/elizabeth-dasilva/"
+                href="https://scott-love.github.io/author/elizabeth-dasilva/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/elizabeth-dasilva/"
+                href="https://scott-love.github.io/fr/author/elizabeth-dasilva/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/francisco-parada/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/francisco-parada/</loc>
+    <lastmod>2015-02-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/francisco-parada/"
+                href="https://scott-love.github.io/author/francisco-parada/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/francisco-parada/"
+                href="https://scott-love.github.io/fr/author/francisco-parada/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication/puce2015/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <lastmod>2015-02-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1293,116 +1493,68 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/scott-love/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/swapnaa-jayaraman/</loc>
+    <lastmod>2015-02-08T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/scott-love/"
+                href="https://scott-love.github.io/author/swapnaa-jayaraman/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/scott-love/"
+                href="https://scott-love.github.io/fr/author/swapnaa-jayaraman/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/swapnaa-jayaraman/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/frances-crabbe/</loc>
+    <lastmod>2014-02-08T16:33:49+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/swapnaa-jayaraman/"
+                href="https://scott-love.github.io/author/frances-crabbe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/swapnaa-jayaraman/"
+                href="https://scott-love.github.io/fr/author/frances-crabbe/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/attention/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/jeffrey-m.-zacks/</loc>
+    <lastmod>2014-02-08T16:33:49+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/tags/attention/"
+                href="https://scott-love.github.io/author/jeffrey-m.-zacks/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/attention/"
+                href="https://scott-love.github.io/fr/author/jeffrey-m.-zacks/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/sociale/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/visage/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/frances-crabbe/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/phil-mcaleer/</loc>
+    <lastmod>2014-02-08T16:33:49+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/frances-crabbe/"
+                href="https://scott-love.github.io/author/phil-mcaleer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/frances-crabbe/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/jeffrey-m.-zacks/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/jeffrey-m.-zacks/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/jeffrey-m.-zacks/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/phil-mcaleer/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/authors/phil-mcaleer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/phil-mcaleer/"
+                href="https://scott-love.github.io/fr/author/phil-mcaleer/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication/mcaleer2014/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <lastmod>2014-02-08T16:33:49+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1416,14 +1568,8 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/mouvement-biologique/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/fr/publication/love2013/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <lastmod>2013-02-08T16:54:24+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1437,72 +1583,83 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/adam-cheng/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/adam-cheng/</loc>
+    <lastmod>2013-02-08T16:54:24+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/adam-cheng/"
+                href="https://scott-love.github.io/author/adam-cheng/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/adam-cheng/"
+                href="https://scott-love.github.io/fr/author/adam-cheng/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/corinne-jola/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/corinne-jola/</loc>
+    <lastmod>2013-02-08T16:49:42+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/corinne-jola/"
+                href="https://scott-love.github.io/author/corinne-jola/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/corinne-jola/"
+                href="https://scott-love.github.io/fr/author/corinne-jola/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/gordon-morison/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/dance/</loc>
+    <lastmod>2013-02-08T16:49:42+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/gordon-morison/"
+                href="https://scott-love.github.io/tag/dance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/gordon-morison/"
+                href="https://scott-love.github.io/fr/tag/dance/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/marie-helene-grosbras/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/gordon-morison/</loc>
+    <lastmod>2013-02-08T16:49:42+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/marie-helene-grosbras/"
+                href="https://scott-love.github.io/author/gordon-morison/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/marie-helene-grosbras/"
+                href="https://scott-love.github.io/fr/author/gordon-morison/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/marie-helene-grosbras/</loc>
+    <lastmod>2013-02-08T16:49:42+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/marie-helene-grosbras/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/marie-helene-grosbras/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication/jola2013/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
+    <lastmod>2013-02-08T16:49:42+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1516,14 +1673,38 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/danse/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/animacy/</loc>
+    <lastmod>2013-02-08T16:41:54+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/animacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/animacy/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/tag/behaviour/</loc>
+    <lastmod>2013-02-08T16:41:54+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/behaviour/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/behaviour/"
+                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication/mcaleer2013/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <lastmod>2013-02-08T16:41:54+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1537,20 +1718,8 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/animation/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/tags/comportement/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/fr/publication/maurage2013/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <lastmod>2013-01-08T17:05:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1564,71 +1733,53 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/fabien-dhondt/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/emotion/</loc>
+    <lastmod>2013-01-08T17:05:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/fabien-dhondt/"
+                href="https://scott-love.github.io/tag/emotion/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/fabien-dhondt/"
+                href="https://scott-love.github.io/fr/tag/emotion/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/pierre-maurage/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/fabien-dhondt/</loc>
+    <lastmod>2013-01-08T17:05:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/pierre-maurage/"
+                href="https://scott-love.github.io/author/fabien-dhondt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/pierre-maurage/"
+                href="https://scott-love.github.io/fr/author/fabien-dhondt/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/emotion/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/pierre-maurage/</loc>
+    <lastmod>2013-01-08T17:05:46+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/tags/emotion/"
+                href="https://scott-love.github.io/author/pierre-maurage/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/emotion/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/publication/love2012/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/publication/love2012/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/publication/love2012/"
+                href="https://scott-love.github.io/fr/author/pierre-maurage/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication/love2011/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
+    <lastmod>2011-02-08T17:13:15+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1642,14 +1793,38 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/connectivite/</loc>
-    <lastmod>2020-01-21T14:19:24+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/connectivity/</loc>
+    <lastmod>2011-02-08T17:13:15+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/connectivity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/connectivity/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/publication/love2012/</loc>
+    <lastmod>2011-02-08T17:13:15+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/publication/love2012/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/publication/love2012/"
+                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/publication/petrini2011/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
+    <lastmod>2011-01-08T17:15:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1663,109 +1838,111 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/carl-haakon-waadeland/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/carl-haakon-waadeland/</loc>
+    <lastmod>2011-01-08T17:15:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/carl-haakon-waadeland/"
+                href="https://scott-love.github.io/author/carl-haakon-waadeland/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/carl-haakon-waadeland/"
+                href="https://scott-love.github.io/fr/author/carl-haakon-waadeland/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/davide-rocchesso/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/davide-rocchesso/</loc>
+    <lastmod>2011-01-08T17:15:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/davide-rocchesso/"
+                href="https://scott-love.github.io/author/davide-rocchesso/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/davide-rocchesso/"
+                href="https://scott-love.github.io/fr/author/davide-rocchesso/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/federico-avanzini/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/federico-avanzini/</loc>
+    <lastmod>2011-01-08T17:15:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/federico-avanzini/"
+                href="https://scott-love.github.io/author/federico-avanzini/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/federico-avanzini/"
+                href="https://scott-love.github.io/fr/author/federico-avanzini/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/lawrie-s-mckay/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/author/lawrie-s-mckay/</loc>
+    <lastmod>2011-01-08T17:15:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/lawrie-s-mckay/"
+                href="https://scott-love.github.io/author/lawrie-s-mckay/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/lawrie-s-mckay/"
+                href="https://scott-love.github.io/fr/author/lawrie-s-mckay/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/authors/sofia-dahl/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://scott-love.github.io/fr/tag/music/</loc>
+    <lastmod>2011-01-08T17:15:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/sofia-dahl/"
+                href="https://scott-love.github.io/tag/music/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/sofia-dahl/"
+                href="https://scott-love.github.io/fr/tag/music/"
                 />
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/fr/tags/la-musique/</loc>
-    <lastmod>2019-06-24T17:31:59+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/fr/authors/scott/</loc>
-    <lastmod>2020-01-21T10:55:14+01:00</lastmod>
+    <loc>https://scott-love.github.io/fr/author/sofia-dahl/</loc>
+    <lastmod>2011-01-08T17:15:35+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://scott-love.github.io/authors/scott/"
+                href="https://scott-love.github.io/author/sofia-dahl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://scott-love.github.io/fr/authors/scott/"
+                href="https://scott-love.github.io/fr/author/sofia-dahl/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/fr/author/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/"
                 />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/fr/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

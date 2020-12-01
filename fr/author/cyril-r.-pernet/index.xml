@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyril R. Pernet | Scott Love</title>
+    <link>https://scott-love.github.io/fr/author/cyril-r.-pernet/</link>
+      <atom:link href="https://scott-love.github.io/fr/author/cyril-r.-pernet/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cyril R. Pernet</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Tue, 10 Jul 2018 12:18:50 +0100</lastBuildDate>
+    <image>
+      <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Cyril R. Pernet</title>
+      <link>https://scott-love.github.io/fr/author/cyril-r.-pernet/</link>
+    </image>
+    
+    <item>
+      <title>Overlapping but Divergent Neural Correlates Underpinning Audiovisual Synchrony and Temporal Order Judgments</title>
+      <link>https://scott-love.github.io/fr/publication/love2018/</link>
+      <pubDate>Tue, 10 Jul 2018 12:18:50 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/love2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

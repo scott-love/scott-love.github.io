@@ -258,21 +258,6 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/tag/biological-motion/</loc>
-    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tag/biological-motion/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tag/biological-motion/"
-                />
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/author/emilie-c.-perez/</loc>
     <lastmod>2019-12-02T16:23:21+01:00</lastmod>
     <xhtml:link
@@ -288,6 +273,21 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tag/emotion/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/emotion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/emotion/"
+                />
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/author/fabien-cornilleau/</loc>
     <lastmod>2019-12-02T16:23:21+01:00</lastmod>
     <xhtml:link
@@ -299,21 +299,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scott-love.github.io/author/fabien-cornilleau/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/tag/fmri/</loc>
-    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tag/fmri/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tag/fmri/"
                 />
   </url>
   
@@ -393,6 +378,21 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tag/neophobia/</loc>
+    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/neophobia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/neophobia/"
+                />
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/publication/perez2020/</loc>
     <lastmod>2019-12-02T16:23:21+01:00</lastmod>
     <xhtml:link
@@ -434,6 +434,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scott-love.github.io/author/cyril-r.-pernet/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tag/fmri/</loc>
+    <lastmod>2018-07-10T12:18:50+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/fmri/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/fmri/"
                 />
   </url>
   
@@ -1473,6 +1488,21 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/tag/biological-motion/</loc>
+    <lastmod>2014-02-08T16:33:49+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/biological-motion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/biological-motion/"
+                />
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/author/frances-crabbe/</loc>
     <lastmod>2014-02-08T16:33:49+01:00</lastmod>
     <xhtml:link
@@ -1694,21 +1724,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scott-love.github.io/publication/maurage2013/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/tag/emotion/</loc>
-    <lastmod>2013-01-08T17:05:46+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tag/emotion/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tag/emotion/"
                 />
   </url>
   

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>emotion | Scott Love</title>
-    <link>https://scott-love.github.io/tag/emotion/</link>
-      <atom:link href="https://scott-love.github.io/tag/emotion/index.xml" rel="self" type="application/rss+xml" />
-    <description>emotion</description>
+    <title>neophobia | Scott Love</title>
+    <link>https://scott-love.github.io/tag/neophobia/</link>
+      <atom:link href="https://scott-love.github.io/tag/neophobia/index.xml" rel="self" type="application/rss+xml" />
+    <description>neophobia</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Mon, 02 Dec 2019 16:23:21 +0100</lastBuildDate>
     <image>
       <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>emotion</title>
-      <link>https://scott-love.github.io/tag/emotion/</link>
+      <title>neophobia</title>
+      <link>https://scott-love.github.io/tag/neophobia/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://scott-love.github.io/publication/perez2020/</link>
       <pubDate>Mon, 02 Dec 2019 16:23:21 +0100</pubDate>
       <guid>https://scott-love.github.io/publication/perez2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Crossmodal Integration of Emotional Stimuli in Alcohol Dependence</title>
-      <link>https://scott-love.github.io/publication/maurage2013/</link>
-      <pubDate>Tue, 08 Jan 2013 17:05:46 +0100</pubDate>
-      <guid>https://scott-love.github.io/publication/maurage2013/</guid>
       <description></description>
     </item>
     

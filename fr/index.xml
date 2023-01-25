@@ -5,12 +5,20 @@
     <link>https://scott-love.github.io/fr/</link>
       <atom:link href="https://scott-love.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
     <description>Scott Love</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Fri, 30 Sep 2022 16:23:21 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Sat, 21 Jan 2023 16:23:21 +0100</lastBuildDate>
     <image>
       <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Scott Love</title>
       <link>https://scott-love.github.io/fr/</link>
     </image>
+    
+    <item>
+      <title>Captive Blue-and-yellow macaws (Ara ararauna) show facial indicators of positive affect when reunited with their caregiver</title>
+      <link>https://scott-love.github.io/fr/publication/bertin2023/</link>
+      <pubDate>Sat, 21 Jan 2023 16:23:21 +0100</pubDate>
+      <guid>https://scott-love.github.io/fr/publication/bertin2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The use and impact of auditory stimulation in animals</title>
@@ -77,37 +85,10 @@
     </item>
     
     <item>
-      <title>Neuro2Co</title>
-      <link>https://scott-love.github.io/fr/project/neoru2co/neuro2co/</link>
-      <pubDate>Thu, 08 Feb 2018 18:06:20 +0100</pubDate>
-      <guid>https://scott-love.github.io/fr/project/neoru2co/neuro2co/</guid>
-      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>SheepVoice</title>
       <link>https://scott-love.github.io/fr/project/sheepvoice/</link>
       <pubDate>Thu, 08 Feb 2018 18:06:20 +0100</pubDate>
       <guid>https://scott-love.github.io/fr/project/sheepvoice/</guid>
-      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PhenoMatHyp</title>
-      <link>https://scott-love.github.io/fr/project/phenomathyp/</link>
-      <pubDate>Thu, 08 Feb 2018 18:03:41 +0100</pubDate>
-      <guid>https://scott-love.github.io/fr/project/phenomathyp/</guid>
-      <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Prebiostress</title>
-      <link>https://scott-love.github.io/fr/project/prebiostress/</link>
-      <pubDate>Thu, 08 Feb 2018 18:03:41 +0100</pubDate>
-      <guid>https://scott-love.github.io/fr/project/prebiostress/</guid>
       <description>&lt;p&gt;ADD TEXT HERE&lt;/p&gt;
 </description>
     </item>

@@ -35,6 +35,16 @@
   <url>
     <loc>https://scott-love.github.io/author/annabelle-pinateau/</loc>
     <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/annabelle-pinateau/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/annabelle-pinateau/"
+                />
   </url>
   
   <url>
@@ -70,11 +80,31 @@
   <url>
     <loc>https://scott-love.github.io/publication/bertin2023/</loc>
     <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/publication/bertin2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/publication/bertin2023/"
+                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/author/cecile-arnould/</loc>
     <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/cecile-arnould/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/cecile-arnould/"
+                />
   </url>
   
   <url>
@@ -95,16 +125,46 @@
   <url>
     <loc>https://scott-love.github.io/author/lea-lansade/</loc>
     <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/lea-lansade/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/lea-lansade/"
+                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/author/marie-claire-blache/</loc>
     <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/marie-claire-blache/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/marie-claire-blache/"
+                />
   </url>
   
   <url>
     <loc>https://scott-love.github.io/author/mathilde-arnold/</loc>
     <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/mathilde-arnold/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/mathilde-arnold/"
+                />
   </url>
   
   <url>
@@ -155,6 +215,16 @@
   <url>
     <loc>https://scott-love.github.io/author/scott-love/</loc>
     <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/scott-love/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/scott-love/"
+                />
   </url>
   
   <url>

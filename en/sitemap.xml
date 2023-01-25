@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://scott-love.github.io/publication-type/2/</loc>
-    <lastmod>2022-09-30T16:23:21+01:00</lastmod>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,8 +18,28 @@
   </url>
   
   <url>
+    <loc>https://scott-love.github.io/author/aline-bertin/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/aline-bertin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/aline-bertin/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/author/annabelle-pinateau/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://scott-love.github.io/authors/</loc>
-    <lastmod>2022-09-30T16:23:21+01:00</lastmod>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -34,7 +54,7 @@
   
   <url>
     <loc>https://scott-love.github.io/author/baptiste-mulot/</loc>
-    <lastmod>2022-09-30T16:23:21+01:00</lastmod>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -44,6 +64,126 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scott-love.github.io/author/baptiste-mulot/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/publication/bertin2023/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/author/cecile-arnould/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tag/emotion/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/emotion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tag/emotion/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/author/lea-lansade/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/author/marie-claire-blache/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/author/mathilde-arnold/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/publication_types/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/publication/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/author/raymond-nowak/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/author/raymond-nowak/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/author/raymond-nowak/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/author/scott-love/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://scott-love.github.io/tags/</loc>
+    <lastmod>2023-01-21T16:23:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scott-love.github.io/tags/"
                 />
   </url>
   
@@ -138,36 +278,6 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/publication_types/</loc>
-    <lastmod>2022-09-30T16:23:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/publication/</loc>
-    <lastmod>2022-09-30T16:23:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/publication/"
-                />
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/author/roman-bresso/</loc>
     <lastmod>2022-09-30T16:23:21+01:00</lastmod>
     <xhtml:link
@@ -194,36 +304,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scott-love.github.io/author/scott-a.-love/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/</loc>
-    <lastmod>2022-09-30T16:23:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/tags/</loc>
-    <lastmod>2022-09-30T16:23:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tags/"
                 />
   </url>
   
@@ -663,21 +743,6 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/author/raymond-nowak/</loc>
-    <lastmod>2022-02-26T12:18:50+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/author/raymond-nowak/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/author/raymond-nowak/"
-                />
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/publication/agaronyan2021/</loc>
     <lastmod>2022-01-14T16:23:21+01:00</lastmod>
     <xhtml:link
@@ -1053,21 +1118,6 @@
   </url>
   
   <url>
-    <loc>https://scott-love.github.io/author/aline-bertin/</loc>
-    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/author/aline-bertin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/author/aline-bertin/"
-                />
-  </url>
-  
-  <url>
     <loc>https://scott-love.github.io/author/emilie-c.-perez/</loc>
     <lastmod>2019-12-02T16:23:21+01:00</lastmod>
     <xhtml:link
@@ -1079,21 +1129,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://scott-love.github.io/author/emilie-c.-perez/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://scott-love.github.io/tag/emotion/</loc>
-    <lastmod>2019-12-02T16:23:21+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tag/emotion/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://scott-love.github.io/tag/emotion/"
                 />
   </url>
   

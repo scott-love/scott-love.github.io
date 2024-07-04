@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Céline Parias | Scott Love</title>
+    <title>Celine Parias | Scott Love</title>
     <link>https://scott-love.github.io/author/celine-parias/</link>
       <atom:link href="https://scott-love.github.io/author/celine-parias/index.xml" rel="self" type="application/rss+xml" />
-    <description>Céline Parias</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Tue, 28 May 2024 12:18:50 +0100</lastBuildDate>
+    <description>Celine Parias</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Fri, 30 Sep 2022 16:23:21 +0100</lastBuildDate>
     <image>
       <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Céline Parias</title>
+      <title>Celine Parias</title>
       <link>https://scott-love.github.io/author/celine-parias/</link>
     </image>
     
     <item>
-      <title>Sheep (Ovis aries) training protocol for voluntary awake and unrestrained structural brain MRI acquisitions</title>
-      <link>https://scott-love.github.io/publication/pluchot2024/</link>
-      <pubDate>Tue, 28 May 2024 12:18:50 +0100</pubDate>
-      <guid>https://scott-love.github.io/publication/pluchot2024/</guid>
+      <title>The use and impact of auditory stimulation in animals</title>
+      <link>https://scott-love.github.io/publication/ubiema2022/</link>
+      <pubDate>Fri, 30 Sep 2022 16:23:21 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/ubiema2022/</guid>
       <description></description>
+    </item>
+    
+  </channel>
+</rss>
+iption></description>
     </item>
     
   </channel>

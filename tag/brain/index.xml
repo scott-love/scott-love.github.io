@@ -5,20 +5,12 @@
     <link>https://scott-love.github.io/tag/brain/</link>
       <atom:link href="https://scott-love.github.io/tag/brain/index.xml" rel="self" type="application/rss+xml" />
     <description>Brain</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Fri, 14 Jan 2022 16:23:21 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Thu, 08 Feb 2018 18:06:20 +0100</lastBuildDate>
     <image>
       <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Brain</title>
       <link>https://scott-love.github.io/tag/brain/</link>
     </image>
-    
-    <item>
-      <title>A Baboon Brain Atlas for Magnetic Resonance Imaging and Positron Emission Tomography Image Analysis</title>
-      <link>https://scott-love.github.io/publication/agaronyan2021/</link>
-      <pubDate>Fri, 14 Jan 2022 16:23:21 +0100</pubDate>
-      <guid>https://scott-love.github.io/publication/agaronyan2021/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Sheep Voice fMRI</title>
@@ -27,38 +19,6 @@
       <guid>https://scott-love.github.io/project/sheepvoice/</guid>
       <description>&lt;p&gt;The project, Functional Neuroimaging of the Vocalisation Perception Mechanisms of Sheep (SheepVoicefMRI), is funded by the French National Research Agency - ANR-20-CE20-0001.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Left Brain Asymmetry of the Planum Temporale in a Nonhominid Primate: Redefining the Origin of Brain Specialization for Language</title>
-      <link>https://scott-love.github.io/publication/marie2017/</link>
-      <pubDate>Tue, 07 Feb 2017 17:23:02 +0100</pubDate>
-      <guid>https://scott-love.github.io/publication/marie2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The average baboon brain: MRI templates and tissue probability maps from 89 individuals</title>
-      <link>https://scott-love.github.io/publication/love2016/</link>
-      <pubDate>Fri, 11 Mar 2016 14:12:48 +0100</pubDate>
-      <guid>https://scott-love.github.io/publication/love2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A practical guide for the identification of major sulcogyral structures of the human cortex</title>
-      <link>https://scott-love.github.io/publication/destrieux2016/</link>
-      <pubDate>Mon, 08 Feb 2016 14:06:50 +0100</pubDate>
-      <guid>https://scott-love.github.io/publication/destrieux2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Effects of Experience, Training and Expertise on Multisensory Perception: Investigating the Link between Brain and Behavior</title>
-      <link>https://scott-love.github.io/publication/love2012/</link>
-      <pubDate>Tue, 08 Feb 2011 17:13:15 +0100</pubDate>
-      <guid>https://scott-love.github.io/publication/love2012/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -5,7 +5,7 @@
     <link>https://scott-love.github.io/author/phil-mcaleer/</link>
       <atom:link href="https://scott-love.github.io/author/phil-mcaleer/index.xml" rel="self" type="application/rss+xml" />
     <description>Phil McAleer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Fri, 08 Feb 2013 16:49:42 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Sat, 08 Feb 2014 16:33:49 +0100</lastBuildDate>
     <image>
       <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Phil McAleer</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>The role of kinematics in cortical regions for continuous human motion perception</title>
+      <link>https://scott-love.github.io/publication/mcaleer2014/</link>
+      <pubDate>Sat, 08 Feb 2014 16:33:49 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/mcaleer2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Uni- and multisensory brain areas are synchronised across spectators when watching unedited dance recordings</title>
       <link>https://scott-love.github.io/publication/jola2013/</link>
       <pubDate>Fri, 08 Feb 2013 16:49:42 +0100</pubDate>
       <guid>https://scott-love.github.io/publication/jola2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceiving intention in animacy displays created from human motion</title>
+      <link>https://scott-love.github.io/publication/mcaleer2013/</link>
+      <pubDate>Fri, 08 Feb 2013 16:41:54 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/mcaleer2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Action expertise reduces brain activity for audiovisual matching actions: an fMRI study with expert drummers</title>
+      <link>https://scott-love.github.io/publication/petrini2011/</link>
+      <pubDate>Sat, 08 Jan 2011 17:15:35 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/petrini2011/</guid>
       <description></description>
     </item>
     

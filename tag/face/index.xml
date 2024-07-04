@@ -5,7 +5,7 @@
     <link>https://scott-love.github.io/tag/face/</link>
       <atom:link href="https://scott-love.github.io/tag/face/index.xml" rel="self" type="application/rss+xml" />
     <description>Face</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Sun, 08 Feb 2015 16:29:26 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Scott Love</copyright><lastBuildDate>Thu, 08 Oct 2020 16:23:21 +0100</lastBuildDate>
     <image>
       <url>https://scott-love.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Face</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Combining the senses: the role of experience- and task-dependent mechanisms in the development of audiovisual simultaneity perception</title>
+      <link>https://scott-love.github.io/publication/petrini2020/</link>
+      <pubDate>Thu, 08 Oct 2020 16:23:21 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/petrini2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Social decisions affect neural activity to perceived dynamic gaze</title>
       <link>https://scott-love.github.io/publication/latinus2015/</link>
       <pubDate>Sun, 08 Feb 2015 16:29:26 +0100</pubDate>
       <guid>https://scott-love.github.io/publication/latinus2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Bases for Social Attention in Healthy Humans</title>
+      <link>https://scott-love.github.io/publication/puce2015/</link>
+      <pubDate>Sun, 08 Feb 2015 16:23:21 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/puce2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crossmodal Integration of Emotional Stimuli in Alcohol Dependence</title>
+      <link>https://scott-love.github.io/publication/maurage2013/</link>
+      <pubDate>Tue, 08 Jan 2013 17:05:46 +0100</pubDate>
+      <guid>https://scott-love.github.io/publication/maurage2013/</guid>
       <description></description>
     </item>
     

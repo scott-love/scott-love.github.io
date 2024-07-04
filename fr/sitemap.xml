@@ -1445,18 +1445,6 @@
                 href="https://scott-love.github.io/fr/post/"
                 />
   </url><url>
-    <loc>https://scott-love.github.io/fr/tag/cerveau/</loc>
-    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
-  </url><url>
-    <loc>https://scott-love.github.io/fr/tag/irm/</loc>
-    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
-  </url><url>
-    <loc>https://scott-love.github.io/fr/tag/irmf/</loc>
-    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
-  </url><url>
-    <loc>https://scott-love.github.io/fr/tag/ovin/</loc>
-    <lastmod>2018-02-08T18:06:20+01:00</lastmod>
-  </url><url>
     <loc>https://scott-love.github.io/fr/project/</loc>
     <lastmod>2018-02-08T18:06:20+01:00</lastmod>
     <xhtml:link
@@ -1483,11 +1471,31 @@
                 href="https://scott-love.github.io/fr/project/sheepvoice/"
                 />
   </url><url>
-    <loc>https://scott-love.github.io/fr/tag/sociale/</loc>
+    <loc>https://scott-love.github.io/fr/tag/social/</loc>
     <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://scott-love.github.io/tag/social/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/social/"
+                />
   </url><url>
-    <loc>https://scott-love.github.io/fr/tag/voix/</loc>
+    <loc>https://scott-love.github.io/fr/tag/voice/</loc>
     <lastmod>2018-02-08T18:06:20+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://scott-love.github.io/tag/voice/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://scott-love.github.io/fr/tag/voice/"
+                />
   </url><url>
     <loc>https://scott-love.github.io/fr/post/create-this-site/</loc>
     <lastmod>2018-02-07T18:31:37+01:00</lastmod>
@@ -1697,19 +1705,6 @@
                 href="https://scott-love.github.io/fr/author/romain-lacoste/"
                 />
   </url><url>
-    <loc>https://scott-love.github.io/fr/tag/voice/</loc>
-    <lastmod>2017-02-07T17:23:02+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://scott-love.github.io/tag/voice/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tag/voice/"
-                />
-  </url><url>
     <loc>https://scott-love.github.io/fr/author/william-d.-hopkins/</loc>
     <lastmod>2017-02-07T17:23:02+01:00</lastmod>
     <xhtml:link
@@ -1722,9 +1717,6 @@
                 hreflang="fr"
                 href="https://scott-love.github.io/fr/author/william-d.-hopkins/"
                 />
-  </url><url>
-    <loc>https://scott-love.github.io/fr/tag/anatomie/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://scott-love.github.io/fr/tag/cortex/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
@@ -2023,19 +2015,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://scott-love.github.io/fr/author/nathalie-george/"
-                />
-  </url><url>
-    <loc>https://scott-love.github.io/fr/tag/social/</loc>
-    <lastmod>2015-02-08T16:29:26+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://scott-love.github.io/tag/social/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://scott-love.github.io/fr/tag/social/"
                 />
   </url><url>
     <loc>https://scott-love.github.io/fr/publication/latinus2015/</loc>

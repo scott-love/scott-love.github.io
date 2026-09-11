@@ -237,12 +237,8 @@ def migrate_publication(data: dict) -> dict:
 
     publication = data.get("publication")
     publication_name = clean_string(publication if isinstance(publication, str) else (publication or {}).get("name"))
-    publication_short = clean_string(data.get("publication_short"))
     if publication_name:
-        publication_value = OrderedDict([("name", publication_name)])
-        if publication_short:
-            publication_value["short_name"] = publication_short
-        migrated["publication"] = publication_value
+        migrated["publication"] = publication_name
 
     abstract = clean_string(data.get("abstract"))
     if abstract:

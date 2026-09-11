@@ -91,3 +91,6 @@ disableAliases = true
   [[related.indices]]
     name = "authors"
     weight = 20.0
+
+[security.exec]
+  allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']

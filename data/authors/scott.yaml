@@ -1,0 +1,70 @@
+name:
+  display: Scott Love
+superuser: true
+role: Researcher
+
+affiliations:
+  - name: INRAE
+    url: "http://inrae.fr"
+
+bio: |
+  I'm a cognitive neuroscientist currently using neuroimaging techniques in farm animals to investigate: 1) how early environment influences behavioural and neurobiological development and 2) social perception and its underlying neural mechanisms.
+
+  Since November 2017, I have been a researcher (Chargé de Recherche) at the [PRC](https://www6.val-de-loire.inra.fr/physiologie_reproduction_comportements) (Physiologie de la Reproduction et des Comportements) research unit in [Nouzilly](https://www.google.com/maps/place/Inra+Centre+Val+De+Loire/@47.544757,0.782861,15z/data=!4m5!3m4!1s0x0:0xe0400dff4907150e!8m2!3d47.544757!4d0.782861), France.
+
+  Also check out the [INRAE Farm Animal Cognition and Welfare network](https://recabee.netlify.app/en/) that I help to animate.
+
+interests:
+  - Brains
+  - Comparative Neuroscience
+  - Development
+  - Social Perception
+  - MRI
+  - EEG
+
+education:
+  courses:
+    - course: PhD in Psychology
+      institution: University of Glasgow, UK
+      year: 2011
+    - course: M.Sc. Research Methods of Psychological Science
+      institution: University of Glasgow, UK
+      year: 2007
+    - course: MA Social Sciences - Psychology & Philosophy
+      institution: University of Glasgow, UK
+      year: 2006
+
+links:
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/love_a_scott
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=jiIfA5IAAAAJ&hl=fr
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/scott-love
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0001-7416-9210
+
+experience:
+  - role: Researcher (Chargé de Recherche)
+    org: INRAE-PRC
+    date_start: '2017-11-01'
+  - role: Postdoc Research Engineer
+    org: Université François-Rabelais de Tours, Inserm, Imagerie et Cerveau UMR U930
+    date_start: '2015-11-01'
+    date_end: '2017-08-31'
+  - role: Postdoc Researcher
+    org: Laboratoire de Psychologie Cognitive UMR7290, Aix-Marseille Université / CNRS
+    date_start: '2015-04-01'
+    date_end: '2015-10-31'
+  - role: Postdoc Researcher
+    org: Institut de Neurosciences de la Timone UMR7289, Aix-Marseille Université / CNRS
+    date_start: '2013-04-01'
+    date_end: '2015-03-31'
+  - role: Postdoc Researcher
+    org: Indiana University
+    date_start: '2011-05-01'
+    date_end: '2013-03-31'

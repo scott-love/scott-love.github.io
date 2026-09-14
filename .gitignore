@@ -8,3 +8,6 @@ hugo_stats.json
 # Python cache files
 **/__pycache__/
 *.py[cod]
+
+_vendor
+node_modules/

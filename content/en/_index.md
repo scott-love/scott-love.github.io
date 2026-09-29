@@ -75,18 +75,6 @@ sections:
   design:
     view: citation
 - block: collection
-  id: posts
-  content:
-    title: Recent Posts
-    filters:
-      folders:
-      - post
-      exclude_featured: false
-    count: 5
-    order: desc
-  design:
-    view: article-grid
-- block: collection
   id: projects
   content:
     title: Projects

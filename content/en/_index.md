@@ -66,7 +66,6 @@ sections:
   id: publications
   content:
     title: Recent Publications
-    text: '> Quickly discover relevant content by [filtering publications](./publication/).'
     filters:
       folders:
       - publication

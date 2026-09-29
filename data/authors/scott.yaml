@@ -23,16 +23,15 @@ interests:
   - EEG
 
 education:
-  courses:
-    - course: PhD in Psychology
-      institution: University of Glasgow, UK
-      year: 2011
-    - course: M.Sc. Research Methods of Psychological Science
-      institution: University of Glasgow, UK
-      year: 2007
-    - course: MA Social Sciences - Psychology & Philosophy
-      institution: University of Glasgow, UK
-      year: 2006
+  - degree: PhD in Psychology
+    institution: University of Glasgow, UK
+    year: 2011
+  - degree: M.Sc. Research Methods of Psychological Science
+    institution: University of Glasgow, UK
+    year: 2007
+  - degree: MA Social Sciences – Psychology & Philosophy
+    institution: University of Glasgow, UK
+    year: 2006
 
 links:
   - icon: brands/hal

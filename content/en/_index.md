@@ -102,11 +102,9 @@ sections:
   content:
     title: Tags
     text: '[Browse all tags](/tag/)'
-- block: markdown
+- block: contact-info
   id: contact
   content:
     title: Contact
-    text: Find me through the profile links above.
-  design:
-    columns: '2'
+    username: scott
 ---

@@ -16,9 +16,12 @@
   [hugoblox.theme]
     mode = "dark"
     pack = "default"
+  
+  [hugoblox.theme.colors_dark]
+    primary = "#f76497"
 
   [hugoblox.typography]
-    pack = "academic"
+    pack = "modern"
 
   [hugoblox.layout]
     radius = "md"

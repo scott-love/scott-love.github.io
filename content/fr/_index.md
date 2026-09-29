@@ -10,6 +10,7 @@ sections:
 - block: resume-experience
   id: experience
   content:
+    username: scott
     title: Expérience Professionnelle
     date_format: Jan 2006
     items:

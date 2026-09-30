@@ -84,16 +84,13 @@ sections:
   design:
     view: card
     columns: 2
-- block: markdown
-  id: tags
-  content:
-    title: Tags
-    text: '[Parcourir tous les tags](/fr/tag/)'
-- block: markdown
+- block: contact-info
   id: contact
   content:
     title: Contact
-    text: Retrouvez-moi via les liens du profil ci-dessus.
+    connect_title: Me contacter
+    username: scott
+    text: Je suis toujours disponible pour discuter de nouveaux projets, d'opportunités ou simplement échanger.
   design:
     columns: '2'
 ---

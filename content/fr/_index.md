@@ -73,7 +73,7 @@ sections:
     count: 5
     order: desc
   design:
-    view: citation
+    view: compact
 - block: collection
   id: projects
   content:

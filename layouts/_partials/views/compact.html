@@ -1,0 +1,52 @@
+{{- $item := .item -}}
+{{- $summary := partial "functions/get_summary" $item | page.RenderString -}}
+{{- $displayDate := $item.Params.event_start | default $item.Date -}}
+{{- $resource := partial "functions/get_featured_image.html" $item -}}
+
+<article class="group relative mb-8 flex gap-6">
+  <div class="min-w-0 flex-1">
+    <h2 class="text-xl font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+      <a href="{{ $item.RelPermalink }}" class="hover:text-primary-600 dark:hover:text-primary-400">
+        {{ $item.Title }}
+      </a>
+    </h2>
+
+    <time
+      class="mt-2 block text-sm text-zinc-400 dark:text-zinc-500"
+      datetime="{{ time.Format "2006-01-02" $displayDate }}">
+      {{ time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $displayDate }}
+    </time>
+
+    <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 line-clamp-3">
+      {{ $summary }}
+    </p>
+
+    <div class="mt-3 flex items-center text-sm font-medium text-primary-500">
+      <a href="{{ $item.RelPermalink }}" class="hover:underline">
+        {{ i18n "read_more" | default "Read more" }}
+      </a>
+      <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    </div>
+  </div>
+
+  {{- with $resource -}}
+    <a href="{{ $item.RelPermalink }}" class="hidden w-36 shrink-0 overflow-hidden rounded-lg sm:block">
+      {{- if and (reflect.IsImageResourceProcessable .) (ne .MediaType.SubType "gif") -}}
+        {{- $thumb := .Resize "300x" -}}
+        <img
+          src="{{ $thumb.RelPermalink }}"
+          alt=""
+          class="h-24 w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          loading="lazy">
+      {{- else -}}
+        <img
+          src="{{ .RelPermalink }}"
+          alt=""
+          class="h-24 w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          loading="lazy">
+      {{- end -}}
+    </a>
+  {{- end -}}
+</article>

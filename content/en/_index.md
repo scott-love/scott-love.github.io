@@ -10,6 +10,7 @@ sections:
 - block: resume-experience
   id: experience
   content:
+    username: scott
     title: Professional Experience
     date_format: Jan 2006
     items:
@@ -65,7 +66,6 @@ sections:
   id: publications
   content:
     title: Recent Publications
-    text: '> Quickly discover relevant content by [filtering publications](./publication/).'
     filters:
       folders:
       - publication
@@ -73,19 +73,7 @@ sections:
     count: 5
     order: desc
   design:
-    view: citation
-- block: collection
-  id: posts
-  content:
-    title: Recent Posts
-    filters:
-      folders:
-      - post
-      exclude_featured: false
-    count: 5
-    order: desc
-  design:
-    view: article-grid
+    view: compact
 - block: collection
   id: projects
   content:
@@ -96,16 +84,9 @@ sections:
   design:
     view: card
     columns: 2
-- block: markdown
-  id: tags
-  content:
-    title: Tags
-    text: '[Browse all tags](/tag/)'
-- block: markdown
+- block: contact-info
   id: contact
   content:
     title: Contact
-    text: Find me through the profile links above.
-  design:
-    columns: '2'
+    username: scott
 ---

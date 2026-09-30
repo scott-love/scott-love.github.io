@@ -1,9 +1,8 @@
 {
  "compilerOptions": {
-  "baseUrl": ".",
   "paths": {
    "*": [
-    "../../Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/wowchemy/wowchemy-hugo-modules/wowchemy@v0.0.0-20201125230219-3a03b728de8f/assets/*"
+    "../_vendor/github.com/HugoBlox/kit/modules/blox/assets/*"
    ]
   }
  }

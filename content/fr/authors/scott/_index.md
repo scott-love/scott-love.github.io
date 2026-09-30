@@ -11,7 +11,7 @@ role: Chargé de Recherche
 # Organizations/Affiliations
 organizations:
 - name: INRAE
-  url: "http://inrae.fr/en"
+  url: "https://www.inrae.fr/en"
 
 # Short bio (displayed in user profile at end of posts)
 bio:

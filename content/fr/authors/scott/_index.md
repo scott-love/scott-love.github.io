@@ -11,7 +11,7 @@ role: Chargé de Recherche
 # Organizations/Affiliations
 organizations:
 - name: INRAE
-  url: "http://inrae.fr/en"
+  url: "https://www.inrae.fr/en"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -76,6 +76,6 @@ highlight_name: true
 # A propos
 Je suis chercheur en neurosciences cognitives utilisant actuellement des techniques de neuroimagerie chez des animaux de ferme pour étudier : 1) l'influence de l'environnement précoce sur le développement comportemental et neurobiologique et 2) la perception sociale et ses mechanismes neuronaux sous jacent.
 
-Depuis novembre 2017, je suis Chargé de Recherche à l'Unité Mixte de Recherche [PRC](https://www6.val-de-loire.inra.fr/physiologie_reproduction_comportements) (Physiologie de la Reproduction et des Comportements) à [Nouzilly](https://www.google.com/maps/place/Inra+Centre+Val+De+Loire/@47.544757,0.782861,15z/data=!4m5!3m4!1s0x0:0xe0400dff4907150e!8m2!3d47.544757!4d0.782861), France.
+Depuis novembre 2017, je suis Chargé de Recherche à l'Unité Mixte de Recherche [PRC](https://physiologie-reproduction-comportements.val-de-loire.hub.inrae.fr) (Physiologie de la Reproduction et des Comportements) à [Nouzilly](https://www.google.com/maps/place/Inra+Centre+Val+De+Loire/@47.544757,0.782861,15z/data=!4m5!3m4!1s0x0:0xe0400dff4907150e!8m2!3d47.544757!4d0.782861), France.
 
 Consultez également le [réseau Cognition Animal et Bien-être en Élevage](https://recabee.netlify.app/fr/) que je contribue à animer.

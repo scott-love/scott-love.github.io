@@ -16,7 +16,7 @@ sections:
     items:
     - title: Researcher (Chargé de Recherche)
       company: INRAE-PRC
-      company_url: https://www6.val-de-loire.inra.fr/physiologie_reproduction_comportements_eng/
+      company_url: https://physiologie-reproduction-comportements.val-de-loire.hub.inrae.fr
       location: Nouzilly, France
       date_start: '2017-11-01'
     - title: Postdoc Research Engineer

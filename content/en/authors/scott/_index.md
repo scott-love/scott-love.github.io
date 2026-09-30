@@ -77,6 +77,6 @@ highlight_name: true
 
 I'm a cognitive neuroscientist currently using neuroimaging techniques in farm animals to investigate: 1) how early environment influences behavioural and neurobiological development and 2) social perception and its underlying neural mechanisms.
 
-Since November 2017, I have been a researcher (Chargé de Recherche) at the [PRC](https://www6.val-de-loire.inra.fr/physiologie_reproduction_comportements) (Physiologie de la Reproduction et des Comportements) research unit in [Nouzilly](https://www.google.com/maps/place/Inra+Centre+Val+De+Loire/@47.544757,0.782861,15z/data=!4m5!3m4!1s0x0:0xe0400dff4907150e!8m2!3d47.544757!4d0.782861), France.
+Since November 2017, I have been a researcher (Chargé de Recherche) at the [PRC](https://eng-physiologie-reproduction-comportements.val-de-loire.hub.inrae.fr) (Physiologie de la Reproduction et des Comportements) research unit in [Nouzilly](https://www.google.com/maps/place/Inra+Centre+Val+De+Loire/@47.544757,0.782861,15z/data=!4m5!3m4!1s0x0:0xe0400dff4907150e!8m2!3d47.544757!4d0.782861), France.
 
 Also check out the [INRAE Farm Animal Cognition and Welfare network](https://recabee.netlify.app/en/) that I help to animate.

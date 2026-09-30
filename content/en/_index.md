@@ -84,11 +84,6 @@ sections:
   design:
     view: card
     columns: 2
-- block: markdown
-  id: tags
-  content:
-    title: Tags
-    text: '[Browse all tags](/tag/)'
 - block: contact-info
   id: contact
   content:

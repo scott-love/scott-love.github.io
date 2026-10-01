@@ -6,7 +6,7 @@
 **Status:** Phase 0 complete; Phase 1 starting  
 **Last updated:** October 1, 2026
 
-> `scott-love/scott-love.github.io` is the **single active repository** for this site. The former `scott-love/personal-site` repository is archived. The historical `migrate/hugoblox` branch is retained for reference only; new work belongs on `master` or feature branches targeting `master`.
+> `scott-love/scott-love.github.io` is the **single active repository** for this site. The former `scott-love/personal-site` repository is archived. The historical `migrate/hugoblox` branch is retained only for migration traceability.
 
 ---
 
@@ -115,7 +115,7 @@ These are ongoing site-maintenance checks rather than blockers to the completed 
 
 ## Phase 1: Data Pipeline Discovery — Starting 🔵
 
-Phase 1 investigates how structured information from `scott-love/academic-cv` should flow into this HugoBlox site. This phase is discovery and design only; it should not introduce automated content generation until the source schema and mappings are documented.
+Phase 1 investigates how structured information from `scott-love/academic-cv` should flow into this HugoBlox site. This phase is discovery and design only; it should not introduce automated content mutations in production until the design is approved.
 
 ### Goals
 
@@ -235,9 +235,12 @@ hugo --gc --minify
 # Validate migrated content when relevant
 python scripts/migrate_content_frontmatter.py --root . --check
 
+# Set up Python tooling and tests
+uv sync --dev
+
 # Apply/validate website editorial overrides for publications
-python scripts/apply_publication_overrides.py --check
-python3 -m pytest tests/test_apply_publication_overrides.py
+uv run python scripts/apply_publication_overrides.py --check
+uv run pytest -q
 
 # Production deployment
 # Push to master; GitHub Actions deploys automatically

@@ -1,6 +1,0 @@
-git clone -b academic4-4 https://github.com/scott-love/personal-site
-cd themes/academic/
-rm -rf *
-cp -rf /Users/scott/Downloads/hugo-academic-master/* .
-
- 

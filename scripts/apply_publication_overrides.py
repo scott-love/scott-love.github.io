@@ -313,6 +313,12 @@ def main(argv=None) -> int:
         if "image" in overrides[hal_id]:
             image_path = index_path.parent / overrides[hal_id]["image"]["filename"]
             if not image_path.exists():
+                # Intentionally a non-fatal warning, not a validation error: the
+                # override YAML is metadata-only and may legitimately be applied
+                # before the corresponding image asset is copied into the bundle
+                # directory (e.g. in --check runs against a partially prepared
+                # tree). Front matter is still written/reported so the warning
+                # is visible without blocking the rest of the override run.
                 missing_image_warnings.append(f"{hal_id}: image file not found at {image_path}")
 
         if front_matter_equal(front_matter, updated):

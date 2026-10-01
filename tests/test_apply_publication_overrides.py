@@ -192,6 +192,34 @@ def test_malformed_override_unknown_field(tmp_path, content_dir):
     assert exit_code != 0
 
 
+def test_malformed_override_image_missing_filename(tmp_path, content_dir):
+    make_bundle(content_dir, "hal-00000001")
+    overrides_path = write_overrides(
+        tmp_path,
+        {"hal-00000001": {"image": {"preview_only": True}}},  # missing required filename
+    )
+
+    exit_code = run(overrides_path, content_dir)
+
+    assert exit_code != 0
+
+
+def test_missing_image_file_warns_but_does_not_fail(tmp_path, content_dir, capsys):
+    index_path = make_bundle(content_dir, "hal-00000001")
+    overrides_path = write_overrides(
+        tmp_path,
+        {"hal-00000001": {"image": {"filename": "does-not-exist.png"}}},
+    )
+
+    exit_code = run(overrides_path, content_dir)
+    output = capsys.readouterr().out
+
+    assert exit_code == 0
+    assert "does-not-exist.png" in output
+    data = read_result(index_path)
+    assert data["image"]["filename"] == "does-not-exist.png"
+
+
 def test_check_mode_does_not_modify_files(tmp_path, content_dir):
     index_path = make_bundle(content_dir, "hal-00000001")
     original_text = index_path.read_text(encoding="utf-8")

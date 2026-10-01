@@ -167,17 +167,19 @@ def _require_no_unknown_fields(mapping: dict, allowed: set, hal_id: str, field_l
 
 def _is_safe_bundle_filename(filename: str) -> bool:
     """Reject anything but a plain file name (no directory components, no
-    absolute paths, no '..' traversal) so an override cannot reference a file
-    outside its own bundle directory.
+    absolute paths, no '..' traversal, no control/null characters) so an
+    override cannot reference a file outside its own bundle directory.
 
     Checked explicitly by character rather than via `pathlib`, since
     `pathlib.Path` only recognizes '/' as a separator on POSIX systems and
     would otherwise accept a string containing a literal '\\' as a single
     path component.
     """
-    if not filename or filename in (".", ".."):
+    if not filename or filename != filename.strip() or filename in (".", ".."):
         return False
-    return "/" not in filename and "\\" not in filename
+    if "/" in filename or "\\" in filename:
+        return False
+    return all(ord(char) >= 0x20 and char != "\x7f" for char in filename)
 
 
 def validate_override_entry(hal_id: str, entry: object) -> dict:
@@ -348,10 +350,15 @@ def main(argv=None) -> int:
     applied: list[str] = []
     unchanged: list[str] = []
     missing_image_warnings: list[str] = []
+    unreadable_bundles: list[str] = []
 
     for hal_id in applicable_hal_ids:
         index_path = bundles[hal_id]
-        front_matter, body = read_front_matter(index_path)
+        try:
+            front_matter, body = read_front_matter(index_path)
+        except (ValueError, yaml.YAMLError) as exc:
+            unreadable_bundles.append(f"{hal_id}: {exc}")
+            continue
         updated = apply_override(front_matter, overrides[hal_id])
 
         if "image" in overrides[hal_id]:
@@ -405,6 +412,10 @@ def main(argv=None) -> int:
     for message in malformed_errors:
         print(f"  - {message}")
 
+    print(f"Unreadable bundle front matter (validation error): {len(unreadable_bundles)}")
+    for message in unreadable_bundles:
+        print(f"  - {message}")
+
     if missing_image_warnings:
         print(f"Warnings: {len(missing_image_warnings)}")
         for message in missing_image_warnings:
@@ -414,11 +425,11 @@ def main(argv=None) -> int:
         print()
         print("--check: files were not modified.")
 
-    # Only unknown HAL IDs and malformed override entries are blocking
-    # validation errors. `missing_image_warnings` (reported above) is
-    # intentionally excluded from this decision: it is informational only
-    # and never affects the exit code.
-    if malformed_errors or unknown_hal_ids:
+    # Only unknown HAL IDs, malformed override entries, and unreadable
+    # bundles are blocking validation errors. `missing_image_warnings`
+    # (reported above) is intentionally excluded from this decision: it is
+    # informational only and never affects the exit code.
+    if malformed_errors or unknown_hal_ids or unreadable_bundles:
         return 1
     return 0
 

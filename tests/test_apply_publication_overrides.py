@@ -244,7 +244,7 @@ def test_malformed_override_image_missing_filename(tmp_path, content_dir):
 
 @pytest.mark.parametrize(
     "filename",
-    ["../secret.png", "/etc/passwd", "sub/dir/featured.png", "..", "."],
+    ["../secret.png", "/etc/passwd", "sub/dir/featured.png", "..", ".", "bad\x00.png", " featured.png", "featured.png "],
 )
 def test_malformed_override_image_filename_path_traversal(tmp_path, content_dir, filename):
     make_bundle(content_dir, "hal-00000001")
@@ -331,3 +331,15 @@ def test_bundle_without_override_is_reported_not_failed(tmp_path, content_dir, c
     assert exit_code == 0
     assert "hal-00000002" in output
     assert "Active bundles with no override (not an error)" in output
+
+
+def test_unreadable_bundle_front_matter_is_reported_and_fails(tmp_path, content_dir, capsys):
+    index_path = make_bundle(content_dir, "hal-00000001", text="not a front matter file at all\n")
+    overrides_path = write_overrides(tmp_path, {"hal-00000001": {"featured": True}})
+
+    exit_code = run(overrides_path, content_dir)
+    output = capsys.readouterr().out
+
+    assert exit_code != 0
+    assert "Unreadable bundle front matter" in output
+    assert index_path.read_text(encoding="utf-8") == "not a front matter file at all\n"

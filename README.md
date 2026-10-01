@@ -119,10 +119,24 @@ appended, without duplicating identical `(type, url)` pairs. An explicit
 `featured: false` is preserved so a stale `true` does not persist across
 regenerations. Unknown HAL IDs and malformed override entries are treated as
 validation errors (non-zero exit status) so stale overrides cannot silently
-accumulate. Run the script's tests with:
+accumulate.
+
+Python tooling in this repository is managed with [uv](https://docs.astral.sh/uv/):
 
 ```bash
-python3 -m pytest tests/test_apply_publication_overrides.py
+# Install/update Python dependencies for tooling and tests
+uv sync --dev
+
+# Validate overrides without writing files
+uv run python scripts/apply_publication_overrides.py --check
+
+# Apply overrides
+uv run python scripts/apply_publication_overrides.py \
+  --overrides data/publication_overrides.yml \
+  --content-dir content/en/publication
+
+# Run tests
+uv run pytest -q
 ```
 
 ## Deployment

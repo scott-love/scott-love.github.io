@@ -114,7 +114,7 @@ def write_front_matter(path: Path, data: "OrderedDict", body: str) -> None:
         allow_unicode=True,
         default_flow_style=False,
         sort_keys=False,
-        width=1000,
+        width=100000,
     ).strip()
     content = f"---\n{front_matter}\n---"
     if body:
@@ -135,55 +135,58 @@ def discover_bundles(content_dir: Path) -> "OrderedDict[str, Path]":
     return bundles
 
 
+def _require(condition: bool, hal_id: str, message: str) -> None:
+    if not condition:
+        raise OverrideError(f"{hal_id}: {message}")
+
+
+def _require_non_empty_str(value: object, hal_id: str, field_label: str) -> None:
+    _require(isinstance(value, str) and bool(value), hal_id, f"'{field_label}' must be a non-empty string")
+
+
+def _require_no_unknown_fields(mapping: dict, allowed: set, hal_id: str, field_label: str) -> None:
+    unknown = sorted(set(mapping) - allowed)
+    _require(not unknown, hal_id, f"unknown {field_label} field(s) {unknown}")
+
+
 def validate_override_entry(hal_id: str, entry: object) -> dict:
     """Validate a single override entry. Raises OverrideError if malformed."""
-    if not isinstance(entry, dict):
-        raise OverrideError(f"{hal_id}: override entry must be a mapping, got {type(entry).__name__}")
+    _require(isinstance(entry, dict), hal_id, f"override entry must be a mapping, got {type(entry).__name__}")
 
-    unknown_fields = sorted(set(entry) - set(ALLOWED_OVERRIDE_FIELDS))
-    if unknown_fields:
-        raise OverrideError(
-            f"{hal_id}: unknown override field(s) {unknown_fields}; "
-            f"allowed fields are {list(ALLOWED_OVERRIDE_FIELDS)}"
-        )
+    _require_no_unknown_fields(
+        entry, set(ALLOWED_OVERRIDE_FIELDS), hal_id,
+        f"override; allowed fields are {list(ALLOWED_OVERRIDE_FIELDS)}",
+    )
 
-    if "featured" in entry and not isinstance(entry["featured"], bool):
-        raise OverrideError(f"{hal_id}: 'featured' must be a boolean")
+    if "featured" in entry:
+        _require(isinstance(entry["featured"], bool), hal_id, "'featured' must be a boolean")
 
     if "tags" in entry:
         tags = entry["tags"]
-        if not isinstance(tags, list) or not all(isinstance(tag, str) for tag in tags):
-            raise OverrideError(f"{hal_id}: 'tags' must be a list of strings")
+        _require(
+            isinstance(tags, list) and all(isinstance(tag, str) for tag in tags),
+            hal_id, "'tags' must be a list of strings",
+        )
 
-    if "abstract" in entry and not isinstance(entry["abstract"], str):
-        raise OverrideError(f"{hal_id}: 'abstract' must be a string")
+    if "abstract" in entry:
+        _require(isinstance(entry["abstract"], str), hal_id, "'abstract' must be a string")
 
     if "image" in entry:
         image = entry["image"]
-        if not isinstance(image, dict):
-            raise OverrideError(f"{hal_id}: 'image' must be a mapping")
-        unknown_image_fields = sorted(set(image) - {"filename", "preview_only"})
-        if unknown_image_fields:
-            raise OverrideError(f"{hal_id}: unknown 'image' field(s) {unknown_image_fields}")
-        if "filename" not in image or not isinstance(image["filename"], str) or not image["filename"]:
-            raise OverrideError(f"{hal_id}: 'image.filename' is required and must be a non-empty string")
-        if "preview_only" in image and not isinstance(image["preview_only"], bool):
-            raise OverrideError(f"{hal_id}: 'image.preview_only' must be a boolean")
+        _require(isinstance(image, dict), hal_id, "'image' must be a mapping")
+        _require_no_unknown_fields(image, {"filename", "preview_only"}, hal_id, "'image'")
+        _require_non_empty_str(image.get("filename"), hal_id, "image.filename")
+        if "preview_only" in image:
+            _require(isinstance(image["preview_only"], bool), hal_id, "'image.preview_only' must be a boolean")
 
     if "links" in entry:
         links = entry["links"]
-        if not isinstance(links, list):
-            raise OverrideError(f"{hal_id}: 'links' must be a list")
+        _require(isinstance(links, list), hal_id, "'links' must be a list")
         for link in links:
-            if not isinstance(link, dict):
-                raise OverrideError(f"{hal_id}: each 'links' entry must be a mapping")
-            unknown_link_fields = sorted(set(link) - {"type", "url"})
-            if unknown_link_fields:
-                raise OverrideError(f"{hal_id}: unknown link field(s) {unknown_link_fields}")
-            if not link.get("type") or not isinstance(link["type"], str):
-                raise OverrideError(f"{hal_id}: each link requires a non-empty string 'type'")
-            if not link.get("url") or not isinstance(link["url"], str):
-                raise OverrideError(f"{hal_id}: each link requires a non-empty string 'url'")
+            _require(isinstance(link, dict), hal_id, "each 'links' entry must be a mapping")
+            _require_no_unknown_fields(link, {"type", "url"}, hal_id, "link")
+            _require_non_empty_str(link.get("type"), hal_id, "link.type")
+            _require_non_empty_str(link.get("url"), hal_id, "link.url")
 
     return entry
 
@@ -323,7 +326,12 @@ def main(argv=None) -> int:
     print(f"Overrides file: {overrides_path}")
     print(f"Content directory: {content_dir}")
     print(f"Active bundles discovered: {len(bundles)}")
-    print(f"Override entries: {len(overrides) + len(malformed_errors)}")
+    total_entries = len(overrides) + len(malformed_errors)
+    print(
+        f"Override entries: {total_entries} total "
+        f"({len(applicable_hal_ids)} applicable, {len(unknown_hal_ids)} unknown HAL ID, "
+        f"{len(malformed_errors)} malformed)"
+    )
     print()
 
     verb = "Would apply" if args.check else "Applied"

@@ -103,11 +103,22 @@ def parse_args(argv=None) -> argparse.Namespace:
     return parser.parse_args(argv)
 
 
+FRONT_MATTER_DELIMITER = re.compile(r"^---[ \t]*\r?\n", re.MULTILINE)
+
+
 def read_front_matter(path: Path) -> tuple[dict, str]:
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---\n"):
         raise ValueError(f"{path} does not contain recognized front matter")
-    _, fm, body = text.split("---\n", 2)
+    # Split on the closing "---" delimiter line rather than the first
+    # occurrence of the literal substring "---\n", so a multi-line field
+    # value (e.g. an abstract) that happens to contain that substring mid-text
+    # cannot be mistaken for the end of the front matter block.
+    match = FRONT_MATTER_DELIMITER.search(text, 4)
+    if not match:
+        raise ValueError(f"{path} front matter is not terminated with a '---' line")
+    fm = text[4:match.start()]
+    body = text[match.end():]
     data = yaml.safe_load(fm) or {}
     return data, body
 

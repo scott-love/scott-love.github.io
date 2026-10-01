@@ -203,6 +203,33 @@ def test_malformed_override_unknown_field(tmp_path, content_dir):
     assert exit_code != 0
 
 
+def test_malformed_override_entry_not_a_mapping(tmp_path, content_dir):
+    make_bundle(content_dir, "hal-00000001")
+    overrides_path = write_overrides(tmp_path, {"hal-00000001": "not-a-mapping"})
+
+    exit_code = run(overrides_path, content_dir)
+
+    assert exit_code != 0
+
+
+def test_abstract_containing_front_matter_delimiter_does_not_corrupt_parsing(tmp_path, content_dir):
+    bundle_text = CANONICAL_BUNDLE.replace(
+        "publication: Example Journal\n",
+        "publication: Example Journal\n"
+        "abstract: \"A summary with a line that looks like a delimiter:\\n---\\nmore text after it.\"\n",
+    )
+    index_path = make_bundle(content_dir, "hal-00000001", text=bundle_text)
+    overrides_path = write_overrides(tmp_path, {"hal-00000001": {"featured": True}})
+
+    exit_code = run(overrides_path, content_dir)
+
+    assert exit_code == 0
+    data = read_result(index_path)
+    assert data["featured"] is True
+    assert "looks like a delimiter" in data["abstract"]
+    assert data["title"] == "Example Publication Title"
+
+
 def test_malformed_override_image_missing_filename(tmp_path, content_dir):
     make_bundle(content_dir, "hal-00000001")
     overrides_path = write_overrides(

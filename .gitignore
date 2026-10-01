@@ -1,13 +1,10 @@
-**/.DS_Store
-public/
+.DS_Store
+node_modules/
 
 # Hugo generated resources
 resources/_gen/
 hugo_stats.json
 
 # Python cache files
-**/__pycache__/
+__pycache__/
 *.py[cod]
-
-_vendor
-node_modules/

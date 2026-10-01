@@ -32,6 +32,7 @@ with no override entry are reported, but are not an error.
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from collections import OrderedDict
 from pathlib import Path
@@ -39,6 +40,10 @@ from pathlib import Path
 import yaml
 
 ALLOWED_OVERRIDE_FIELDS = ("featured", "tags", "abstract", "image", "links")
+
+# HAL IDs look like `hal-01432430`; this matches the bundle directory naming
+# convention used under content/en/publication/hal-*/.
+HAL_ID_PATTERN = re.compile(r"hal-\d+")
 
 # Canonical front-matter field order used when writing bundles back out, so
 # output is deterministic regardless of input key order. Fields not listed
@@ -152,13 +157,16 @@ def _require_no_unknown_fields(mapping: dict, allowed: set, hal_id: str, field_l
 def _is_safe_bundle_filename(filename: str) -> bool:
     """Reject anything but a plain file name (no directory components, no
     absolute paths, no '..' traversal) so an override cannot reference a file
-    outside its own bundle directory."""
+    outside its own bundle directory.
+
+    Checked explicitly by character rather than via `pathlib`, since
+    `pathlib.Path` only recognizes '/' as a separator on POSIX systems and
+    would otherwise accept a string containing a literal '\\' as a single
+    path component.
+    """
     if not filename or filename in (".", ".."):
         return False
-    path = Path(filename)
-    if path.is_absolute() or path.name != filename:
-        return False
-    return ".." not in path.parts
+    return "/" not in filename and "\\" not in filename
 
 
 def validate_override_entry(hal_id: str, entry: object) -> dict:
@@ -227,6 +235,12 @@ def load_overrides(path: Path) -> tuple["OrderedDict[str, dict]", list[str]]:
     valid: "OrderedDict[str, dict]" = OrderedDict()
     errors: list[str] = []
     for hal_id, entry in raw.items():
+        if not isinstance(hal_id, str) or not HAL_ID_PATTERN.fullmatch(hal_id):
+            errors.append(
+                f"{hal_id!r}: override key must be a string matching 'hal-<digits>' "
+                "(YAML may have parsed it as a non-string type, e.g. a date or number)"
+            )
+            continue
         try:
             valid[hal_id] = validate_override_entry(hal_id, entry)
         except OverrideError as exc:

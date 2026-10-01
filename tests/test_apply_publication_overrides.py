@@ -180,6 +180,17 @@ def test_malformed_override_is_reported_and_fails(tmp_path, content_dir, capsys)
     assert "featured" not in data
 
 
+def test_invalid_override_key_is_rejected(tmp_path, content_dir):
+    make_bundle(content_dir, "hal-00000001")
+    # A bare, unquoted date-like key parses as a YAML date, not a string.
+    overrides_path = tmp_path / "publication_overrides.yml"
+    overrides_path.write_text("2020-01-01:\n  featured: true\n", encoding="utf-8")
+
+    exit_code = run(overrides_path, content_dir)
+
+    assert exit_code != 0
+
+
 def test_malformed_override_unknown_field(tmp_path, content_dir):
     make_bundle(content_dir, "hal-00000001")
     overrides_path = write_overrides(

@@ -1,6 +1,6 @@
 # Academic Data Flow Specification
 
-**Status:** Phase 1 design draft  
+**Status:** Phase 1 implemented for publications and editorial overrides  
 **Last updated:** October 1, 2026  
 **Source repository:** `scott-love/academic-cv`  
 **Website repository:** `scott-love/scott-love.github.io`  
@@ -10,7 +10,7 @@
 
 This document defines how canonical academic data is transformed into CV outputs and HugoBlox website content while preserving website-specific editorial decisions.
 
-The immediate integration target is publication data. The existing `academic-cv` repository already maintains structured academic data and refreshes publications from HAL. The HugoBlox website should consume that canonical data rather than maintain a second independent publication-ingestion pipeline.
+The immediate integration target is publication data. The existing `academic-cv` repository already maintains structured academic data and refreshes publications from HAL. The HugoBlox website should consume deterministic publication exports while retaining editorial control over presentation.
 
 ## Design principles
 
@@ -143,7 +143,7 @@ content/en/publication/hal-05687484/index.md
 content/en/publication/hal-05677734/index.md
 ```
 
-The exporter should create the complete active publication collection from `academic-cv` data rather than attempt to match each existing author/year bundle. Existing website publication bundles may be archived during the transition and can be removed after the regenerated collection has been reviewed.
+The exporter should create the complete active publication collection from `academic-cv` data rather than attempt to match each existing author/year bundle. Existing website publication bundles may be archived for rollback and reference during the first migration.
 
 A generated record should have a shape similar to:
 
@@ -282,21 +282,21 @@ hal-05689674:
 
 The open location question is resolved: overrides live in `scott-love/scott-love.github.io` (not `academic-cv`) because these values describe website presentation rather than academic facts.
 
-`scripts/apply_publication_overrides.py` discovers active bundles under `content/en/publication/hal-*/index.md`, validates the override file, and merges only the editorial allowlist (`featured`, `tags`, `abstract`, `image`, `links`) into each bundle's front matter, leaving canonical fields (`title`, `authors`, `date`, `publication_types`, `publication`, `hugoblox.ids.*`, canonical HAL links) untouched. Canonical HAL links are preserved and editorial links are appended without duplicating identical `(type, url)` pairs; an explicit `featured: false` is preserved so stale `true` values do not persist. The script is idempotent and supports:
+`scripts/apply_publication_overrides.py` discovers active bundles under `content/en/publication/hal-*/index.md`, validates the override file, and merges only the editorial allowlist (`featured`, `tags`, `abstract`, `image`, `links`) into front matter. Canonical bibliographic fields remain untouched.
 
 ```bash
-python scripts/apply_publication_overrides.py \
+uv run python scripts/apply_publication_overrides.py \
   --overrides data/publication_overrides.yml \
   --content-dir content/en/publication
 
-python scripts/apply_publication_overrides.py --check   # validate/report only
+uv run python scripts/apply_publication_overrides.py --check   # validate/report only
 ```
 
-Unknown HAL IDs (override keys with no matching active bundle) and malformed override entries are treated as validation errors with a non-zero exit status, so stale or typo'd overrides cannot silently accumulate. Active bundles without an override entry are reported but do not fail validation.
+Unknown HAL IDs (override keys with no matching active bundle) and malformed override entries are treated as validation errors with a non-zero exit status, so stale or typo'd overrides cannot silently accumulate.
 
-The initial override data was populated from real values recoverable from the pre-migration archived bundles (`content/en/publication_archive_pre_hal_migration/`), matched to regenerated `hal-*` bundles by DOI; no abstracts, images, or links were invented, and publications without a confidently matched archived record are simply absent from the override file.
+The initial override data was populated from real values recoverable from the pre-migration archived bundles (`content/en/publication_archive_pre_hal_migration/`), matched to regenerated `hal-*` records by canonical identifier.
 
-Note on scope: many active bundles only carry a January 1 year-level date fallback (see "Open decision" #4 above); this editorial override layer does not attempt to resolve or improve date precision, which remains a separate, unresolved `academic-cv` exporter concern.
+Note on scope: many active bundles only carry a January 1 year-level date fallback (see "Open decision" #3 below); this editorial override layer does not attempt to resolve or improve date precision.
 
 The transformation precedence is:
 
@@ -442,7 +442,7 @@ This is the recommended first integration model. It keeps repositories separate 
 
 ### Option B: published versioned data artifact
 
-`academic-cv` could publish a versioned JSON or archive artifact, and the website workflow could consume a selected version. This provides a clean dependency boundary but adds artifact versioning and update-management work.
+`academic-cv` could publish a versioned JSON or archive artifact, and the website workflow could consume a selected version. This provides a clean dependency boundary but adds artifact versioning and compatibility management overhead.
 
 ### Option C: unified repository
 
@@ -455,7 +455,7 @@ canonical academic data change
         +--> deploy website
 ```
 
-A unified repository may ultimately be the most convenient design because every canonical CV update can produce an atomic website update. It should be reconsidered after the exporter, override model, and validation rules are proven.
+A unified repository may ultimately be the most convenient design because every canonical CV update can produce an atomic website update. It should be reconsidered after the exporter, override model, and cross-repository flow are proven.
 
 ## Initial recommendation
 
@@ -509,13 +509,12 @@ The repository merge decision should be revisited after a successful publication
 ## Open decisions
 
 1. Should generated content be committed to the website repository or consumed as a versioned artifact?
-2. Where should website editorial overrides live?
-3. Should generated content include English only initially, or generate English and French structures together?
-4. What date fallback should be used when HAL exposes only a year?
-5. Which source categories should map to `article`, `misc`, or custom HugoBlox publication types?
-6. Should abstracts be added to `publications.json` before website export?
-7. Should the website retain selected PDFs and images through overrides, or should those assets move into a separate website media area?
-8. After the first end-to-end publication update, should the two repositories be merged?
+2. Should generated content include English only initially, or generate English and French structures together?
+3. What date fallback should be used when HAL exposes only a year?
+4. Which source categories should map to `article`, `misc`, or custom HugoBlox publication types?
+5. Should abstracts be added to `publications.json` before website export?
+6. Should the website retain selected PDFs and images through overrides, or should those assets move into a separate website media area?
+7. After the first end-to-end publication update, should the two repositories be merged?
 
 ## Risks and mitigations
 

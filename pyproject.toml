@@ -1,7 +1,7 @@
 [project]
 name = "scott-love-site-tools"
 version = "0.1.0"
-description = "Add your description here"
+description = "Utility scripts and tests for publication override and Hugo content validation"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

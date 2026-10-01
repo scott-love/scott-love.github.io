@@ -149,6 +149,18 @@ def _require_no_unknown_fields(mapping: dict, allowed: set, hal_id: str, field_l
     _require(not unknown, hal_id, f"unknown {field_label} field(s) {unknown}")
 
 
+def _is_safe_bundle_filename(filename: str) -> bool:
+    """Reject anything but a plain file name (no directory components, no
+    absolute paths, no '..' traversal) so an override cannot reference a file
+    outside its own bundle directory."""
+    if not filename or filename in (".", ".."):
+        return False
+    path = Path(filename)
+    if path.is_absolute() or path.name != filename:
+        return False
+    return ".." not in path.parts
+
+
 def validate_override_entry(hal_id: str, entry: object) -> dict:
     """Validate a single override entry. Raises OverrideError if malformed."""
     _require(isinstance(entry, dict), hal_id, f"override entry must be a mapping, got {type(entry).__name__}")
@@ -176,6 +188,13 @@ def validate_override_entry(hal_id: str, entry: object) -> dict:
         _require(isinstance(image, dict), hal_id, "'image' must be a mapping")
         _require_no_unknown_fields(image, {"filename", "preview_only"}, hal_id, "'image'")
         _require_non_empty_str(image.get("filename"), hal_id, "image.filename")
+        if isinstance(image.get("filename"), str):
+            _require(
+                _is_safe_bundle_filename(image["filename"]),
+                hal_id,
+                "'image.filename' must be a plain file name within the bundle directory "
+                "(no path separators or '..' segments)",
+            )
         if "preview_only" in image:
             _require(isinstance(image["preview_only"], bool), hal_id, "'image.preview_only' must be a boolean")
 
@@ -370,6 +389,10 @@ def main(argv=None) -> int:
         print()
         print("--check: files were not modified.")
 
+    # Only unknown HAL IDs and malformed override entries are blocking
+    # validation errors. `missing_image_warnings` (reported above) is
+    # intentionally excluded from this decision: it is informational only
+    # and never affects the exit code.
     if malformed_errors or unknown_hal_ids:
         return 1
     return 0

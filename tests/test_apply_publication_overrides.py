@@ -204,6 +204,22 @@ def test_malformed_override_image_missing_filename(tmp_path, content_dir):
     assert exit_code != 0
 
 
+@pytest.mark.parametrize(
+    "filename",
+    ["../secret.png", "/etc/passwd", "sub/dir/featured.png", "..", "."],
+)
+def test_malformed_override_image_filename_path_traversal(tmp_path, content_dir, filename):
+    make_bundle(content_dir, "hal-00000001")
+    overrides_path = write_overrides(
+        tmp_path,
+        {"hal-00000001": {"image": {"filename": filename}}},
+    )
+
+    exit_code = run(overrides_path, content_dir)
+
+    assert exit_code != 0
+
+
 def test_missing_image_file_warns_but_does_not_fail(tmp_path, content_dir, capsys):
     index_path = make_bundle(content_dir, "hal-00000001")
     overrides_path = write_overrides(

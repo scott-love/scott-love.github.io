@@ -26,10 +26,13 @@ jobs:
           node-version: '20'
 
       - name: Install Tailwind CSS
-        run: npm install -g tailwindcss
+        run: |
+          npm install -g tailwindcss
+          which tailwindcss
+          tailwindcss --version
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.165.0'
           extended: true

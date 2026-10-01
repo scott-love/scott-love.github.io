@@ -158,11 +158,24 @@ Phase 1 investigates how structured information from `scott-love/academic-cv` sh
 
 ### Phase 1 Deliverables
 
-- [ ] Data Flow Specification: `docs/data-flow-specification.md`
-- [ ] Source-to-HugoBlox field mapping
-- [ ] Proposed publication/profile schema
+- [x] Data Flow Specification: `docs/data-flow-specification.md`
+- [x] Source-to-HugoBlox field mapping (implemented in `academic-cv`'s
+      `scripts/generate_hugo_content.py`)
+- [x] Proposed publication/profile schema
 - [ ] Inventory of automation candidates
 - [ ] List of unresolved design decisions
+
+### Phase 1 Progress: Publication Migration
+
+- [x] Archive legacy author/year publication bundles to
+      `content/en/publication_archive_pre_hal_migration/` (27 bundles)
+- [x] Exclude the archive from the Hugo build
+      (`build: {render: never, list: never}`)
+- [x] Generate and import HAL-based bundles into `content/en/publication/`
+      (111 bundles, from `academic-cv` PR #24)
+- [x] Validate the Hugo build succeeds
+- [x] Confirm homepage featured/recent publication collection blocks render
+- [ ] Re-apply website-specific editorial overrides (featured/tags/images)
 
 ---
 

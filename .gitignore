@@ -8,3 +8,7 @@ hugo_stats.json
 # Python cache files
 __pycache__/
 *.py[cod]
+
+# Local/generated Hugo directories
+public/
+_vendor/

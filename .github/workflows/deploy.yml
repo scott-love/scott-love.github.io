@@ -23,13 +23,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '18'
 
       - name: Install Tailwind CSS CLI
         run: |
           npm install -g tailwindcss @tailwindcss/cli
           which tailwindcss
-          tailwindcss --help
+          tailwindcss --version
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3

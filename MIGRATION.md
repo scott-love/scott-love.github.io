@@ -56,6 +56,24 @@ Deliverables:
 - A mapping of source fields to HugoBlox fields.
 - Identified integration points and open decisions.
 
+### Phase 1 progress: initial publication migration
+
+The `academic-cv` publication exporter (`scripts/generate_hugo_content.py`,
+merged in `scott-love/academic-cv#24`) now produces HAL-identified Hugo
+publication bundles. This repository has completed the first integration
+pass:
+
+- Legacy author/year publication bundles were archived (not deleted) under
+  `content/en/publication_archive_pre_hal_migration/`, excluded from the
+  Hugo build via `build: {render: never, list: never}`.
+- The active `content/en/publication/` collection was repopulated with
+  HAL-based generated bundles (`hal-<id>/index.md`) produced by the
+  exporter from `academic-cv`'s `data/publications.json`.
+- The Hugo build was validated locally and the homepage's featured/recent
+  publication collection blocks continue to resolve without config changes.
+- Editorial overrides (featured flags, tags, images, custom abstracts) were
+  intentionally not re-applied in this pass and remain a follow-up task.
+
 ## Deployment architecture
 
 The production flow is now:

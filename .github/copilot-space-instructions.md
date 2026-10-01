@@ -1,51 +1,167 @@
-# GitHub Copilot Space Instructions: HugoBlox Migration (Phase 0)
+# Copilot Space Instructions — scott-love/scott-love.github.io
 
 ## Purpose
-This Copilot Space is dedicated to guiding the modernization of `scott-love/personal-site` from legacy Wowchemy (EOL Nov 2020) to HugoBlox (actively maintained 2024+).
+
+This Space supports modernization and ongoing development of Scott Love’s HugoBlox website, with a focus on maintaining a reliable data pipeline from canonical academic records to website content.
 
 ---
 
-## Context Summary
+## Repository and Branch Truth
 
-### Current Stack (Outdated)
-- **Hugo**: 0.78.2 (November 2020, unsupported)
-- **Go**: 1.15 (unsupported, security vulnerabilities)
-- **Theme**: Wowchemy modules (end-of-life)
-- **Deployment**: Netlify (legacy config)
-- **CSS**: Bootstrap
+- **Primary active repository:** `scott-love/scott-love.github.io`
+- **Archived repository (do not use for new work):** `scott-love/personal-site`
+- **Production branch / source of truth:** `master`
+- **Deployment target:** GitHub Pages via GitHub Actions
+- **Deployment workflow:** `.github/workflows/deploy.yml`
 
-### Target Stack (Modern)
-- **Hugo**: 0.165.0+ (2024+, current stable)
-- **Go**: 1.23+ (current stable, LTS)
-- **Theme**: HugoBlox v5.x (actively maintained)
-- **Deployment**: GitHub Pages + GitHub Actions
-- **CSS**: Tailwind CSS
-
-### Critical Constraints
-1. **ALL work must stay in branch**: `migrate/hugoblox`
-   - Do NOT commit to `master` during migration
-   - `master` remains stable and deployable
-   - Rollback to `backup/2026-09-09-master` if critical issues arise
-
-2. **Backup branch exists**: `backup/2026-09-09-master`
-   - Local-only backup (do NOT push to remote)
-   - Can be used for full rollback if needed
-
-3. **Branch protection**: GitHub Pages currently deploys from `master`
-   - Until TASK-13/14 complete, live site remains unchanged
-   - Staging site available at `gh-pages` branch (when ready)
+Assume all new work targets `master` directly or via PRs into `master`.
 
 ---
 
-## How to Use This Space
+## Current Program Status
 
-### Task Tracking
-All migration work is tracked in GitHub Issues #1-22:
-- **Issue #1**: EPIC: Phase 0 - Stack Modernization (parent issue)
-- **Issues #2-23**: Individual tasks (TASK-1 through TASK-22)
+- **Phase 0 (HugoBlox migration):** Complete and deployed.
+- **Phase 1 (Data Pipeline Discovery):** Publications path implemented (HAL-based publication bundles + editorial override system); broader pipeline design documented.
+- **Phase 2 (Implementation backlog):** Defined; execution in progress/planned (automation from `academic-cv` to reviewable website PRs with CI safety gates).
 
-**View the issue tree**: https://github.com/scott-love/personal-site/issues/1
+---
 
+## Data Ownership and System Boundaries
+
+### Canonical academic data source
+- Repository: `scott-love/academic-cv`
+- Canonical bibliographic/publication facts originate there.
+
+### Website presentation source
+- Repository: `scott-love/scott-love.github.io`
+- Website-specific editorial/presentation data lives here.
+
+### Ownership rule
+- `academic-cv` owns canonical facts (title, authors, venue, identifiers, etc.).
+- Website repo owns editorial fields (e.g., featured flags, tags, images, curated links, display-oriented abstract text where applicable).
+
+Do not move website editorial ownership into `academic-cv` unless explicitly decided in a future architecture change.
+
+---
+
+## Publications Model (Current)
+
+Active publication bundles use HAL-based identifiers under:
+
+- `content/en/publication/hal-*/index.md`
+
+Legacy pre-migration bundles are retained only for reference under:
+
+- `content/en/publication_archive_pre_hal_migration/`
+
+Archive content must remain excluded from active rendering/build outputs.
+
+---
+
+## Editorial Override System (Current)
+
+Override files and tooling in website repo:
+
+- `data/publication_overrides.yml`
+- `scripts/apply_publication_overrides.py`
+- `tests/test_apply_publication_overrides.py`
+
+Expected behavior:
+
+1. Canonical publication content is generated from `academic-cv`.
+2. Website editorial overrides are applied afterward.
+3. Only editorial allowlist fields are overridden (not canonical bibliographic fields).
+4. Unknown HAL IDs and malformed override entries should fail validation.
+5. `--check` mode is used for validation/reporting in CI and local checks.
+6. Override application should be idempotent.
+
+---
+
+## Tooling Standards
+
+Python tooling in this repository uses `uv`.
+
+Use:
+
+- `uv sync --dev`
+- `uv run python scripts/apply_publication_overrides.py --check`
+- `uv run python scripts/apply_publication_overrides.py --overrides data/publication_overrides.yml --content-dir content/en/publication`
+- `uv run pytest -q`
+
+Site build commands:
+
+- `npm ci`
+- `hugo server -D` (local dev)
+- `hugo --gc --minify` (production-style validation)
+
+---
+
+## Phase 2 Direction (Implementation Guidance)
+
+Target path: **academic-cv change → generated publication artifact or equivalent handoff → reviewable PR in website repo → CI validation → merge to master**.
+
+Key requirements for implementation:
+
+1. Deterministic generated output.
+2. Clear diff visibility (added/updated/removed HAL IDs).
+3. CI gates for:
+   - override validation/idempotence
+   - tests
+   - Hugo build
+4. Guardrails around destructive removals.
+5. Operational docs: approval policy, rollback, refresh cadence.
+
+---
+
+## Copilot Behavior Requirements in This Space
+
+1. Prefer repository-grounded answers over generic advice.
+2. Preserve established architecture decisions unless user asks to revisit them.
+3. For docs/process changes, keep terminology consistent with:
+   - `master` as production branch
+   - single active repo model
+   - `academic-cv` canonical data ownership
+4. When proposing changes, include concrete file paths and command examples.
+5. Avoid introducing alternate pipelines unless explicitly requested.
+
+---
+
+## Token and Response Efficiency Guidance
+
+When assisting in this Space, **minimize token usage when possible** while preserving accuracy:
+
+1. Default to concise answers.
+2. Use bullet points and short checklists over long prose.
+3. Provide diffs or targeted snippets instead of repeating full files unless asked.
+4. Avoid re-explaining already agreed decisions.
+5. If a task is repetitive (e.g., issue templates), provide compact reusable patterns.
+6. For large outputs, offer:
+   - a short summary first
+   - full expanded content only on request
+
+Be brief-by-default, detailed-on-demand.
+
+---
+
+## Preferred Output Style for Repo Changes
+
+- If asked for file edits, provide either:
+  - a minimal unified diff, or
+  - complete replacement content when explicitly requested.
+- Keep commit messages short and action-oriented.
+- Keep issue titles prefixed with `[Phase 2]` for Phase 2 tracking work.
+
+---
+
+## Safety and Validation
+
+Before recommending merge/deploy steps, verify:
+
+- commands align with current repo tooling (`uv`, Hugo, npm),
+- paths exist and match current structure,
+- proposed automation does not bypass review/CI safeguards.
+
+If uncertain, state uncertainty explicitly and suggest the smallest safe validation step.
 ### When Working on a Task
 1. **Read the full issue** before starting
 2. **Check the checklist** in the issue description

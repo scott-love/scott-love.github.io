@@ -172,10 +172,21 @@ Phase 1 investigates how structured information from `scott-love/academic-cv` sh
 - [x] Exclude the archive from the Hugo build
       (`build: {render: never, list: never}`)
 - [x] Generate and import HAL-based bundles into `content/en/publication/`
-      (111 bundles, from `academic-cv` PR #24)
+      (30 active journal-article bundles, from `academic-cv`'s journal-only
+      exporter policy; 81 non-journal records — conference presentations,
+      posters, preprints, book chapters, and other contributions — are
+      excluded by design)
 - [x] Validate the Hugo build succeeds
 - [x] Confirm homepage featured/recent publication collection blocks render
-- [ ] Re-apply website-specific editorial overrides (featured/tags/images)
+- [x] Re-apply website-specific editorial overrides (featured/tags/images)
+      via `data/publication_overrides.yml` and
+      `scripts/apply_publication_overrides.py` — 22 of the 30 active bundles
+      have overrides recovered from the pre-migration archive; 8 bundles
+      (all added after the journal-only refresh) have no matching archived
+      editorial data yet and remain a follow-up item. Note: many records
+      only carry a year-level date fallback (January 1); date precision is a
+      separate, unresolved `academic-cv` exporter concern, not addressed by
+      the override layer.
 
 ---
 
@@ -223,6 +234,10 @@ hugo --gc --minify
 
 # Validate migrated content when relevant
 python scripts/migrate_content_frontmatter.py --root . --check
+
+# Apply/validate website editorial overrides for publications
+python scripts/apply_publication_overrides.py --check
+python3 -m pytest tests/test_apply_publication_overrides.py
 
 # Production deployment
 # Push to master; GitHub Actions deploys automatically

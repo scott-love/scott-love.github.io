@@ -254,7 +254,15 @@ The generated-content process must not overwrite editorial fields unintentionall
 
 ## Editorial overrides
 
-Editorial overrides should be maintained separately from generated canonical publication content and keyed by stable identifier. A proposed format is:
+**Status: implemented.** Editorial overrides are maintained separately from generated canonical publication content, keyed by HAL ID, in this website repository:
+
+```text
+data/publication_overrides.yml
+scripts/apply_publication_overrides.py
+tests/test_apply_publication_overrides.py
+```
+
+The override file's documented schema (see its header comment for the full, authoritative version) is:
 
 ```yaml
 hal-05689674:
@@ -263,6 +271,7 @@ hal-05689674:
     - mri
     - brain
     - baboon
+  abstract: "Optional website-specific summary or abstract."
   image:
     filename: featured.png
     preview_only: true
@@ -271,7 +280,23 @@ hal-05689674:
       url: "https://example.org/article.pdf"
 ```
 
-The final location of this file is an open design decision. It may live in the website repository, the academic-cv repository, or a dedicated generated-content configuration area. The preferred initial location is the website repository because these values describe website presentation rather than academic facts.
+The open location question is resolved: overrides live in `scott-love/scott-love.github.io` (not `academic-cv`) because these values describe website presentation rather than academic facts.
+
+`scripts/apply_publication_overrides.py` discovers active bundles under `content/en/publication/hal-*/index.md`, validates the override file, and merges only the editorial allowlist (`featured`, `tags`, `abstract`, `image`, `links`) into each bundle's front matter, leaving canonical fields (`title`, `authors`, `date`, `publication_types`, `publication`, `hugoblox.ids.*`, canonical HAL links) untouched. Canonical HAL links are preserved and editorial links are appended without duplicating identical `(type, url)` pairs; an explicit `featured: false` is preserved so stale `true` values do not persist. The script is idempotent and supports:
+
+```bash
+python scripts/apply_publication_overrides.py \
+  --overrides data/publication_overrides.yml \
+  --content-dir content/en/publication
+
+python scripts/apply_publication_overrides.py --check   # validate/report only
+```
+
+Unknown HAL IDs (override keys with no matching active bundle) and malformed override entries are treated as validation errors with a non-zero exit status, so stale or typo'd overrides cannot silently accumulate. Active bundles without an override entry are reported but do not fail validation.
+
+The initial override data was populated from real values recoverable from the pre-migration archived bundles (`content/en/publication_archive_pre_hal_migration/`), matched to regenerated `hal-*` bundles by DOI; no abstracts, images, or links were invented, and publications without a confidently matched archived record are simply absent from the override file.
+
+Note on scope: many active bundles only carry a January 1 year-level date fallback (see "Open decision" #4 above); this editorial override layer does not attempt to resolve or improve date precision, which remains a separate, unresolved `academic-cv` exporter concern.
 
 The transformation precedence is:
 
@@ -280,9 +305,9 @@ canonical academic-cv record
         |
         +--> normalization and Hugo mapping
                 |
-                +--> website editorial overrides
+                +--> website editorial overrides (data/publication_overrides.yml)
                         |
-                        +--> generated Hugo bundle
+                        +--> generated Hugo bundle (content/en/publication/hal-*/index.md)
 ```
 
 ## Existing publication content during regeneration
@@ -467,11 +492,11 @@ The repository merge decision should be revisited after a successful publication
 
 ### Phase 3: website integration
 
-- [ ] Add website editorial override storage.
-- [ ] Archive the existing active publication bundles.
-- [ ] Generate the new `hal-*` publication collection.
-- [ ] Build and inspect the website locally and in Actions.
-- [ ] Review links, dates, authors, publication filters, and layout.
+- [x] Add website editorial override storage (`data/publication_overrides.yml`, `scripts/apply_publication_overrides.py`).
+- [x] Archive the existing active publication bundles.
+- [x] Generate the new `hal-*` publication collection.
+- [x] Build and inspect the website locally and in Actions.
+- [x] Review links, dates, authors, publication filters, and layout.
 - [ ] Remove the temporary archive after acceptance.
 
 ### Phase 4: cross-repository automation

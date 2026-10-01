@@ -108,16 +108,21 @@ FRONT_MATTER_DELIMITER = re.compile(r"^---[ \t]*\r?\n", re.MULTILINE)
 
 def read_front_matter(path: Path) -> tuple[dict, str]:
     text = path.read_text(encoding="utf-8")
-    if not text.startswith("---\n"):
+    # Use the same delimiter pattern for the opening line as for the closing
+    # line, so bundles with trailing whitespace or CRLF line endings on the
+    # opening "---" are accepted consistently with how the closing delimiter
+    # is matched below.
+    opening = FRONT_MATTER_DELIMITER.match(text)
+    if not opening:
         raise ValueError(f"{path} does not contain recognized front matter")
     # Split on the closing "---" delimiter line rather than the first
     # occurrence of the literal substring "---\n", so a multi-line field
     # value (e.g. an abstract) that happens to contain that substring mid-text
     # cannot be mistaken for the end of the front matter block.
-    match = FRONT_MATTER_DELIMITER.search(text, 4)
+    match = FRONT_MATTER_DELIMITER.search(text, opening.end())
     if not match:
         raise ValueError(f"{path} front matter is not terminated with a '---' line")
-    fm = text[4:match.start()]
+    fm = text[opening.end():match.start()]
     body = text[match.end():]
     data = yaml.safe_load(fm) or {}
     return data, body
@@ -263,8 +268,14 @@ def load_overrides(path: Path) -> tuple["OrderedDict[str, dict]", list[str]]:
 
 def merge_links(canonical_links: list, override_links: list) -> list:
     """Preserve canonical links and append editorial links, skipping exact
-    (type, url) duplicates."""
-    merged = [OrderedDict([("type", link.get("type")), ("url", link.get("url"))]) for link in canonical_links]
+    (type, url) duplicates.
+
+    Canonical link entries are copied through as-is (preserving any extra
+    keys HAL/HugoBlox may attach beyond ``type``/``url``). Editorial override
+    links are normalized to just ``type``/``url``, since the override schema
+    only documents those two fields.
+    """
+    merged = [OrderedDict(link) for link in canonical_links]
     seen = {(link.get("type"), link.get("url")) for link in canonical_links}
     for link in override_links:
         key = (link.get("type"), link.get("url"))

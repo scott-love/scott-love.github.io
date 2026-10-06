@@ -7,10 +7,14 @@ on:
         description: "Source repo that produced the publication artifact"
         required: true
         default: "scott-love/academic-cv"
-      source_ref:
-        description: "Source branch/tag/SHA to pull artifact from"
+      source_branch:
+        description: "Source branch to search successful workflow runs"
         required: true
-        default: "master"
+        default: "main"
+      source_ref:
+        description: "Source branch/tag/SHA metadata (for PR text later)"
+        required: true
+        default: "main"
 
 permissions:
   contents: write
@@ -27,6 +31,7 @@ jobs:
       - name: Show run inputs
         run: |
           echo "source_repo=${{ inputs.source_repo }}"
+          echo "source_branch=${{ inputs.source_branch }}"
           echo "source_ref=${{ inputs.source_ref }}"
           echo "website_repo=${{ github.repository }}"
           echo "website_ref=${{ github.ref_name }}"
@@ -39,14 +44,14 @@ jobs:
           set -euo pipefail
           RUN_ID="$(gh run list \
             --repo "${{ inputs.source_repo }}" \
-            --branch "${{ inputs.source_ref }}" \
+            --branch "${{ inputs.source_branch }}" \
             --status success \
             --limit 1 \
             --json databaseId \
             --jq '.[0].databaseId')"
 
           if [ -z "${RUN_ID}" ] || [ "${RUN_ID}" = "null" ]; then
-            echo "No successful workflow run found in ${{ inputs.source_repo }} on ref ${{ inputs.source_ref }}"
+            echo "No successful workflow run found in ${{ inputs.source_repo }} on branch ${{ inputs.source_branch }}"
             exit 1
           fi
 

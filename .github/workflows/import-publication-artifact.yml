@@ -149,8 +149,8 @@ jobs:
           set -euo pipefail
 
           SOURCE_RUN_ID="${{ steps.source_run.outputs.run_id }}"
-          IMPORT_BRANCH="${{ steps.commit_push.outputs.import_branch }}"
-
+          IMPORT_BRANCH="bot/import-publications-${SOURCE_RUN_ID}-ghrun-${GITHUB_RUN_ID}"
+          
           NEW_COUNT="$(find content/en/publication -mindepth 2 -maxdepth 2 -name index.md | wc -l | tr -d ' ')"
 
           PR_TITLE="chore(publications): import from ${{ inputs.source_repo }} run ${SOURCE_RUN_ID}"

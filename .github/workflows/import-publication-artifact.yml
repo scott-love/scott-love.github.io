@@ -21,7 +21,12 @@ jobs:
   import-publication-artifact:
     runs-on: ubuntu-latest
     steps:
-      - name: Placeholder
+      - name: Checkout website repo
+        uses: actions/checkout@v4
+
+      - name: Show run inputs
         run: |
-          echo "Manual trigger scaffold is wired."
-          echo "Next step will add artifact download and import."
+          echo "source_repo=${{ inputs.source_repo }}"
+          echo "source_ref=${{ inputs.source_ref }}"
+          echo "website_repo=${{ github.repository }}"
+          echo "website_ref=${{ github.ref_name }}"

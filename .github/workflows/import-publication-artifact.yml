@@ -118,8 +118,8 @@ jobs:
           fi
 
           SOURCE_RUN_ID="${{ steps.source_run.outputs.run_id }}"
-          IMPORT_BRANCH="bot/import-publications-${SOURCE_RUN_ID}"
-
+          IMPORT_BRANCH="bot/import-publications-${SOURCE_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 

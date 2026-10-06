@@ -119,7 +119,7 @@ jobs:
 
           SOURCE_RUN_ID="${{ steps.source_run.outputs.run_id }}"
           IMPORT_BRANCH="bot/import-publications-${SOURCE_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
-          
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -170,3 +170,15 @@ jobs:
           else
             echo "PR already exists for ${IMPORT_BRANCH}; skipping create."
           fi
+
+      - name: Write run summary
+        if: always()
+        run: |
+          {
+            echo "## Publication Import Result"
+            echo "- Source repo: \`${{ inputs.source_repo }}\`"
+            echo "- Source branch: \`${{ inputs.source_branch }}\`"
+            echo "- Source run ID: \`${{ steps.source_run.outputs.run_id }}\`"
+            echo "- Changes detected: \`${{ steps.commit_push.outputs.has_changes }}\`"
+            echo "- Import branch: \`${{ steps.commit_push.outputs.import_branch }}\`"
+          } >> "$GITHUB_STEP_SUMMARY"

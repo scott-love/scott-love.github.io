@@ -65,3 +65,20 @@ jobs:
           set -euo pipefail
           gh api "/repos/${{ inputs.source_repo }}/actions/runs/${{ steps.source_run.outputs.run_id }}/artifacts" \
             --jq '.artifacts[] | "\(.name) (expired=\(.expired), size=\(.size_in_bytes))"'
+
+      - name: Download and extract publication artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p tmp/artifact tmp/extracted
+
+          gh run download "${{ steps.source_run.outputs.run_id }}" \
+            --repo "${{ inputs.source_repo }}" \
+            --name "website-publications-${{ steps.source_run.outputs.run_id }}" \
+            --dir tmp/artifact
+
+          unzip -o tmp/artifact/*.zip -d tmp/extracted
+
+          echo "Extracted files:"
+          find tmp/extracted -type f | sort

@@ -103,3 +103,27 @@ jobs:
 
           echo "Changed files count:"
           git diff --name-only | wc -l
+
+      - name: Commit and push import branch (if changes)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet; then
+            echo "No publication changes to commit."
+            exit 0
+          fi
+
+          SOURCE_RUN_ID="${{ steps.source_run.outputs.run_id }}"
+          IMPORT_BRANCH="bot/import-publications-${SOURCE_RUN_ID}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "${IMPORT_BRANCH}"
+          git add content/en/publication
+          git commit -m "chore(publications): import from ${{ inputs.source_repo }} run ${SOURCE_RUN_ID}"
+          git push origin "${IMPORT_BRANCH}"
+
+          echo "Pushed ${IMPORT_BRANCH}"

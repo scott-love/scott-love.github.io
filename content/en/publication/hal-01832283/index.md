@@ -10,12 +10,6 @@ date: '2018-01-01T00:00:00Z'
 publication_types:
 - article-journal
 publication: Frontiers in Human Neuroscience
-abstract: Multisensory processing is a core perceptual capability, and the need to understand its neural bases provides a fundamental problem in the study of brain function. Both synchrony and temporal order judgments are commonly used to investigate synchrony perception between different sensory cues and multisensory perception in general. However, extensive behavioral evidence indicates that these tasks do not measure identical perceptual processes. Here we used functional magnetic resonance imaging to investigate how behavioral differences between the tasks are instantiated as neural differences. As these neural differences could manifest at either the sustained (task/state-related) and/or transient (event-related) levels of processing, a mixed block/event-related design was used to investigate the neural response of both time-scales. Clear differences in both sustained and transient BOLD responses were observed between the two tasks, consistent with behavioral differences indeed arising from overlapping but divergent neural mechanisms. Temporalorder judgments, butnot synchrony judgments, required transient activation in several left hemisphere regions, which may reflect increased task demands caused by an extra stage of processing. Our results highlight that multisensory integrationmechanisms can be task dependent, which, in particular, has implications for the study of atypical temporal processing in clinical populations.
-tags:
-- fmri
-- audiovisual
-- multisensory
-featured: false
 hugoblox:
   ids:
     hal: hal-01832283
@@ -23,6 +17,4 @@ hugoblox:
 links:
 - type: url
   url: https://hal.science/hal-01832283v1
-- type: pdf
-  url: https://www.frontiersin.org/articles/10.3389/fnhum.2018.00274/pdf
 ---

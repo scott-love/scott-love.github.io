@@ -107,9 +107,15 @@ jobs:
 
           rm -rf tmp
 
-          echo "Git status after safe sync:"
-          git status --short
+      - name: Re-apply website editorial overrides
+        run: |
+          set -euo pipefail
+          python3 scripts/apply_publication_overrides.py
 
+      - name: Git status after import + overrides
+        run: |
+          set -euo pipefail
+          git status --short
           echo "Changed files count:"
           git diff --name-only | wc -l
 
@@ -190,8 +196,3 @@ jobs:
             echo "- Changes detected: \`${{ steps.commit_push.outputs.has_changes }}\`"
             echo "- Import branch: \`${{ steps.commit_push.outputs.import_branch }}\`"
           } >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Re-apply website editorial overrides
-        run: |
-          set -euo pipefail
-          python3 scripts/apply_publication_overrides.py

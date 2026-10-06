@@ -36,22 +36,31 @@ jobs:
           echo "website_repo=${{ github.repository }}"
           echo "website_ref=${{ github.ref_name }}"
 
-      - name: Find latest successful source run
+      - name: Find latest successful source run with artifacts
         id: source_run
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          RUN_ID="$(gh run list \
-            --repo "${{ inputs.source_repo }}" \
-            --branch "${{ inputs.source_branch }}" \
-            --status success \
-            --limit 1 \
-            --json databaseId \
-            --jq '.[0].databaseId')"
 
-          if [ -z "${RUN_ID}" ] || [ "${RUN_ID}" = "null" ]; then
-            echo "No successful workflow run found in ${{ inputs.source_repo }} on branch ${{ inputs.source_branch }}"
+          RUN_ID="$(
+            gh api "/repos/${{ inputs.source_repo }}/actions/runs?branch=${{ inputs.source_branch }}&status=success&per_page=20" \
+              --jq '
+                .workflow_runs[]
+                | select(.artifacts_url != null)
+                | .id
+              ' \
+              | while read -r id; do
+                  count="$(gh api "/repos/${{ inputs.source_repo }}/actions/runs/${id}/artifacts" --jq ".total_count")"
+                  if [ "${count}" -gt 0 ]; then
+                    echo "${id}"
+                    break
+                  fi
+                done
+          )"
+
+          if [ -z "${RUN_ID:-}" ]; then
+            echo "No successful run with artifacts found in ${{ inputs.source_repo }} on branch ${{ inputs.source_branch }}"
             exit 1
           fi
 

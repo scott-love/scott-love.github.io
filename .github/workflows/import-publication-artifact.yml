@@ -113,22 +113,6 @@ jobs:
           echo "Changed files count:"
           git diff --name-only | wc -l
 
-      - name: Debug one HAL before/after overrides
-        run: |
-          set -euo pipefail
-          TARGET="content/en/publication/hal-04559765/index.md"
-
-          echo "=== BEFORE overrides (abstract line search) ==="
-          grep -n "^abstract:" "$TARGET" || true
-
-          python3 scripts/apply_publication_overrides.py
-
-          echo "=== AFTER overrides (abstract line search) ==="
-          grep -n "^abstract:" "$TARGET" || true
-
-          echo "=== DIFF for target file ==="
-          git diff -- "$TARGET" || true
-
       - name: Commit and push import branch (if changes)
         id: commit_push
         env:

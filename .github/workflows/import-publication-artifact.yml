@@ -80,3 +80,20 @@ jobs:
 
           echo "Downloaded artifact files:"
           find tmp/artifact -type f | sort
+
+      - name: Sync publication content from artifact
+        run: |
+          set -euo pipefail
+          SRC="tmp/artifact/build/hugo/content/en/publication/"
+          DST="content/en/publication/"
+
+          test -d "$SRC"
+
+          mkdir -p "$DST"
+          rsync -av --delete "$SRC" "$DST"
+
+          echo "Git status after sync:"
+          git status --short
+
+          echo "Changed files count:"
+          git diff --name-only | wc -l

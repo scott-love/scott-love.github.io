@@ -1,0 +1,27 @@
+name: Import publication artifact
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_repo:
+        description: "Source repo that produced the publication artifact"
+        required: true
+        default: "scott-love/academic-cv"
+      source_ref:
+        description: "Source branch/tag/SHA to pull artifact from"
+        required: true
+        default: "master"
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+
+jobs:
+  import-publication-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: |
+          echo "Manual trigger scaffold is wired."
+          echo "Next step will add artifact download and import."

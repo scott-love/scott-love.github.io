@@ -30,3 +30,10 @@ jobs:
           echo "source_ref=${{ inputs.source_ref }}"
           echo "website_repo=${{ github.repository }}"
           echo "website_ref=${{ github.ref_name }}"
+
+      - name: Verify gh auth
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh --version
+          gh auth status

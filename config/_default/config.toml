@@ -42,7 +42,7 @@ disableAliases = true
   publication_types = "/publication-type/:slug/"
 
 [outputs]
-  home = ["HTML", "RSS", "headers", "redirects"]
+  home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
 
 [markup]

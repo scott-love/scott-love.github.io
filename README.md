@@ -78,8 +78,10 @@ release.
 Review the generated publications, any CV/PDF changes, and the removal guard
 before merging. A merge to `master` triggers `.github/workflows/deploy.yml`,
 which builds and deploys the site to GitHub Pages. The override workflow also
-validates editorial overrides, runs the Python test suites, and builds Hugo
-for relevant pull requests.
+validates editorial overrides and runs the Python test suites for relevant pull
+requests. It also installs npm dependencies, vendors Hugo modules, builds the
+site, and checks that the built CV PDF and publications page are present. This
+PR check does not deploy; deployment remains limited to `deploy.yml`.
 
 ### GitHub Actions setup and checks
 

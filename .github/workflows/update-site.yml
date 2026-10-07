@@ -1,0 +1,137 @@
+name: Update publications and CV
+
+on:
+  schedule:
+    - cron: "0 8 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-site-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-latex-base \
+            texlive-latex-extra \
+            texlive-fonts-extra \
+            texlive-xetex
+
+      - name: Install Python dependencies
+        run: uv sync --dev
+
+      - name: Fetch publications from HAL
+        run: uv run python cv-builder/scripts/fetch_hal.py
+
+      - name: Generate website publication bundles
+        run: |
+          set -euo pipefail
+          uv run python cv-builder/scripts/generate_hugo_content.py \
+            --output tmp/publications
+          mkdir -p content/en/publication
+          rsync -av --delete \
+            --exclude "_index.md" \
+            --exclude ".Rhistory" \
+            --exclude "*/featured.png" \
+            tmp/publications/ content/en/publication/
+
+      - name: Re-apply website editorial overrides
+        run: uv run python scripts/apply_publication_overrides.py
+
+      - name: Block publication removals
+        run: |
+          set -euo pipefail
+          deleted="$(git diff --name-only --diff-filter=D -- content/en/publication \
+            | grep '/index\.md$' || true)"
+          if [ -n "$deleted" ]; then
+            echo "Publication removals require manual review; refusing to open an automated PR:" >&2
+            printf '%s\n' "$deleted" >&2
+            exit 1
+          fi
+
+      - name: Generate and compile CV PDFs
+        run: |
+          set -euo pipefail
+          uv run python cv-builder/scripts/generate_cv_latex.py
+          cd cv-builder/cv
+          xelatex -interaction=nonstopmode -halt-on-error -output-directory=. cv.tex
+          xelatex -interaction=nonstopmode -halt-on-error -output-directory=. cv.tex
+          xelatex -interaction=nonstopmode -halt-on-error -output-directory=. cv_short.tex
+          xelatex -interaction=nonstopmode -halt-on-error -output-directory=. cv_short.tex
+
+      - name: Update the site's CV download
+        run: cp cv-builder/cv/cv.pdf static/files/cv.pdf
+
+      - name: Select release tag
+        id: release_tag
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch --tags --force
+          date_tag="$(date -u +%Y-%m-%d)"
+          if git rev-parse -q --verify "refs/tags/${date_tag}" >/dev/null; then
+            suffix=1
+            while git rev-parse -q --verify "refs/tags/${date_tag}.${suffix}" >/dev/null; do
+              suffix=$((suffix + 1))
+            done
+            date_tag="${date_tag}.${suffix}"
+          fi
+          echo "tag=${date_tag}" >> "$GITHUB_OUTPUT"
+
+      - name: Publish CV release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.release_tag.outputs.tag }}
+          name: CV ${{ steps.release_tag.outputs.tag }}
+          files: |
+            cv-builder/cv/cv.pdf
+            cv-builder/cv/cv_short.pdf
+          generate_release_notes: true
+
+      - name: Open or update publications pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ github.token }}
+          base: master
+          branch: automation/update-publications
+          delete-branch: true
+          add-paths: |
+            content/en/publication/**
+            cv-builder/data/publications.json
+            static/files/cv.pdf
+          commit-message: "chore: refresh publications and CV"
+          title: "chore: refresh publications and CV"
+          body: |
+            Monthly/manual refresh of HAL publications and the generated CV.
+
+            - Publication changes retain the website's editorial overrides.
+            - The site download at `/files/cv.pdf` is included in this PR alongside the release assets.
+            - Publication removals are blocked for manual review.
+
+            Before the first run, enable GitHub Actions to create and approve PRs in repository settings.
+            Pull requests created with the default `GITHUB_TOKEN` do not trigger other workflows. Review and validate this PR manually, or configure a PAT/GitHub App token if automatic CI on generated PRs is required.

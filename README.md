@@ -135,6 +135,16 @@ uv run python scripts/apply_publication_overrides.py \
   --overrides data/publication_overrides.yml \
   --content-dir content/en/publication
 
+### Review and approval policy
+
+Generated publication updates are reviewed in pull requests targeting `master`.
+
+- Canonical publication facts belong in `scott-love/academic-cv`.
+- Website editorial fields belong in this repository.
+- Generated `content/en/publication/hal-*/index.md` bundles should not be edited manually except for deliberate, reviewed website-side fixes.
+- Publication refresh PRs must pass the workflow checks and be reviewed before merge.
+- Removal or destructive changes must be explicitly reviewed.
+
 # Run tests
 uv run pytest -q
 ```

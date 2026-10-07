@@ -75,6 +75,16 @@ Do not add back Netlify configuration, the old self-referencing Git submodule, o
 
 Phase 1 work investigates how the `scott-love/academic-cv` repository can provide structured data for HugoBlox content. Until that pipeline is implemented, edit the site's content using the existing HugoBlox content structure and document automation changes before introducing them.
 
+## Generated content review
+
+When working on publication updates:
+
+1. Treat `academic-cv` as the canonical source for bibliographic data.
+2. Treat this repository as the owner of editorial presentation and website integration.
+3. Do not manually edit generated publication bundles unless the change is intentional and reviewed.
+4. Review PRs for removals, large deltas, and override changes before merging.
+5. Confirm workflow checks pass before merge.
+
 ## Troubleshooting
 
 - **Hugo command not found:** install Hugo Extended and ensure it is on `PATH`.

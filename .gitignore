@@ -13,3 +13,6 @@ __pycache__/
 # Local/generated Hugo directories
 public/
 _vendor/
+
+# Hugo local build lock
+.hugo_build.lock

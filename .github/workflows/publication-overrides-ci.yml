@@ -72,6 +72,11 @@ jobs:
       - name: Run Hugo build
         run: hugo --gc --minify
 
+      - name: Verify built site outputs
+        run: |
+          test -s public/files/cv.pdf
+          test -s public/publication/index.html
+
       - name: Validate overrides (check mode)
         run: uv run python scripts/apply_publication_overrides.py --check
 

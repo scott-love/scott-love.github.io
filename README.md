@@ -145,6 +145,16 @@ Generated publication updates are reviewed in pull requests targeting `master`.
 - Publication refresh PRs must pass the workflow checks and be reviewed before merge.
 - Removal or destructive changes must be explicitly reviewed.
 
+## Refresh cadence
+
+Publication refreshes are run manually on demand by the repository maintainer. The current workflow is:
+1. Generate the publication artifact in `academic-cv`.
+2. Import it into the website repository with the publication import workflow.
+3. Review the generated PR and workflow checks.
+4. Merge when ready.
+
+Scheduled refreshes are not enabled at this time.
+
 # Run tests
 uv run pytest -q
 ```

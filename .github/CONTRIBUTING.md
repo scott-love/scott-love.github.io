@@ -7,7 +7,6 @@
 - `master` is the production branch and source of truth.
 - Use a feature branch for substantial changes and open a pull request targeting `master` when review is useful.
 - Small, low-risk documentation or content changes may be committed directly to `master`.
-- `migrate/hugoblox` is historical migration work; do not use it for new development.
 
 ## Prerequisites
 
@@ -50,8 +49,8 @@ Generated output is written to `public/`, which is intentionally ignored by Git.
 Before pushing changes:
 
 ```bash
-# Validate the content migration checks, when relevant
-python scripts/migrate_content_frontmatter.py --root . --check
+# Run the Python test suites
+uv run pytest -q
 
 # Build the site
 hugo --gc --minify
@@ -73,17 +72,18 @@ Do not add back Netlify configuration, the old self-referencing Git submodule, o
 
 ## Content and data pipeline
 
-Phase 1 work investigates how the `scott-love/academic-cv` repository can provide structured data for HugoBlox content. Until that pipeline is implemented, edit the site's content using the existing HugoBlox content structure and document automation changes before introducing them.
+The CV builder and HAL publication pipeline live in `cv-builder/`. Scheduled
+and manual refreshes create a PR for publication and CV download updates.
 
 ## Generated content review
 
 When working on publication updates:
 
-1. Treat `academic-cv` as the canonical source for bibliographic data.
-2. Treat this repository as the owner of editorial presentation and website integration.
+1. Treat `cv-builder/data/publications.json` and its HAL fetcher as the canonical publication input.
+2. Treat this repository's override file as the owner of editorial presentation.
 3. Do not manually edit generated publication bundles unless the change is intentional and reviewed.
 4. Review PRs for removals, large deltas, and override changes before merging.
-5. Confirm workflow checks pass before merge.
+5. Confirm workflow checks pass before merge. PRs made with the default `GITHUB_TOKEN` require manual validation because they do not trigger other workflows.
 
 ## Troubleshooting
 

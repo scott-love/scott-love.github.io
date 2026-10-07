@@ -1,0 +1,70 @@
+name: Cleanup old CV releases
+
+on:
+  schedule:
+    - cron: "15 3 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cleanup-old-cv-releases
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete releases older than 7 days (keep latest)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          cutoff_epoch="$(date -u -d '7 days ago' +%s)"
+          latest_release_id="$(
+            gh api "/repos/${REPO}/releases?per_page=100&page=1" \
+              | jq -r '
+                  map(select((.draft | not) and (.prerelease | not)))
+                  | sort_by(.published_at // .created_at)
+                  | last
+                  | .id // empty
+                '
+          )"
+
+          if [ -z "${latest_release_id}" ]; then
+            echo "No eligible releases found. Nothing to clean."
+            exit 0
+          fi
+
+          echo "Keeping latest release id=${latest_release_id} regardless of age."
+          page=1
+          while true; do
+            releases="$(gh api "/repos/${REPO}/releases?per_page=100&page=${page}")"
+            count="$(echo "$releases" | jq 'length')"
+            [ "$count" -gt 0 ] || break
+
+            echo "$releases" | jq -c '.[]' | while read -r release; do
+              id="$(echo "$release" | jq -r '.id')"
+              tag="$(echo "$release" | jq -r '.tag_name')"
+              published_at="$(echo "$release" | jq -r '.published_at')"
+              draft="$(echo "$release" | jq -r '.draft')"
+              prerelease="$(echo "$release" | jq -r '.prerelease')"
+
+              if [ "$draft" = "true" ] || [ "$prerelease" = "true" ] || [ "$id" = "$latest_release_id" ]; then
+                continue
+              fi
+
+              if [ "$published_at" = "null" ]; then
+                published_at="$(echo "$release" | jq -r '.created_at')"
+              fi
+              release_epoch="$(date -u -d "$published_at" +%s)"
+              if [ "$release_epoch" -lt "$cutoff_epoch" ]; then
+                gh api -X DELETE "/repos/${REPO}/releases/${id}"
+                gh api -X DELETE "/repos/${REPO}/git/refs/tags/${tag}" || true
+              fi
+            done
+            page=$((page + 1))
+          done

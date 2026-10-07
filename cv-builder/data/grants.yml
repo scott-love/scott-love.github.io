@@ -1,0 +1,88 @@
+- title: Building Collaborative Research Capacity for Behavioural and Neurophysiological Studies in Sheep
+  acronym: null
+  funder: NEOLAiA - ANR - Plan France 2030
+  start: 2026
+  end: 2027
+  amount: 20k€
+  role: Coordinator
+  coordinator: Scott A. Love
+  partners:
+    - University of Nicosia
+  description: International mobility to advance cognitive neuroscience studies with sheep.
+
+- title: Towards high-resolution neuro-behavioral quantification of sheep in the field to study complex social behaviors
+  acronym: null
+  funder: National Institute of Health
+  start: 2024
+  end: 2026
+  amount: 685k USD
+  role: Local coordinator
+  coordinator: C. Kemere
+  partners:
+    - Rice University
+    - Georgia Tech
+    - Centre de Recherches sur la Cognition Animale
+    - Baylor College of Medicine
+  description: Development of high-resolution neuro-behavioral approaches to study complex social behaviours in sheep.
+
+- title: Connaitre le cerveau des animaux pour mieux comprendre leurs comportements
+  acronym: CoCerACoCo
+  funder: ANR SAPS-RA-AI
+  start: 2024
+  end: 2026
+  amount: 150k€
+  role: Partner
+  coordinator: E. Chaillou
+  partners:
+    - Université d’Angers (LARIS)
+    - Université d’Orléans (ERCAE)
+    - Université de Tours (LIFAT)
+    - Université Savoie Mont-Blanc (LISTIC)
+    - INSERM (iBrain)
+    - CEA (NeuroSpin)
+    - ZooParc de Beauval
+    - Beauval Nature
+  description: Citizen science project investigating the link between brain and behaviour across species.
+
+- title: Neuroimagerie fonctionnelle des mécanismes de la perception des voix chez le mouton
+  acronym: SheepVoicefMRI
+  funder: ANR JCJC
+  start: 2021
+  end: 2024
+  amount: 200k€
+  role: Coordinator
+  coordinator: Scott A. Love
+  description: Functional neuroimaging investigation of voice perception mechanisms in sheep.
+
+- title: Functional MRI of the sheep auditory cortex
+  acronym: null
+  funder: Crédits Incitatifs PHASE-INRAE
+  start: 2020
+  end: 2021
+  amount: 20k€
+  role: Coordinator
+  coordinator: Scott A. Love
+  description: Development of functional MRI approaches for studying auditory processing in sheep.
+
+- title: "Exploration de nouveaux biomarqueurs d’émotions chez la poule : le rougissement et les immunoglobulines A"
+  acronym: RED
+  funder: Métaprogramme SANBA-INRAE
+  start: 2020
+  end: 2022
+  amount: 50k€
+  role: Partner
+  coordinator: A. Bertin
+  partners:
+    - UMR ISP
+    - UE EASM
+  description: Investigate whether transiant changes in the facial skin colour chickens reflects their emotional state.
+
+- title: "Phénotypage de la maturation hypophysaire : impact de l’allaitement artificiel"
+  acronym: PhénoMatHyp
+  funder: Crédits Incitatifs PHASE-INRAE
+  start: 2019
+  end: 2021
+  amount: 20k€
+  role: Coordinator
+  coordinator: Scott A. Love
+  description: Characterization of pituitary maturation under artificial feeding.

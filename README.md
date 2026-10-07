@@ -1,174 +1,116 @@
-# Scott Love — HugoBlox Website
+# Scott Love — Website and CV
 
-This repository is the **single active repository** for Scott Love's personal academic website:
+This repository contains the Hugo website and the CV builder that supplies its
+publication content and CV downloads.
 
 **Live site:** https://scott-love.github.io/
 
-## Repository status
+## Repository layout
 
-- `master` is the production branch and source of truth.
-- Phase 0 (HugoBlox modernization) is complete and deployed.
-- The former `scott-love/personal-site` repository is archived and should not receive new work.
-- The historical `migrate/hugoblox` branch is retained only as migration history; new work belongs on `master` or a feature branch targeting `master`.
+- `content/`, `layouts/`, `config/`, `static/`, and `assets/` — Hugo website.
+- `content/en/publication/` — generated HAL publication bundles with website
+  editorial overrides applied.
+- `data/publication_overrides.yml` and `scripts/apply_publication_overrides.py`
+  — website-owned presentation choices for publications.
+- `cv-builder/` — CV source data, HAL fetching/export scripts, ModernCV assets,
+  schema, documentation, tests, and Makefile.
+- `static/files/cv.pdf` — the PDF served by the existing website CV download.
 
-## Stack
-
-- Hugo Extended `v0.165.0`
-- Go `1.23+`
-- HugoBlox modules
-- Tailwind CSS via the project npm dependencies
-- GitHub Pages deployment through GitHub Actions
+Python dependencies for both publication tooling and tests are managed from
+the repository root with `uv` and `uv.lock`.
 
 ## Local development
+
+Install website dependencies and run Hugo locally:
 
 ```bash
 npm ci
 hugo server -D
 ```
 
-Open http://localhost:1313/ to view the local site. For a production-style build:
+Build the site:
 
 ```bash
 hugo --gc --minify
 ```
 
-## Publications
-
-Publication content under `content/en/publication/` is generated from the
-canonical data maintained in [`scott-love/academic-cv`](https://github.com/scott-love/academic-cv),
-using HAL identifiers as stable bundle names (`hal-<id>/index.md`). The
-`academic-cv` repository owns HAL ingestion and the publication exporter
-(`scripts/generate_hugo_content.py`); this repository owns Hugo integration,
-editorial overrides, and deployment.
-
-Legacy, pre-migration publication bundles (author/year naming) are preserved
-for reference under `content/en/publication_archive_pre_hal_migration/` and
-are excluded from the Hugo build output (`build: {render: never, list: never}`
-in that directory's `_index.md`).
-
-To refresh publications:
-
-1. Run the exporter in `academic-cv` (`make export-hugo` or
-   `python scripts/generate_hugo_content.py --input data/publications.json
-   --output build/hugo/content/en/publication`).
-2. Copy the generated `hal-*` bundles into `content/en/publication/` in this
-   repository.
-3. Re-apply website-specific editorial overrides (featured flags, tags,
-   abstracts, images, custom links) with
-   `scripts/apply_publication_overrides.py` (see below) and rebuild/validate
-   before merging.
-
-See [`docs/data-flow-specification.md`](./docs/data-flow-specification.md) for
-the full data-flow design.
-
-### Editorial overrides
-
-Generated publication bundles contain canonical bibliographic fields only.
-Website-owned presentation fields (featured flag, tags, abstract, image,
-extra links) are kept separately in
-[`data/publication_overrides.yml`](./data/publication_overrides.yml), keyed
-by HAL ID, so that regenerating `content/en/publication/hal-*/index.md` never
-erases them:
-
-```text
-academic-cv generated fields
-        ↓
-website editorial overrides (data/publication_overrides.yml)
-        ↓
-final Hugo content
-```
-
-Apply the overrides with:
+Build the CV locally (requires Python 3.12+, `uv`, and TeX Live with
+`xelatex`):
 
 ```bash
-python scripts/apply_publication_overrides.py \
-  --overrides data/publication_overrides.yml \
-  --content-dir content/en/publication
-```
-
-Use `--check` to validate and report without writing any files (suitable for
-CI):
-
-```bash
-python scripts/apply_publication_overrides.py --check
-```
-
-Override schema (see the header of `data/publication_overrides.yml` for the
-full documented schema):
-
-```yaml
-hal-01464145:
-  featured: true          # bool
-  tags:                   # list[str]
-    - mri
-    - baboon
-  abstract: "..."         # str
-  image:
-    filename: featured.png
-    preview_only: true
-  links:                  # appended to, not replacing, canonical HAL links
-    - type: pdf
-      url: https://example.org/article.pdf
-```
-
-Only `featured`, `tags`, `abstract`, `image`, and `links` may be set by
-overrides; canonical fields (`title`, `authors`, `date`, `publication_types`,
-`publication`, `hugoblox.ids.*`, and the canonical HAL link) are always
-preserved unchanged. Canonical HAL links are kept and editorial links are
-appended, without duplicating identical `(type, url)` pairs. An explicit
-`featured: false` is preserved so a stale `true` does not persist across
-regenerations. Unknown HAL IDs and malformed override entries are treated as
-validation errors (non-zero exit status) so stale overrides cannot silently
-accumulate.
-
-Python tooling in this repository is managed with [uv](https://docs.astral.sh/uv/):
-
-```bash
-# Install/update Python dependencies for tooling and tests
 uv sync --dev
+make -C cv-builder build-all
+```
 
-# Validate overrides without writing files
-uv run python scripts/apply_publication_overrides.py --check
+The CV PDFs are generated as `cv-builder/cv/cv.pdf` and
+`cv-builder/cv/cv_short.pdf`. To fetch HAL publications or export website
+bundles separately:
 
-# Apply overrides
-uv run python scripts/apply_publication_overrides.py \
-  --overrides data/publication_overrides.yml \
-  --content-dir content/en/publication
+```bash
+make -C cv-builder fetch-publications
+uv run python cv-builder/scripts/generate_hugo_content.py --output /tmp/publications
+```
 
-### Review and approval policy
+Run both the website and CV Python tests with:
 
-Generated publication updates are reviewed in pull requests targeting `master`.
-
-- Canonical publication facts belong in `scott-love/academic-cv`.
-- Website editorial fields belong in this repository.
-- Generated `content/en/publication/hal-*/index.md` bundles should not be edited manually except for deliberate, reviewed website-side fixes.
-- Publication refresh PRs must pass the workflow checks and be reviewed before merge.
-- Removal or destructive changes must be explicitly reviewed.
-
-## Refresh cadence
-
-Publication refreshes are run manually on demand by the repository maintainer. The current workflow is:
-1. Generate the publication artifact in `academic-cv`.
-2. Import it into the website repository with the publication import workflow.
-3. Review the generated PR and workflow checks.
-4. Merge when ready.
-
-Scheduled refreshes are not enabled at this time.
-
-# Run tests
+```bash
 uv run pytest -q
 ```
 
-## Deployment
+## Monthly publication and CV refresh
 
-The workflow in `.github/workflows/deploy.yml` builds and deploys the site to GitHub Pages. Pushes to `master` trigger production deployment.
+`.github/workflows/update-site.yml` runs on the first of each month and can
+also be started with **Actions → Update publications and CV → Run workflow**.
+It fetches publications from HAL using the identifier in
+`cv-builder/data/profile.yml` (no HAL secret or API key is required), exports
+publication bundles directly into the website, reapplies editorial overrides,
+and builds both CV PDFs.
 
-Do not use the old Netlify, submodule, or manual `deploy.sh` workflow. The repository now contains the site source and deployment configuration in one place.
+The workflow publishes `cv.pdf` and `cv_short.pdf` as GitHub Release assets.
+It also copies `cv.pdf` to `static/files/cv.pdf`, where the existing site link
+serves it after deployment. Publication removals are blocked for manual review.
+When there are changes, the workflow opens or updates the fixed branch
+`automation/update-publications` as a PR to `master`; it does not push the
+publication or PDF changes directly to the production branch. The site PDF is
+included in that same PR so the deployed download stays in sync with the CV
+release.
 
-## Documentation
+Review the generated publications, any CV/PDF changes, and the removal guard
+before merging. A merge to `master` triggers `.github/workflows/deploy.yml`,
+which builds and deploys the site to GitHub Pages. The override workflow also
+validates editorial overrides, runs the Python test suites, and builds Hugo
+for relevant pull requests.
 
-- [Migration guide](./MIGRATION.md)
-- [Migration checklist](./MIGRATION_CHECKLIST.md)
-- [Phase 0 summary](./PHASE_0_SUMMARY.md)
-- [Contributing and development guide](./.github/CONTRIBUTING.md)
-- [academic-cv repository](https://github.com/scott-love/academic-cv)
+### GitHub Actions setup and checks
+
+- In **Settings → Actions → General**, enable **Allow GitHub Actions to create
+  and approve pull requests** so the refresh workflow can open its PR.
+- GitHub Actions requires no repository secrets for HAL access. The default
+  `GITHUB_TOKEN` is used with `contents: write` and `pull-requests: write`.
+- PRs created with the default `GITHUB_TOKEN` do **not** trigger other
+  workflows. The generated PR therefore needs manual validation. To run CI
+  automatically on generated PRs, configure a PAT or GitHub App token with the
+  necessary repository permissions and use it for the pull-request action.
+- Confirm **Settings → Pages → Build and deployment → Source** is set to
+  **GitHub Actions**.
+- After verifying the unified workflow, archive the former
+  `scott-love/academic-cv` repository if it is no longer needed.
+
+Run the workflow manually once after setup to verify live HAL access, the
+release assets, the generated PR, the `/files/cv.pdf` path, and deployment after
+merging. These live GitHub/HAL behaviors cannot be verified by local tests.
+
+## Publication editorial overrides
+
+Generated publication fields are kept separate from website presentation
+choices. `data/publication_overrides.yml` stores optional `featured`, `tags`,
+`abstract`, `image`, and additional `links` keyed by HAL ID. The override
+script preserves canonical bibliographic fields and is idempotent:
+
+```bash
+uv run python scripts/apply_publication_overrides.py --check
+uv run python scripts/apply_publication_overrides.py
+```
+
+See [the publication pipeline guide](docs/data-flow-specification.md) and
+[`cv-builder/README.md`](cv-builder/README.md) for more detail.

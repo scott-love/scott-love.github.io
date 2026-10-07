@@ -3,12 +3,30 @@ name: Publication overrides validation
 on:
   pull_request:
     paths:
+      - "assets/**"
+      - "config/**"
+      - "content/**"
       - "data/publication_overrides.yml"
+      - "go.mod"
+      - "go.sum"
+      - "layouts/**"
+      - "package.json"
+      - "package-lock.json"
       - "scripts/apply_publication_overrides.py"
-      - "tests/test_apply_publication_overrides.py"
-      - "content/en/publication/**"
-      - ".github/workflows/publication-overrides-ci.yml"
+      - "static/**"
+      - "tests/**"
+      - "cv-builder/**"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".github/workflows/**"
   workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publication-validation-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   overrides-gate:
@@ -24,7 +42,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v3
+        uses: astral-sh/setup-uv@v6
 
       - name: Install dev dependencies
         run: uv sync --dev
@@ -68,5 +86,5 @@ jobs:
           git diff --exit-code
           git status --short
 
-      - name: Run override tests
+      - name: Run website and CV tests
         run: uv run pytest -q

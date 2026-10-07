@@ -1,86 +1,41 @@
-# Publication Pipeline Rollback Runbook
+# Publication pipeline recovery
 
-**Scope:** Publication refreshes and generated-content PRs for `scott-love/scott-love.github.io`  
-**Applies to:** publication import workflow, override application, and generated Hugo bundles
+Use this guide when a HAL refresh produces incorrect publication content, a
+CV build fails, editorial overrides are invalid, or a site build fails.
 
-## When to use this runbook
+## If the refresh PR is still open
 
-Use this runbook when a publication refresh causes:
-- incorrect or missing publication content
-- broken Hugo builds
-- bad overrides or unexpected editorial changes
-- source data regressions from `academic-cv`
-- exporter bugs in generated publication artifacts
-- website integration failures during import or validation
+1. Review the workflow run logs and the generated changes.
+2. Close the PR or correct the source/override data and rerun
+   **Update publications and CV**.
+3. Do not bypass the workflow's publication-removal guard without reviewing
+   the removed HAL IDs.
 
-## Primary rollback method
+## If a bad change was merged
 
-Preferred rollback is a revert of the offending merge or commit on `master`.
+1. Revert the offending merge or commit on `master`.
+2. Wait for `.github/workflows/deploy.yml` to complete.
+3. Verify the live site and the publication/CV download links.
+4. Correct the source data or overrides and run the refresh workflow again.
 
-### If the bad change is already merged
-1. Identify the offending commit or merge commit.
-2. Create a revert commit on `master`.
-3. Push the revert.
-4. Wait for GitHub Pages deployment to complete.
-5. Verify the live site.
+## Troubleshooting
 
-### If the bad change is only in an open PR
-1. Close or update the PR.
-2. Remove or replace the bad content in the branch.
-3. Re-run validation checks.
-4. Re-open the PR only when the issue is fixed.
-
-## Post-rollback verification
-
-After rollback:
-- Confirm the GitHub Pages workflow succeeded.
-- Confirm the homepage loads.
-- Confirm publication listings render.
-- Confirm the affected publication bundles look correct.
-- Confirm override-sensitive fields such as featured flags, tags, images, and links are still intact.
-
-## Failure playbooks
-
-### 1. Source data regression
-Symptoms:
-- wrong publications imported
-- expected records missing
-- unexpected removals
-
-Actions:
-- compare the imported artifact with the last known good source run
-- verify `academic-cv` source data
-- regenerate the artifact from the corrected source
-- re-run import workflow
-
-### 2. Exporter bug
-Symptoms:
-- malformed generated front matter
-- wrong HAL mapping
-- incorrect bundle naming
-- bad dates or links
-
-Actions:
-- fix exporter logic in `academic-cv`
-- regenerate the artifact
-- re-import into the website repo
-- verify with Hugo build and tests
-
-### 3. Website integration failure
-Symptoms:
-- import workflow fails
-- override application fails
-- Hugo build fails after import
-
-Actions:
-- inspect workflow logs
-- fix website-side content or workflow logic
-- re-run the import workflow
-- validate with build and tests
+- **HAL is unavailable:** the fetcher retries transient failures and reuses
+  `cv-builder/data/publications.json` when it is readable. Check the workflow
+  logs and manually dispatch another run when HAL is reachable.
+- **Unexpected publication removals:** the workflow stops before creating a
+  PR. Inspect the current cache and HAL results; resolve the cause before
+  updating the publication set.
+- **Override validation fails:** fix `data/publication_overrides.yml`, then
+  run `uv run python scripts/apply_publication_overrides.py --check`.
+- **LaTeX compilation fails:** inspect `cv-builder/cv/cv.log` and verify
+  `xelatex` is installed.
+- **Hugo build/deployment fails:** inspect the Pages workflow logs and confirm
+  the repository's Pages source is set to GitHub Actions.
 
 ## Recovery checklist
-- [ ] Identify the failure source
-- [ ] Revert or correct the bad change
-- [ ] Re-run validation
-- [ ] Confirm Pages deployment
-- [ ] Verify live site
+
+- [ ] Identify the failing source or generated change.
+- [ ] Correct or revert the change.
+- [ ] Rerun Python tests and Hugo validation.
+- [ ] Confirm the Pages deployment and live outputs.

@@ -66,4 +66,4 @@ jobs:
           git status --short
 
       - name: Run override tests
-        run: uv run pytest -q tests/test_apply_publication_overrides.py
+        run: uv run pytest -q

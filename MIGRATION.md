@@ -101,4 +101,6 @@ If a production change causes a problem:
 3. Use the historical `migrate/hugoblox` branch and repository history for migration reference.
 4. Confirm the live site after deployment.
 
+For detailed rollback steps for publication pipeline failures, see [docs/publication-pipeline-rollback-runbook.md](./docs/publication-pipeline-rollback-runbook.md).
+
 For development and deployment instructions, see [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md).

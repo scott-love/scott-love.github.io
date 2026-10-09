@@ -49,6 +49,9 @@ jobs:
             --exclude "_index.md" \
             --exclude ".Rhistory" \
             --exclude "*/featured.png" \
+            --exclude "*/featured.jpg" \
+            --exclude "*/featured.jpeg" \
+            --exclude "*/featured.webp" \
             tmp/publications/ content/en/publication/
 
       - name: Re-apply website editorial overrides

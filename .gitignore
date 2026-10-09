@@ -1,5 +1,8 @@
 .DS_Store
 node_modules/
+.venv/
+dist/
+*.egg-info/
 
 # Hugo generated resources
 resources/_gen/
@@ -9,6 +12,18 @@ hugo_stats.json
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# CV builder output
+cv-builder/build/
+cv-builder/cv/*.tex
+cv-builder/cv/*.pdf
+cv-builder/cv/*.aux
+cv-builder/cv/*.log
+cv-builder/cv/*.out
+cv-builder/cv/*.toc
+cv-builder/cv/*.fls
+cv-builder/cv/*.fdb_latexmk
+cv-builder/cv/*.synctex.gz
 
 # Local/generated Hugo directories
 public/

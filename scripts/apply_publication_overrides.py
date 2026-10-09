@@ -2,13 +2,13 @@
 """Apply website-owned editorial overrides to generated publication bundles.
 
 Publication bundles under ``content/en/publication/hal-*/index.md`` are
-generated/regenerated from canonical data in ``scott-love/academic-cv``.
+generated/regenerated from canonical data in ``cv-builder/data/publications.json``.
 Regeneration overwrites those files, so website-only editorial fields
 (featured flag, tags, abstract, image, extra links) are kept separately in
 ``data/publication_overrides.yml`` and re-applied with this script after
 every regeneration:
 
-    academic-cv generated fields
+    CV builder generated fields
             |
             v
     website editorial overrides (data/publication_overrides.yml)

@@ -1,0 +1,36 @@
+- course: Master 2 Psychologie – Cognition, Neurosciences et Psychologie
+  institution: University of Tours
+  country: France
+  role: Lecturer
+  start: 2022
+  end: present
+  description: Teaching to groups of approximately 20 students per year
+  classes:
+    - title: Ethics as a bridge between cultures and disciplines
+      start: 2026
+      end: present
+      type: Online international course
+    
+    - title: Comportements sociaux, apprentissages et émotions chez les animaux
+      start: 2022
+      end: present    
+    
+    - title: Anglais et communication scientifique
+      start: 2022
+      end: 2025
+
+- course: P335 Cognitive Psychology
+  institution: Indiana University
+  country: USA
+  role: Lecturer
+  start: 2013
+  end: 2013
+  description: Lecturing to approximately 200 students
+
+- course: Level 1 Psychology
+  institution: University of Glasgow
+  country: UK
+  role: Tutor
+  start: 2007
+  end: 2010
+  description: Teaching to groups of approximately 15 students per year

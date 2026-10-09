@@ -4,3 +4,20 @@
 [module]
   [[module.imports]]
     path = "github.com/HugoBlox/kit/modules/blox"
+
+# Content: each language keeps its own folder...
+  [[module.mounts]]
+    source = "content/en"
+    target = "content"
+    lang = "en"
+
+  [[module.mounts]]
+    source = "content/fr"
+    target = "content"
+    lang = "fr"
+
+  # ...but FR reuses the EN publication bundles (single source of truth).
+  [[module.mounts]]
+    source = "content/en/publication"
+    target = "content/publication"
+    lang = "fr"

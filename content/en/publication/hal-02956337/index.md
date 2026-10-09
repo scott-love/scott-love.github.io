@@ -5,7 +5,7 @@ authors:
 - Georgina Denis
 - Scott A. Love
 - Marko Nardini
-date: '2020-01-01T00:00:00Z'
+date: '2020-10-01T00:00:00Z'
 publication_types:
 - article-journal
 publication: Journal of Experimental Psychology. Human Perception and Performance

@@ -6,7 +6,7 @@ authors:
 - Scott A. Love
 - Karin Petrini
 - Frank Pollick
-date: '2024-01-01T00:00:00Z'
+date: '2024-04-25T00:00:00Z'
 publication_types:
 - article-journal
 publication: Autism Research

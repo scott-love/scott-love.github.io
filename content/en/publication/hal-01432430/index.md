@@ -19,6 +19,7 @@ date: '2015-01-01T00:00:00Z'
 publication_types:
 - article-journal
 publication: Folia Primatologica
+abstract: no abstract
 hugoblox:
   ids:
     hal: hal-01432430

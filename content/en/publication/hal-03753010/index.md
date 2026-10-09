@@ -11,7 +11,7 @@ authors:
 - Konstantina Margiotoudi
 - Scott A Love
 - Adrien Meguerditchian
-date: '2018-01-01T00:00:00Z'
+date: '2018-05-01T00:00:00Z'
 publication_types:
 - article-journal
 publication: Cerebral Cortex

@@ -15,7 +15,7 @@ authors:
 - Scott A. Love
 - Aline Bertin
 - Cécile Arnould
-date: '2024-01-01T00:00:00Z'
+date: '2024-05-01T00:00:00Z'
 publication_types:
 - article-journal
 publication: Applied Animal Behaviour Science

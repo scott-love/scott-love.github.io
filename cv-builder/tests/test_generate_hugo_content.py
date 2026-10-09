@@ -98,7 +98,7 @@ def test_generates_publication_bundles_and_collects_validation_results(
     assert any("missing non-empty title" in error for error in report.errors)
     assert any("missing non-empty hal_id" in error for error in report.errors)
     assert any("duplicate hal_id" in error for error in report.errors)
-    assert any("date fallback for year 2019" in warning for warning in report.warnings)
+    assert any("fallback for year 2019" in warning for warning in report.warnings)
 
     article = read_front_matter(tmp_path / "hal-123" / "index.md")
     assert article["title"] == "A publication"

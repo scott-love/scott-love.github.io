@@ -57,46 +57,24 @@ def _non_empty_string(value: Any) -> str | None:
 def _publication_date(record: dict[str, Any], label: str, report: ExportReport) -> str:
     """Extract publication date from record using tiered precision fallback.
 
-    Implements a date precision policy that prioritizes sources with higher temporal precision.
-    When multiple date fields are available, the first non-empty field in the priority chain
-    is used; invalid values are logged as warnings and the next priority level is tried.
-
     Priority Chain (highest to lowest precision):
-    1. conference_start: Full datetime or date with optional time component
-       - Formats: YYYY, YYYY-MM-DD, YYYY-MM-DDTHH:MM:SS, YYYY-MM-DDTHH:MM:SSZ, RFC3339 with timezone
-       - Examples: "2023", "2023-05-15", "2023-05-15T14:30:00Z"
-    2. year_month_day: Date in YYYY-MM-DD format only
-       - Examples: "2023-05-15"
-       - Assumes midnight UTC when converted to datetime
-    3. year: Year integer fallback (lowest precision)
-       - Examples: 2023
-       - Assumes January 1 at midnight UTC
-
-    Output Format:
-    - All returned dates are ISO8601 format with UTC timezone: YYYY-MM-DDTHH:MM:SSZ
-    - Intermediate dates without explicit times default to midnight (00:00:00Z)
-    - Malformed values at any level trigger a warning and cascade to the next priority
-
-    Placeholder Fallback:
-    - If no valid date can be extracted, returns MISSING_DATE (1970-01-01T00:00:00Z)
-    - This is a sentinel value to mark records with genuinely missing date information
-
-    Args:
-        record: Publication record dict from input JSON
-        label: Human-readable record identifier for warning messages (e.g., "Record 42 (hal-12345)")
-        report: ExportReport instance to collect warnings/errors
+    1. publication_date: Canonical HAL datetime/date field (preferred)
+    2. conference_start: Full datetime or date with optional time component
+    3. year_month_day: Date in YYYY-MM-DD format
+    4. year: Year integer fallback (January 1 at midnight UTC)
 
     Returns:
-        ISO8601 datetime string with UTC timezone (YYYY-MM-DDTHH:MM:SSZ)
+        ISO8601 datetime string with UTC timezone (YYYY-MM-DDTHH:MM:SSZ),
+        or MISSING_DATE if all candidates are invalid/missing.
     """
-    conference_start = _non_empty_string(record.get("conference_start"))
-    if conference_start:
+
+    publication_date = _non_empty_string(record.get("publication_date"))
+    if publication_date:
         try:
-            if len(conference_start) == 4 and conference_start.isdigit():
-                date = datetime(int(conference_start), 1, 1, tzinfo=timezone.utc)
+            if len(publication_date) == 4 and publication_date.isdigit():
+                date = datetime(int(publication_date), 1, 1, tzinfo=timezone.utc)
             else:
-                parsed = datetime.fromisoformat(conference_start.replace("Z", "+00:00"))
-                # Handle both date and datetime objects
+                parsed = datetime.fromisoformat(publication_date.replace("Z", "+00:00"))
                 if isinstance(parsed, date_class) and not isinstance(parsed, datetime):
                     date = datetime.combine(parsed, datetime.min.time(), tzinfo=timezone.utc)
                 else:
@@ -111,7 +89,31 @@ def _publication_date(record: dict[str, Any], label: str, report: ExportReport) 
             )
         except ValueError:
             report.warnings.append(
-                f"{label}: malformed conference_start {conference_start!r}; using year fallback."
+                f"{label}: malformed publication_date {publication_date!r}; trying fallback fields."
+            )
+
+    conference_start = _non_empty_string(record.get("conference_start"))
+    if conference_start:
+        try:
+            if len(conference_start) == 4 and conference_start.isdigit():
+                date = datetime(int(conference_start), 1, 1, tzinfo=timezone.utc)
+            else:
+                parsed = datetime.fromisoformat(conference_start.replace("Z", "+00:00"))
+                if isinstance(parsed, date_class) and not isinstance(parsed, datetime):
+                    date = datetime.combine(parsed, datetime.min.time(), tzinfo=timezone.utc)
+                else:
+                    date = parsed
+                    if date.tzinfo is None:
+                        date = date.replace(tzinfo=timezone.utc)
+                    else:
+                        date = date.astimezone(timezone.utc)
+            return (
+                f"{date.year:04d}-{date.month:02d}-{date.day:02d}T"
+                f"{date.hour:02d}:{date.minute:02d}:{date.second:02d}Z"
+            )
+        except ValueError:
+            report.warnings.append(
+                f"{label}: malformed conference_start {conference_start!r}; trying fallback fields."
             )
 
     year_month_day = _non_empty_string(record.get("year_month_day"))
@@ -127,7 +129,7 @@ def _publication_date(record: dict[str, Any], label: str, report: ExportReport) 
             )
         except ValueError:
             report.warnings.append(
-                f"{label}: malformed year_month_day {year_month_day!r}; using year fallback."
+                f"{label}: malformed year_month_day {year_month_day!r}; trying year fallback."
             )
 
     year = record.get("year")
@@ -137,14 +139,13 @@ def _publication_date(record: dict[str, Any], label: str, report: ExportReport) 
             raise ValueError
     except (TypeError, ValueError):
         report.warnings.append(
-            f"{label}: missing or invalid year and conference_start; "
+            f"{label}: missing/invalid publication_date, conference_start, year_month_day, and year; "
             f"using placeholder date {MISSING_DATE}."
         )
         return MISSING_DATE
 
-    # HAL usually supplies only a year; represent it deterministically as January 1 at UTC midnight.
     report.warnings.append(
-        f"{label}: using January 1 00:00:00 UTC as the date fallback for year {year_number}."
+        f"{label}: using January 1 00:00:00 UTC as fallback for year {year_number}."
     )
     return f"{year_number:04d}-01-01T00:00:00Z"
 
@@ -176,7 +177,6 @@ def _front_matter(
         report.errors.append(
             f"{label}: unknown publication category {category!r}."
         )
-        valid = False
         front_matter["publication_types"] = ["misc"]
 
     publication = next(
@@ -189,6 +189,11 @@ def _front_matter(
     )
     if publication:
         front_matter["publication"] = publication
+
+    # Add abstract when available from canonical data
+    abstract = _non_empty_string(record.get("abstract"))
+    if abstract:
+        front_matter["abstract"] = abstract
 
     identifiers = {"hal": hal_id}
     doi = _non_empty_string(record.get("doi"))

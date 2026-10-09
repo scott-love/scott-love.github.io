@@ -18,6 +18,9 @@
       "Adrien Meguerditchian"
     ],
     "year": 2026,
+    "publication_date": "2026-07-07T00:00:00Z",
+    "year_month_day": "2026-07-07T00:00:00Z",
+    "abstract": "The baboon (Papio) is an invaluable resource within nonhuman primate research, having the advantage of being a cercopithecoid (Old World monkey) with one of the largest brains among non-hominid primates. In order to facilitate comparative developmental neuroscience research, we present the BABACOOL (BAby Brain Atlas COnstruction for Optimized Labeled segmentation) approach for creating multi-modal developmental atlases, which we used to produce BaBa21, a population-based longitudinal developmental baboon template. BaBa21 is a spatio-temporal template that consists of structural (T1- and T2-weighted) images and tissue probability maps from a population of 21 baboons (Papio anubis) scanned at 4 timepoints beginning from about 2 weeks after birth and continuing to sexual maturity (5 years). Further, his study offers a fully automatic method for generating a template at any intermediate age for future age-specific group studies. This resource is made available to provide a normalization target for baboon data across the lifespan, including intermediate timepoints, and moreover facilitate neuroimaging research in baboons, comparative research with humans and nonhuman primate species for which developmental templates are available (e.g., macaques).",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -57,6 +60,9 @@
       "Elodie Chaillou"
     ],
     "year": 2026,
+    "publication_date": "2026-10-01T00:00:00Z",
+    "year_month_day": "2026-10-01T00:00:00Z",
+    "abstract": "Graph-based modeling is widely used to represent the structural and functional complexity of the brain, supporting applications such as disease prediction, pathology characterization, and the identification of functional connectivity hubs. Graph theory provides analytical tools for extracting meaningful patterns from neuroimaging data, and graph-based learning approaches, including Graph Neural Networks, have demonstrated improved performance over traditional classifiers. A critical step in this process is graph construction from MRI data. Conventionally, nodes correspond to anatomically defined brain regions derived from atlases, while edges represent structural or functional connectivity inferred from tractography or functional MRI. However, atlas-based segmentation requires expert anatomical knowledge and may be unavailable, incomplete, or inconsistent across species. Similarly, connectivity-based edge definition often relies on partial or uncertain prior knowledge. To address these limitations, we propose an alternative framework in which nodes and edges are constructed without relying on prior anatomical knowledge. In this approach, nodes are derived directly from intrinsic image properties, such as voxel intensity and spatial organization, while edges are defined using quantitative attributes including intensity differences, surface contact area, or spatial distance. This strategy enables the generation of multiple graph representations from a single MR image. We introduce 3DBrainMiner, a platform designed to facilitate graph creation, management, and visualization with or without anatomical priors. Its flexibility is demonstrated through applications to a quail brain template and a human brain dataset.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -91,6 +97,9 @@
       "Scott A. Love"
     ],
     "year": 2026,
+    "publication_date": "2026-07-01T00:00:00Z",
+    "year_month_day": "2026-07-01T00:00:00Z",
+    "abstract": "Functional MRI (fMRI) is a powerful tool for studying the neural mechanisms underlying cognition, but its use in animal research has typically required general anaesthesia or physical restraint — both of which carry significant scientific and ethical costs. We describe how sheep were trained to participate voluntarily in fMRI sessions while fully awake and unrestrained, using a protocol based on positive reinforcement and the progressive development of a human-animal relationship built on trust and cooperation. This approach represents a concrete application of the Refinement principle of the 3Rs: it eliminates the risks of anaesthesia, removes the welfare costs of physical restraint, and, crucially, gives the animal the choice to participate. Experience gained since the initial protocol suggests that future iterations can be achieved more efficiently. We argue that using neuroimaging techniques under the same conditions as in human research represents a natural and coherent refinement target for animal cognitive neuroscience, and that this principle extends beyond fMRI to other non-invasive techniques such as electroencephalography (EEG).",
     "hal_type": "ART",
     "category": "Other scientific contribution",
     "presentation_type": null,
@@ -128,6 +137,9 @@
       "Didier Dubreuil"
     ],
     "year": 2025,
+    "publication_date": "2025-11-19T00:00:00Z",
+    "year_month_day": "2025-11-19T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -166,6 +178,9 @@
       "Elodie Chaillou"
     ],
     "year": 2025,
+    "publication_date": "2025-11-19T00:00:00Z",
+    "year_month_day": "2025-11-19T00:00:00Z",
+    "abstract": "L’imagerie par résonance magnétique (IRM) constitue un outil majeur en recherche scientifique, permettant une visualisation détaillée et non invasive du vivant. La plupart des animaux de laboratoire exposés à cette machine n’en sont pas conscients, car l’expérience se déroule sous anesthésie générale. Cependant, certaines questions de recherche — notamment en neurosciences cognitives — exigent que l’animal soit éveillé pendant l’expérience d’IRM. Dans ce contexte, la relation à la machine change : l’animal perçoit pleinement son environnement et le fait d’être fixé ou contraint à l’intérieur de la machine. Jusqu’à récemment, les animaux pouvaient réaliser l’expérience de l’IRM selon deux approches : inconscients sous anesthésie générale, ou éveillés mais contraints physiquement. Dans les années 2010, une troisième approche a été développée chez le chien : l’IRM à l’état éveillé et sans contention (Berns et al., 2012). Cette avancée soulève la question de son applicabilité à d’autres espèces. Nous avons pu montrer que les moutons peuvent, eux aussi, réaliser des IRM en étant éveillés et volontaires, sans anesthésie ni contention (Pluchot et al., 2024). Cette preuve de concept ouvre une voie prometteuse pour l’étude de la cognition animale tout en respectant leur bien-être. Elle pourrait également servir de modèle pour d’autres espèces, offrant ainsi une approche éthique et fiable pour les futures recherches en neuro-imagerie animale.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -205,6 +220,9 @@
       "Scott A. Love"
     ],
     "year": 2025,
+    "publication_date": "2025-11-12T00:00:00Z",
+    "year_month_day": "2025-11-12T00:00:00Z",
+    "abstract": "The auditory cortex is central to auditory perception, but its detailed structural organization in sheep (Ovis aries) has not been thoroughly investigated. In this study, we sought to address this gap by providing an in-­ depth anatomical description of the cytoarchitecture and myeloarchitecture of the sheep auditory cortex, using cresyl violet staining and the neurochemical markers myelin basic protein and parvalbumin. Cresyl violet tissue samples from four sheep were used to characterize cortical layers and cellular composition, revealing a six-­ layered organization with variations in cell density and distribution. Myelin basic protein staining highlighted myelinated regions, while parvalbumin staining identified the distribution of a subpopulation of GABAergic in- terneurons, indicating the potential location of the primary auditory cortex. Overall, the organization of the ovine auditory cortex aligns with findings in other mammals, suggesting a conserved neural architecture across species and supporting the idea of evolutionary conservation in auditory processing mechanisms.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -256,6 +274,9 @@
       "Élodie Chaillou"
     ],
     "year": 2025,
+    "publication_date": "2025-09-16T00:00:00Z",
+    "year_month_day": "2025-09-16T00:00:00Z",
+    "abstract": "In sheep, the emotional valence of olfactory stimuli needs to be studied as olfaction is crucial for social and dietary preferences. To this end, it is necessary to evaluate the behavioural responses induced by olfactory stimuli (OS). These latter have often been explored with animals tested alone, in odorized versus nonodorized food choice tests or with constraining procedures. All these conditions are likely to induce emotional behaviours, which questions the specificity and reproducibility of behavioural responses induced by the OS. This study aimed to create an experimental setup for investigating the impact of OS on behavioural responses while addressing social and food resources and avoiding other confounding factors. Particularly, we focused on minimizing experimental bias through a habituation phase. To test our setup, we examined the consistency of behavioural responses measured in the control situation over time in adult ewes and lambs, by using principal component analysis. We found that the behavioural responses of individuals are similar over time and that the animals were not stressed by the experimental setup. Then, we concluded that it is adapted to explore the repulsive or attractive properties of the OS. Moreover, based on specific behaviours like vocalization, agitation, exploration, social contact, it could be possible to explore the emotional valence of OS.",
     "hal_type": "OTHER",
     "category": "Other scientific contribution",
     "presentation_type": null,
@@ -299,6 +320,9 @@
       "Cécile Arnould"
     ],
     "year": 2025,
+    "publication_date": "2025-08-01T00:00:00Z",
+    "year_month_day": "2025-08-01T00:00:00Z",
+    "abstract": "In mammals, facial expressions serve as a window into a variety of affective states. Emotional facial expressions in birds have received little scientific attention. Juvenile hens showed variations in their facial display, facial redness and head feather position, depending on their affective states. When sexually mature, domestic hens develop fleshy coloured outgrowths such as the comb and the wattles, which are considered as functional visual signals of the individual's health or fertility. Here, we investigated, in adult hens, whether bare facial skin (cheeks, ear lobes, comb and wattles) redness and head feather position (sleeked/fluffed) also vary with affective states. We hypothesized little or no redness variations for the wattles and comb because of their involvement as functional signals. Twelve adult hens were filmed during naturally occurring situations and controlled tests varying in their valence and arousal level: situations associated with fear/frustration (negative valence/high arousal), situations associated with appetitive motivational states (positive valence/high arousal) and situations associated with calm/contentment (positive valence/low arousal). We showed that positive situations of low arousal were associated with the lowest redness in all areas of bare skin. A significantly higher level of redness was found in high arousal compared with low arousal positive situations, except for the comb. The highest redness was observed in all skin areas in negative situations of high arousal. Head feathers were observed more frequently fluffed in most of the positive situations and sleeked in all feed-related situations. Thus, facial skin redness, including secondary sexual characters and head feather position are potential markers of the affective states of adult hens. Studying facial displays opens new research opportunities to increase our knowledge on how avian species perceive their environment. Further research is needed to clearly differentiate between the effects of valence and arousal.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -339,6 +363,9 @@
       "Elodie Chaillou"
     ],
     "year": 2025,
+    "publication_date": "2025-07-24T00:00:00Z",
+    "year_month_day": "2025-07-24T00:00:00Z",
+    "abstract": "The perception of olfactory stimuli can influence animal emotions and behaviors, which are critical for survival and adaptation. This study explored the properties of three olfactory stimuli (orange essential oil, wolf feces, and cadaverine) to induce emotion in sheep, in a non-stressful environment enriched with social and food resources. Contrary to expectations, wolf feces, while repellent, did not trigger overt stress behaviors such as increased vocalizations or agitation. Similarly, orange essential oil did not elicit strong positive valence responses, suggesting that the positive experimental context may mask its effect. Interestingly, cadaverine, typically associated with body decomposition, has no impact on sheep behaviors except that is induced emetic responses in two individuals, indicating potential disgust. Overall, this research highlights the complex interplay between social, food, and environmental factors in shaping the emotional responses of sheep to olfactory stimuli, underscoring the importance of context and individual variability. These findings contribute to a better understanding of olfactory influences on animal welfare and behavior.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -382,6 +409,9 @@
       "Cécile Arnould"
     ],
     "year": 2025,
+    "publication_date": "2025-06-10T00:00:00Z",
+    "year_month_day": "2025-06-10T00:00:00Z",
+    "abstract": "<div><p>The facial display (facial redness of cheek, ear lobe, comb, wattle and head feather position) of juvenile hens varied depending on their affective states. In adults, the wattles and comb are more developed and become redder. They are functional visual signals of the individual's health, social status or fertility. We aim to investigate whether facial bare skin redness and head feather position (sleeked/fluffed) vary depending on the affective states of sexually mature hens. We expected similar results as juveniles, except for the redness of the secondary sexual characters. Twelve adult hens were filmed during situations varying in their valence and arousal levels: situations associated with negative valence and high arousal (fear/frustration), situations associated with positive valence and high arousal (reward) and situations associated with positive valence and low arousal (calm/contentment). We showed variation in facial bared skin redness, although to a lesser extent for the comb. The lowest redness was associated with situations of calm/contentment and a significantly higher level of redness was found in situations associated with reward, except for the comb. In all skin areas, the highest redness was observed in situations associated with fear and frustration. Head feathers were more frequently fluffed in some positive situations, and sleeked in all feed-related situations. In conclusion, facial skin redness, including secondary sexual characters, and head feather position are potential markers of the affective states of adult hens. Studying facial displays opens new research opportunities to increase our knowledge on how domestic fowls perceive their environment.</p></div>",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -418,6 +448,9 @@
       "Scott A. Love"
     ],
     "year": 2025,
+    "publication_date": "2025-05-15T00:00:00Z",
+    "year_month_day": "2025-05-15T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -455,6 +488,9 @@
       "Scott A. Love"
     ],
     "year": 2025,
+    "publication_date": "2025-03-07T00:00:00Z",
+    "year_month_day": "2025-03-07T00:00:00Z",
+    "abstract": "As a gregarious species, sheep find it very difficult to be isolated from their congeners and may express signs of distress in the presence of humans, two phenomena that need to be taken into account in experimental protocols. As part of a research project to study brain function using functional Magnetic Resonance Imaging (fMRI), we developed a training protocol with a group of sheep with the aim of acquiring images without anesthesia or physical restraint. To achieve this, it was necessary to work with the animals on a regular basis and to establish a positive relationship with them. Gradually, the animals became attracted to the trainers, leading to a relationship of confidence that enabled them to successfully complete each of the training stages required for fMRI acquisition without anesthesia. With training completed, each animal took part in the acquisition sessions voluntarily in cooperation with the trainers and without restraint. This achievement allows us to study brain function in unanesthetized sheep in a reliable, ethical and refined way, and to reply to the expectations of the 3Rs. More generally, we believe it is essential to attest to the importance of a positive relationship in our experimental context. We encourage the scientific community to build positive relationships with experimental animals, when the context permits.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -494,6 +530,9 @@
       "Scott A. Love"
     ],
     "year": 2025,
+    "publication_date": "2025-05-16T00:00:00Z",
+    "year_month_day": "2025-05-16T00:00:00Z",
+    "abstract": "The auditory cortex is central to auditory perception, but its detailed structural and functional organization in sheep (Ovis aries) has not been thoroughly investigated. In this study, we sought to address this gap by providing an in-depth overview of the cytoarchitecture and myeloarchitecture of the sheep auditory cortex, using cresyl violet staining and the neurochemical markers myelin basic protein and parvalbumin. Tissue samples from four sheep were used to characterize cortical layers, cellular composition, and myelination patterns, revealing a six-layered organization with variations in cell density and distribution. Myelin basic protein staining highlighted myelinated regions, providing insights into the myeloarchitecture, while parvalbumin staining identified the distribution of GABAergic interneurons, providing indications of the potential location of the primary auditory cortex. These findings deepen our knowledge of the auditory cortex in sheep, a key model for investigating sensory processing in large mammals. The structural and functional organization of the ovine auditory cortex aligns with findings in other mammals, suggesting that both are conserved across species and supporting the idea of evolutionary conservation in auditory processing mechanisms. However, future functional studies, using auditory stimulation paradigms, are necessary to fully understand the functional organization of this important sensory region.",
     "hal_type": "UNDEFINED",
     "category": "Preprint",
     "presentation_type": null,
@@ -546,6 +585,9 @@
       "Elodie Chaillou"
     ],
     "year": 2024,
+    "publication_date": "2024-12-04T00:00:00Z",
+    "year_month_day": "2024-12-04T00:00:00Z",
+    "abstract": "Dispositif expérimental pour étudier l'impact des odeurs sur les comportements émotionnels.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -585,6 +627,9 @@
       "Elodie Chaillou"
     ],
     "year": 2024,
+    "publication_date": "2024-10-17T00:00:00Z",
+    "year_month_day": "2024-10-17T00:00:00Z",
+    "abstract": "In the aim to measure brain activity with scalp EEG in non restrain and voluntary sheep, we developed a protocol of training promoting a positive relationship with human. Ten adult female sheep (Ile de France, 3 years old) were housed in pen in small groups (4, 3, 3) according to their affinity for limiting agitation and facilitating interactions with human. The training protocol was created to mimic the different steps related to surface EEG recording: human contact, head manipulation, electrodes fixation, hood wearing. These steps were performed progressively with pellets and stroke rewards according to each individual success. During all the training period, sheep performed a proximity test with humans to evaluate their human acceptance. Our results revealed a significant reduction in approach latency by the 4th day (Friedman p = 3.491e-06). Furthermore, the duration (Friedman p= 1.2e-04) and number of voluntary contacts (Friedman p= 3.2e-04) between sheep and humans increased until the eighth day, before stabilizing. However, after this period, sheep seemed to become indifferent to human presence, with approach latency returning to initial values observed on the first day but without agitation. Nevertheless, eight sheep successfully underwent non-invasive EEG recordings after 27 days of habituation. These findings highlight the effectiveness of our approach in establishing a positive relationship between humans and sheep, thus providing less stressful interactions for these animals during research procedures.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -629,6 +674,9 @@
       "Aline Bertin"
     ],
     "year": 2024,
+    "publication_date": "2024-07-24T00:00:00Z",
+    "year_month_day": "2024-07-24T00:00:00Z",
+    "abstract": "The study of facial expressions in mammals provided great advances in the identification of their emotions and then in the comprehension of their sentience. So far, this area of research has excluded birds. With a naturalist approach, we analysed facial blushing and feather displays in domestic fowl. Hens were filmed in situations contrasting in emotional valence and arousal level: situations known to indicate calm states (positive valence / low arousal), have rewarding effects (positive valence / high arousal) or induce fear-related behaviour (negative valence / high arousal). Head feather position as well as skin redness of comb, wattles, ear lobes and cheeks varied across these situations. Skin of all four areas was less red in situations with low arousal compared to situations with higher arousal. Furthermore, skin redness of the cheeks and ear lobes also varied depending on the valence of the situation: redness was higher in situations with negative valence compared to situations with positive valence. Feather position also varied with the situations. Feather fluffing was mostly observed in positively valenced situations, except when hens were eating. We conclude that hens have facial displays that reveal their emotions and that blushing is not exclusive to humans. This opens a promising way to explore the emotional lives of birds, which is a critical step when trying to improve poultry welfare.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -671,6 +719,9 @@
       "Cécile Arnould"
     ],
     "year": 2024,
+    "publication_date": "2024-07-16T00:00:00Z",
+    "year_month_day": "2024-07-16T00:00:00Z",
+    "abstract": "Some bird species have the capacity to move their head feathers and to rapidly change the colour of their facial skin due to variation in blood flow (i.e. blushing). In mammals, variation in facial expressions are used as a marker of affective states. The aim of our study was to investigate the relationship between facial displays and affective states in domestic hens. To this aim, skin redness of the bare areas of the face and the position of head feathers of 12 adult hens were measured during situations varying in emotional valence and/or arousal level: situations associated with fear or frustration (negative valence/high arousal), situations associated with pleasure or reward (positive valence/high arousal) and situations associated with calm and contentment (positive valence/low arousal). Our results show the highest facial skin redness in situations of fear and frustration, a lower but still high redness in situations of pleasure and reward, and the lowest in situations of calm and contentment. Head feathers were fluffed most frequently in situations of positive valence. In conclusion, hens showed facial displays associated with their affective states, opening new perspectives to study avian affective states.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -711,6 +762,9 @@
       "Scott A Love"
     ],
     "year": 2024,
+    "publication_date": "2024-06-21T00:00:00Z",
+    "year_month_day": "2024-06-21T00:00:00Z",
+    "abstract": "Magnetic resonance imaging (MRI) is a non-invasive technique that requires the participant to be completely motionless. To date, MRI in awake and unrestrained animals has only been achieved with humans and dogs. For other species, alternative techniques such as anesthesia, restraint and/or sedation have been necessary. Anatomical and functional MRI studies with sheep have only been conducted under general anesthesia. This ensures the absence of movement and allows relatively long MRI experiments but it removes the non-invasive nature of the MRI technique (i.e., IV injections, intubation). Anesthesia can also be detrimental to health, disrupt neurovascular coupling, and does not permit the study of higher-level cognition. Here, we present a proof-of-concept that sheep can be trained to perform a series of tasks, enabling them to voluntarily participate in MRI sessions without anesthesia or restraint. We describe a step-by-step training protocol based on positive reinforcement (food and praise) that could be used as a basis for future neuroimaging research in sheep. This protocol details the two successive phases required for sheep to successfully achieve MRI acquisitions of their brain. By providing structural brain MRI images from six out of ten sheep, we demonstrate the feasibility of our training protocol. This innovative training protocol paves the way for the possibility of conducting animal welfare-friendly functional MRI studies with sheep to investigate ovine cognition.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -750,6 +804,9 @@
       "Elodie Chaillou"
     ],
     "year": 2024,
+    "publication_date": "2024-06-10T00:00:00Z",
+    "year_month_day": "2024-06-10T00:00:00Z",
+    "abstract": "In this presentation, we will explore the groundbreaking possibility of conducting MRI studies with sheep that are neither anaesthetized nor physically restrained, demonstrating a novel approach to farm animal neuroscience that emphasizes voluntary participation and animal welfare. I will detail the training protocol we developed and the importance of the trainer-sheep relationship to achieve this. Finally, I will outline our ongoing hypothesis-driven functional MRI studies investigating auditory perception in fully awake sheep.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -794,6 +851,9 @@
       "Cécile Arnould"
     ],
     "year": 2024,
+    "publication_date": "2024-06-17T00:00:00Z",
+    "year_month_day": "2024-06-17T00:00:00Z",
+    "abstract": "In certain mammals, facial expressions are reliable markers of the emotional state of an individual. In humans and parrots, emotional stimuli can induce a rapid change of face colour that is linked to blood flow. The aim of this study was to test whether the redness of the face in domestic hens could be used as an emotional marker in the context of the human-hen relationship. Two groups of hens (Sussex) were studied: a group habituated to a human with daily positive interaction (n=13) and a non- habituated group (n=12). Behaviour and skin colour of wattles, cheeks, ear lobes and comb, were analysed from two video-recorded tests (novel environment and reactivity to human tests) conducted after 5 and 6 weeks of habituation. In the novel environment test, usually used for testing general underlying fearfulness, the hens were tested alone in an unknown environment. In the reactivity to human test, the hens were tested again in this environment but with the familiar human sitting inside. The human presence should only be stressful for the non-habituated group. As expected, the behaviour of the two groups did not differ during the novel environment test. During the reactivity to human test, the habituated hens were more relaxed than the non-habituated hens: they took their first step faster (p=0.03), came faster into contact with the human (p=0.03), explored him longer (p=0.0003) and displayed more comfort behaviours (p=0.01). Face redness differed between the two groups during only the reactivity to human test: lower redness was observed in habituated hens for 3 out of the 4 regions (wattles p=0.01, cheeks p<0.0001, ear lobes p=0.0003). These results show that more relaxed hens are less red, thus face redness could be a reliable marker of the quality of the human-hen relationship. As such, it could be used as a tool for human to infer the emotional state of hens and more broadly, to evaluate their welfare.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -841,6 +901,9 @@
       "Cécile Arnould"
     ],
     "year": 2024,
+    "publication_date": "2024-05-01T00:00:00Z",
+    "year_month_day": "2024-05-01T00:00:00Z",
+    "abstract": "Non-invasive markers of affective states can help understanding animals' perception of situations and improving their welfare. These markers are scarce in avian species. In this study, we investigate the potential relation between alterations in facial skin redness in hens and their corresponding affective states. Six hens were filmed in both naturally unfolding scenarios and controlled tests designed to elicit various affective states. The facial skin redness was measured from images extracted from the videos. Our observations revealed that hens exhibited the highest degree of facial skin redness in negative situations of high arousal, a high redness in positive situations of high arousal, and the lowest in positive situations of low arousal. In a second study, we further examined whether facial skin redness and secretory immunoglobulin A (S-IgA) can serve as markers for the quality of the human-animal relationship. Two groups of hens, one habituated to humans (n=13) and one non-habituated (n=12), were compared for general fearfulness in an open field test and for fear of humans in a reactivity to human test. In the open-field test, there were no statistical differences in general fearfulness, facial skin redness or S-IgA concentrations between both groups. However, habituated hens exhibited significantly lower fearfulness and facial skin redness in the presence of humans compared to non-habituated hens in the reactivity to human test. Additionally, habituated hens showed significant lower S-IgA concentration in lachrymal fluid in the presence of humans, with no significant differences in saliva or cloacal samples. We propose that changes in facial skin redness reflect variations in affective states and can be used as a marker for assessing the quality of the human-hen relationship. The relationship between S-IgA concentrations and affective states requires further investigation.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -879,6 +942,9 @@
       "Frank Pollick"
     ],
     "year": 2024,
+    "publication_date": "2024-04-25T00:00:00Z",
+    "year_month_day": "2024-04-25T00:00:00Z",
+    "abstract": "Abstract Research has shown that children on the autism spectrum and adults with high levels of autistic traits are less sensitive to audiovisual asynchrony compared to their neurotypical peers. However, this evidence has been limited to simultaneity judgments (SJ) which require participants to consider the timing of two cues together. Given evidence of partly divergent perceptual and neural mechanisms involved in making temporal order judgments (TOJ) and SJ, and given that SJ require a more global type of processing which may be impaired in autistic individuals, here we ask whether the observed differences in audiovisual temporal processing are task and stimulus specific. We examined the ability to detect audiovisual asynchrony in a group of 26 autistic adult males and a group of age and IQ‐matched neurotypical males. Participants were presented with beep‐flash, point‐light drumming, and face‐voice displays with varying degrees of asynchrony and asked to make SJ and TOJ. The results indicated that autistic participants were less able to detect audiovisual asynchrony compared to the control group, but this effect was specific to SJ and more complex social stimuli (e.g., face‐voice) with stronger semantic correspondence between the cues, requiring a more global type of processing. This indicates that audiovisual temporal processing is not generally different in autistic individuals and that a similar level of performance could be achieved by using a more local type of processing, thus informing multisensory integration theory as well as multisensory training aimed to aid perceptual abilities in this population.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -921,6 +987,9 @@
       "Cécile Arnould"
     ],
     "year": 2024,
+    "publication_date": "2024-03-20T00:00:00Z",
+    "year_month_day": "2024-03-20T00:00:00Z",
+    "abstract": "Do adult hen’s face colour vary in function of affective states? Some bird species, including the domestic fowl (Gallus gallus domesticus), blush on the bare skin of their face. In human, blushing varies with the experienced emotional states. In this study, we explored whether the redness of the face of hens varies depending on their affective states. We studied Pekin’s hens (n=12) living in semi- natural environment. We filmed them in situations of contrasted affective states: situations of calm (Preening, Resting, Feeding), situations associated to reward seeking and consumption (Dustbathing, food Rewarding Test), situations associated to fear (Capture Test and Frustration Test). We then extracted twenty images of profile per hen and situation. The mean redness of the skin (comb, wattle, ear lobe and cheek) was measured with the software ImageJ. For each skin region, the redness of the three categories of situations were compared using a linear mixed model. The results show that the redness of the different skin region vary depending on the affective situations (p<0.002). The skin of the face is less red in calm situation than in situations associated to reward. It is redder in situations associated to fear. The rapid and short change in colour of the face might be a non-invasive emotional marker in hens. This marker might help comprehend how hens perceived their environment.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -963,6 +1032,9 @@
       "Cécile Arnould"
     ],
     "year": 2023,
+    "publication_date": "2024-08-21T00:00:00Z",
+    "year_month_day": "2024-08-21T00:00:00Z",
+    "abstract": "Some bird species, including the domestic fowl (Gallus gallus domesticus), blush on the bare skin of their face. In human, blushing varies with the experienced emotional states. In this study, we explored whether the redness of the face of hens varies depending on their affective states. We studied Pekin’s hens (n = 12) living in semi- natural environment. We filmed them in situations of contrasted affective states: situations of calm (Preening, Resting, Feeding), situations associated to reward seeking and consumption (Dustbathing, food Rewarding Test), situations associated to fear (Capture Test and Frustration Test). We then extracted twenty images of profile per hen and situation. The mean redness of the skin (comb, wattle, ear lobe and cheek) was measured with the software ImageJ. For each skin region, the redness of the three categories of situations were compared using a linear mixed model. The results show that the redness of the different skin region vary depending on the affective situations (p &lt; 0.002). The skin of the face is less red in calm situation than in situations associated to reward. It is redder in situations associated to fear. The rapid and short change in colour of the face might be a non-invasive emotional marker in hens. This marker might help comprehend how hens perceived their environment.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -1003,6 +1075,9 @@
       "Scott A. Love"
     ],
     "year": 2023,
+    "publication_date": "2023-11-06T00:00:00Z",
+    "year_month_day": "2023-11-06T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -1045,6 +1120,9 @@
       "Cécile Arnould"
     ],
     "year": 2023,
+    "publication_date": "2023-10-19T00:00:00Z",
+    "year_month_day": "2023-10-19T00:00:00Z",
+    "abstract": "Les changements de couleur de la peau du visage par afflux sanguin sont des marqueurs d’émotions chez l’Homme. Cette capacité des parties de peau dénudées à changer transitoirement de couleur a été décrite chez plusieurs espèces d’oiseaux. Cependant, elle n’a jamais été étudiée dans le cadre des émotions, à l’exception d’une expérience portant sur les interactions positives soigneur-animal chez le Ara bleu (Ara ararauna). Dans cette étude, nous avons cherché à savoir si la poule domestique (Gallus gallusdomesticus) était capable de changer de couleur de peau en fonction du contexte émotionnel dans lequel elle était. L’étude a porté sur deux races de poules rustiques juvéniles (Pékins n=10, et Meusiennes n=7), maintenues en semi-liberté. Elles ont été filmées dans des situations à valeurs émotionnelles contrastées : Bain de poussière, test de Récompense (valence positive de forte intensité) ; Toilettage, Repos, Mange (valence positive de faible intensité) ; Alerte, test de Capture (valence négative de forte intensité). Des images ont été extraites de ces films à partir desquelles le taux de rouge des zones dénudées de la face (crête, barbillon, oreillon, joue) a été mesuré (environ 30 images/poule/situation). Il existe une interaction significative entre les situations et les zones d’intérêt pour la variation du taux de rouge chez les deux races (Meusiennes : p=0,002, Pékins : p=0,0003). Quelle que soit la zone, le taux de rouge varie de manière significative en fonction du contexte émotionnel. La joue est la région où les situations sont le plus nettement dissociées : le taux de rouge est significativement plus important pour les situations Alerte, Capture et Récompense que pour Repos, Mange et Toilettage. Le Bain de poussière est significativement différent des autres situations avec un taux de rouge intermédiaire chez les Meusiennes, alors qu’il n’est significativement pas différent de Alerte et Récompense chez les Pékins. La couleur de la peau de la face est donc plus claire dans les situations à valence émotionnelle positive de faible intensité et plus rouge pour les émotions de forte intensité. De plus, il semblerait qu’elle soit plus rouge pour les émotions négatives de forte intensité que pour les émotions positives de forte intensité.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1089,6 +1167,9 @@
       "Cécile Arnould"
     ],
     "year": 2023,
+    "publication_date": "2023-08-26T00:00:00Z",
+    "year_month_day": "2023-08-26T00:00:00Z",
+    "abstract": "In certain mammals, facial expressions are reliable markers of the emotional state of an individual. In humans and parrots, emotional stimuli can induce a rapid change of face colour that is linked to blood flow. The aim of this study was to test whether the redness of the face in domestic hens could be used as an emotional marker in the context of the human-hen relationship. Two groups of hens (Sussex) were studied: a group habituated to a human with daily positive interaction (n=13) and a non-habituated group (n=12). Behaviour and skin colour of wattles, cheeks, ear lobes and comb were analysed from two video-recorded tests (novel environment and reactivity to human tests) conducted after 5 and 6 weeks of habituation. In the novel environment test, usually used for testing general underlying fearfulness, the hens were tested alone in an unknown environment. In the reactivity to human test, the hens were tested again in this environment but with the familiar human sitting inside. The human presence should only be stressful for the non-habituated group. As expected, the behaviour of the two groups did not differ during the novel environment test. During the reactivity to human test, the habituated hens were more relaxed than the non-habituated hens: they took their first step faster (P=0.03), came faster into contact with the human (P=0.03), explored him longer (P=0.0003) and displayed more comfort behaviours (P=0.01). Face redness differed between the two groups during only the reactivity to human test: lower redness was observed in habituated hens for 3 out of the 4 regions (wattles P=0.01, cheeks P<0.0001, ear lobes P=0.0003). These results show that more relaxed hens are less red, thus face redness could be a reliable marker of the quality of the human-hen relationship. As such, it could be used as a tool for human to infer the emotional state of hens and more broadly, to evaluate their welfare.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -1131,6 +1212,9 @@
       "Cécile Arnould"
     ],
     "year": 2023,
+    "publication_date": "2023-05-23T00:00:00Z",
+    "year_month_day": "2023-05-23T00:00:00Z",
+    "abstract": "Les changements de couleur de la peau du visage par afflux sanguin sont des marqueurs d’émotions chez l’Homme. Cette capacité des parties de peau dénudées à changer transitoirement de couleur a été décrite chez plusieurs espèces d’oiseaux. Cependant, elle n’a jamais été étudiée dans le cadre des émotions, à l’exception d’une expérience portant sur les interactions positives soigneur-animal chez le Ara bleu (Ara ararauna). Dans cette étude, nous avons cherché à savoir si la poule domestique (Gallus gallus domesticus) était capable de changer de couleur de peau en fonction du contexte émotionnel dans lequel elle était. L’étude a porté sur deux races de poules rustiques juvéniles (Pékins n=10, et Meusiennes n=7), maintenues en semi-liberté. Elles ont été filmées dans des situations à valeurs émotionnelles contrastées : Bain de poussière, test de Récompense (valence positive de forte intensité) ; Toilettage, Repos, Mange (valence positive de faible intensité) ; Alerte, test de Capture (valence négative de forte intensité). Des images ont été extraites de ces films à partir desquelles le taux de rouge des zones dénudées de la face (crête, barbillon, oreillon, joue) a été mesuré (environ 30 images/poule/situation). Il existe une interaction significative entre les situations et les zones d’intérêt pour la variation du taux de rouge chez les deux races (Meusiennes : p=0,002, Pékins : p=0,0003). Quelle que soit la zone, le taux de rouge varie de manière significative en fonction du contexte émotionnel. La joue est la région où les situations sont le plus nettement dissociées : le taux de rouge est significativement plus important pour les situations Alerte, Capture et Récompense que pour Repos, Mange et Toilettage. Le Bain de poussière est significativement différent des autres situations avec un taux de rouge intermédiaire chez les Meusiennes, alors qu’il n’est significativement pas différent de Alerte et Récompense chez les Pékins. La couleur de la peau de la face est donc plus claire dans les situations à valence émotionnelle positive de faible intensité et plus rouge pour les émotions de forte intensité. De plus, il semblerait qu’elle soit plus rouge pour les émotions négatives de forte intensité que pour les émotions positives de forte intensité. En conclusion, la couleur de la peau de la face chez la poule varie en fonction des situations à valeurs émotionnelles contrastées. Les variations du taux de rouge de la face pourraient constituer des signaux visuels fonctionnels permettant l’expression émotionnelle au sein des groupes sociaux.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -1171,6 +1255,9 @@
       "Scott A. Love"
     ],
     "year": 2023,
+    "publication_date": "2023-01-01T00:00:00Z",
+    "year_month_day": "2023-01-01T00:00:00Z",
+    "abstract": "Magnetic Resonance Imaging (MRI) is a non-invasive technique that requires the participant to be completely motionless. To date, MRI in awake and unrestrained animals has only been achieved with humans and dogs. For other species, alternative techniques such as anesthesia, restraint and/or sedation have been necessary. Anatomical and functional MRI studies with sheep have only been conducted under general anesthesia. This ensures the absence of movement and allows relatively long MRI experiments but it removes the non-invasive nature of the MRI technique (i.e., IV injections, intubation). Anesthesia can also be detrimental to health, disrupt neurovascular coupling and does not permit the study of higher-level cognition. Here, we present a proof-of-concept that sheep can be trained to perform a series of tasks, enabling them to voluntarily participate in MRI sessions without anesthesia or restraint. We describe a step-by-step training protocol based on positive reinforcement (food and praise) that could be used as a basis for future neuroimaging research in sheep. This protocol details the two successive phases required for sheep to successfully achieve MRI acquisitions of their brain. By providing structural brain MRI images from 6 out of 10 sheep, we demonstrate the feasibility of our training protocol. This innovative training protocol paves the way for the possibility of conducting animal welfare-friendly functional MRI studies with sheep to investigate ovine cognition.",
     "hal_type": "UNDEFINED",
     "category": "Preprint",
     "presentation_type": null,
@@ -1211,6 +1298,9 @@
       "Elodie Chaillou"
     ],
     "year": 2023,
+    "publication_date": "2023-09-19T00:00:00Z",
+    "year_month_day": "2023-09-19T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -1251,6 +1341,9 @@
       "Elodie Chaillou"
     ],
     "year": 2023,
+    "publication_date": "2023-06-12T00:00:00Z",
+    "year_month_day": "2023-06-12T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -1295,6 +1388,9 @@
       "Elodie Chaillou"
     ],
     "year": 2023,
+    "publication_date": "2023-05-03T00:00:00Z",
+    "year_month_day": "2023-05-03T00:00:00Z",
+    "abstract": "Magnetic Resonance Imaging (MRI) is a non-invasive technique that requires participants to be completely motionless. MRI in awake, unrestrained animals has only been achieved with humans and dogs. For other species, alternatives such as anesthesia, restraint and/or sedation have been necessary. MRI with sheep has only been conducted under anesthesia. This ensures the absence of movement and allows long experiments. However, it can be detrimental to health, disrupt neurovascular coupling and doesn’t permit the study of higher-level cognition. We present a proof of concept that positive reinforcement training in sheep is sufficient to acquire brain MRI. Training involved two phases: 1) in the sheepfold using a mock MRI and 2) in the real MRI environment. Each phase consisted of successive steps during which sheep learnt a behavior necessary to participate in an MRI experiment. To successfully complete this training protocol, sheep must remain motionless lying on the MRI table for the minimum time required for an acquisition. At present all 10 sheep actively participate and place their head inside the MRI coil for a minimum duration of ~1 min 30 sec. Six have done so long enough to acquire T1-weighted (~2 min 30 sec) and EPI functional images (~4 min 30 sec). These promising results show that MRI can be acquired with awake and unrestrained sheep; opening the door to conducting animal welfare friendly functional MRI studies with them. We are currently preparing a first awake functional MRI study investigating their auditory system.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1339,6 +1435,9 @@
       "Scott A. Love"
     ],
     "year": 2023,
+    "publication_date": "2023-05-23T00:00:00Z",
+    "year_month_day": "2023-05-23T00:00:00Z",
+    "abstract": "Magnetic Resonance Imaging (MRI) is a non-invasive technique that requires the participant to be completely motionless. To date, MRI in awake and unrestrained animals has only been achieved with humans and dogs. For other species, alternative techniques such as anesthesia and/or restraint have been necessary. MRI studies with sheep have only been conducted under anesthesia. This ensures the absence of movement and allows relatively long MRI experiments. However, it can be detrimental to health, disrupt neurovascular coupling and does not permit the study of higher-level cognition. Here we present a proof of concept that positive reinforcement training in sheep is sufficient to be able to acquire both T1-weighted structural and EPI functional images. These promising early results show that MRI data can be acquired with awake and unrestrained sheep. This innovative training protocol opens the door to the possibility of conducting animal welfare friendly functional MRI studies with sheep.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1383,6 +1482,9 @@
       "Scott A. Love"
     ],
     "year": 2023,
+    "publication_date": "2023-05-24T00:00:00Z",
+    "year_month_day": "2023-05-24T00:00:00Z",
+    "abstract": "Magnetic Resonance Imaging (MRI) is a non-invasive technique that requires the participant to be completely motionless. To date, MRI in awake and unrestrained animals has only been achieved with humans and dogs (Andics et al., 2014). For other species, alternative techniques such as anesthesia (Barrière et al., 2019), restraint (Stefanacci et al., 1998) and/or sedation (Behroozi et al., 2018) have been necessary. MRI studies with sheep have only been conducted under general anesthesia. This ensures the absence of movement and allows relatively long MRI experiments. However, it can also be detrimental to health, disrupt neurovascular coupling (Aksenov et al., 2015) and does not permit the study of higher-level cognition. Here we present a proof of concept that positive reinforcement training in sheep is sufficient to be able to acquire MRI of their brain. We developed a step-by-step training protocol based on positive reinforcement (food reward, social reward) and human – animal cooperation with 10 lambs from birth. This training method involved two phases: 1) training in the sheepfold using a mock MRI and 2) training in the real MRI environment. Each phase consisted of successive steps during which sheep learnt a behavior necessary for them to be able to participate in an MRI experiment. To successfully complete this training protocol, sheep must remain motionless lying on the MRI table for the minimum time required for an acquisition. At present all 10 sheep actively participate in training and place their head inside the MRI coil for a minimum duration of ~1 min 30 sec. Six have done so long enough to acquire both T1-weighted structural (~2 min 30 sec, Figure 1) and EPI functional images (~4 min 30 sec). These promising early results clearly show that MRI data can be acquired with awake and unrestrained sheep. The innovative training protocol opens the door to the possibility of conducting animal welfare friendly functional MRI studies with sheep. We are currently preparing a first awake functional MRI study investigating their auditory system.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1427,6 +1529,9 @@
       "Scott A. Love"
     ],
     "year": 2023,
+    "publication_date": "2023-07-22T00:00:00Z",
+    "year_month_day": "2023-07-22T00:00:00Z",
+    "abstract": "The precise 3D location of the sheep auditory cortex is unknown. A single neuronal tracer study highlighted that a small region of the rostral most part of the posterior ectosylvian gyrus may constitute the sheep auditory cortex (Michaloudi et al., 1986). More evidence is required to accurately localize and understand the anatomical and functional properties of the sheep auditory cortex. To precisely map its 3D location, we use fMRI to acquire functional brain images from a group of anesthetized sheep. However, anesthesia can be detrimental to health, disrupt neurovascular coupling (Aksenov et al., 2015) and does not permit the study of higher-level cognition. Thus we also present a proof of concept that positive reinforcement training in sheep is sufficient to be able to acquire MRI of their brain.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1471,6 +1576,9 @@
       "Elodie Chaillou"
     ],
     "year": 2023,
+    "publication_date": "2023-05-24T00:00:00Z",
+    "year_month_day": "2023-05-24T00:00:00Z",
+    "abstract": "Sheep are a high-olfactory sensitive species, this cue being crucial for social recognition (Hild et al. 2011) and predator avoidance (Gluesing et al. 1980). To protect themselves from predation, sheep are able to recognize cues of their predators. In a food-choice test, ewes chose to eat in the location without dog feces, this odour appeared to be repellent (Arnould et al. 1993). However, there is a trade-off between foraging and the risk of predation. We chose to test this trade-off. Our experimental design questions the motivation to eat in a context with a possible risk of predation. We hypothesize that olfactory stimuli with negative valence (wolf and cadaverine) will induce stress-like behaviors. 30 adult Ile de France ewes participated after one week of habituation to the experimental setup in the presence of four unfamiliar conspecifics. During a test, ewes entered an arena in which a plexiglas box contained the olfactory stimulus close to a bucket of pellets, for 5 minutes. The total number of vocalizations, the food intake and the food intake latency were recorded. In a first session, ewes were tested with water, 15µl orange essential oil (appetitive) and 3g of wolf feces (repulsive). In a second session, ewes were tested with water, 15g of wolf feces and 1ml of cadaverine. In this way, we tested the repulsive impact of predator feces and the putative repulsive effect of one its components. According to our hypothesis, we found a repulsive effect of wolf feces in each session by a decreased food intake (p<0.01, Friedmann test). Surprisingly, we didn't observe a repulsive effect of cadaverine even though two ewes expressed emetic behaviors. Moreover, the latency of food intake was lower for orange and wolf compared to water (p<0.05, Friedmann test) and the number of vocalizations was low and did not differ between stimuli. Taking into account all these results we are not able to conclude on the stressful impact of these olfactory stimuli of negative valence. Future work will use wireless EEG to investigate the underlying neural signatures of these stimuli.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1513,6 +1621,9 @@
       "Léa Lansade"
     ],
     "year": 2023,
+    "publication_date": "2023-03-01T00:00:00Z",
+    "year_month_day": "2023-03-01T00:00:00Z",
+    "abstract": "In mammals, human-animal bonding is recognized as a source of positive affect for companion or farm animals. Because this remains unexplored in birds, we investigated captive parrots’ perspective of the human-animal relationship. We used a classical separation-reunion paradigm and predicted that variations in parrots’ facial displays and behaviours would indicate their appraisal of the relationship. The test was divided into three phases of two minutes each: the bird was placed in an unfamiliar environment with a familiar caregiver (union), then the bird was left alone (separation) and finally, the caregiver returned (reunion). The test was repeated 10 times for each bird and video recorded in order to analyze their behaviour. The data show significantly higher crown and nape feather heights, higher redness of the skin and higher frequency of contact-seeking behaviours during the union and reunion phases than during the separation phase during which they expressed long distance contact calls. We observed the expression of eye pinning during the union and reunion phases in one out of five macaws. We argue that variation in facial displays provides indicators of parrot’s positive appraisal of the caretaker presence. Our results broaden the scope for further studies on parrots’ expression of their subjective feelings.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -1558,6 +1669,9 @@
       "Cécile Arnould"
     ],
     "year": 2022,
+    "publication_date": "2022-11-17T00:00:00Z",
+    "year_month_day": "2022-11-17T00:00:00Z",
+    "abstract": "Les changements de couleur de la peau du visage par afflux sanguin sont des marqueurs d’émotions chez l’Homme. Cette capacité des parties de peau dénudées à changer transitoirement de couleur a été décrite chez plusieurs espèces d’oiseaux. De plus, nous avons récemment montré un lien entre changement de couleur de peau et contexte émotionnel chez les Aras (A. ararauna). La poule domestique (Gallus gallus domesticus) n’a jamais été étudiée dans ce cadre. Nous avons donc cherché à savoir 1) si elle était capable de changer de couleur de peau en fonction du contexte émotionnel, 2) si la couleur de la peau pouvait être un marqueur de la qualité de la relation à l’Homme. Lors d’une première étude, le lien entre le contexte émotionnel et le taux de rouge de 4 zones d’intérêt (crête, barbillon, oreillon, joue) a été étudié dans 2 groupes de poules rustiques juvéniles (7 Meusiennes et 10 Pékins). Les situations à valeurs émotionnelles contrastées utilisées étaient : récompense, bain de poussière (valence positive de forte intensité) ; toilettage, repos, mange (valence positive de faible intensité) ; alerte, capture (valence négative de forte intensité). Il y a une interaction significative entre les situations et les zones d’intérêt pour la variation du taux de rouge chez les deux races (Meusiennes : p=0,002, Pékins : p=0,0003). La joue est la région où les situations sont le mieux dissociées : le taux de rouge est significativement plus important pour alerte, capture et récompense que pour repos, mange et toilettage. Le bain de poussière est significativement différent des autres situations avec un taux de rouge intermédiaire chez les Meusiennes, alors qu’il n’est significativement pas différent de alerte et récompense chez les Pékins. Le taux de rouge permettrait donc de différencier les émotions, du moins sur la base de leur intensité. Dans une seconde étude nous avons testé si la couleur de la peau pouvait être un indicateur de l’état émotionnel dans un contexte d’habituation à l’Homme. Deux groupes de Sussex juvéniles (habituées –6 semaines d’habituation, n=13 ; témoins n=12) ont été soumis à 2 tests : environnement nouveau (valeur émotionnelle similaire pour les 2 groupes) puis réactivité à l’Homme (valeur émotionnelle différente). Lors du test d’environnement nouveau, les 2 groupes ne diffèrent pas significativement. Lors du test de réactivité à l’Homme, par rapport aux poules témoins, les poules habituées viennent plus rapidement toucher l’expérimentateur (p=0,03), l’explorent plus longtemps (p=0,0003), et montrent plus de comportements de confort (p=0,01). Cet effet positif de l’habituation est associé à un taux de rouge plus faible dans 3 zones sur 4 (barbillon p=0,01, joue p<0,0001, oreillon p=0,0003). En conclusion, la couleur de la face de la poule est un indicateur de son état émotionnel, qui est une des composantes essentielles du bien-être animal. Elle pourrait servir notamment pour évaluer la qualité de la relation à l’Homme.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -1594,6 +1708,9 @@
       "Scott A. Love"
     ],
     "year": 2022,
+    "publication_date": "2022-01-22T00:00:00Z",
+    "year_month_day": "2022-01-22T00:00:00Z",
+    "abstract": "Music can cause pleasant sensations in humans whereas some noises can cause discomfort. The effects of music and noise have also been somewhat studied in animals, showing different impacts. In this review we aim to illustrate the differences and similarities between animals, in terms of their sensitivity to auditory stimuli (noise or music), by first recalling some generalities about the physical characteristics of sound and the biological bases of hearing. Second, based on the studies reported in this review, we conclude that ambient noise is harmful and/or stressful, and that musical sounds can take many forms with a large range of impacts in animals. Finally, we present two practical examples of the use of music with animals (one in the context of a zoo and the other in cattle breeding) and an example of an experiment designed to understand the impact of music on neonate lambs. These three examples highlight how music can help to improve animal welfare.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -1643,6 +1760,9 @@
       "Elodie Chaillou"
     ],
     "year": 2022,
+    "publication_date": "2022-02-22T00:00:00Z",
+    "year_month_day": "2022-02-22T00:00:00Z",
+    "abstract": "The psychoendocrine evaluation of lamb development has demonstrated that mater-nal deprivation and milk replacement alters health, behavior, and endocrine pro-files. While lambs are able to discriminate familiar and non-familiar conspecifics(mother or lamb), only lambs reared with their mother develop such clear social dis-crimination or preference. Lambs reared without mother display no preference for aspecific lamb from its own group. Differences in exploratory and emotional behav-iors between mother-reared and mother-deprived lambs have also been reported.As these behavioural abilities are supported by the brain, we hypothesize that rear-ing with maternal deprivation and milk replacement leads to altered brain develop-ment and maturation. To test this hypothesis, we examined brain morphometric andmicrostructural variables extracted from in vivo T1-weighted and diffusion-weightedmagnetic resonance images acquired longitudinally (1 week, 1.5 months, and 4.5months of age) in mother-reared and mother-deprived lambs. From the morphometricvariables the caudate nuclei volume was found to be smaller for mother-deprived thanfor mother-reared lambs. T1-weighted signal intensity and radial diffusivity werehigher for mother-deprived than for mother-reared lambs in both the white and graymatters. The fractional anisotropy of the white matter was lower for mother-deprivedthan for mother-reared lambs. Based on these morphometric and microstructuralcharacteristics we conclude that maternal deprivation delays and affects lamb braingrowth and maturation.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -1684,6 +1804,9 @@
       "Elodie Chaillou"
     ],
     "year": 2022,
+    "publication_date": "2022-09-30T00:00:00Z",
+    "year_month_day": "2022-09-30T00:00:00Z",
+    "abstract": "Music can cause pleasant sensations in humans whereas some noises can cause discomfort. The effects of music and noise have also been somewhat studied in animals, showing different impacts. In this review we aim to illustrate the differences and similarities between animals, in terms of their sensitivity to auditory stimuli (noise or music), by first recalling some generalities about the physical characteristics of sound and the biological bases of hearing. Second, based on the studies reported in this review, we conclude that ambient noise is harmful and/or stressful, and that musical sounds can take many forms with a large range of impacts in animals. Finally, we present two practical examples of the use of music with animals (one in the context of a zoo and the other in cattle breeding) and an example of an experiment designed to understand the impact of music on neonate lambs. These three examples highlight how music can help to improve animal welfare.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -1721,6 +1844,9 @@
       "Scott Love"
     ],
     "year": 2022,
+    "publication_date": "2022-06-28T00:00:00Z",
+    "year_month_day": "2022-06-28T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1773,6 +1899,9 @@
       "Scott Love"
     ],
     "year": 2022,
+    "publication_date": "2022-05-18T00:00:00Z",
+    "year_month_day": "2022-05-18T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -1812,6 +1941,9 @@
       "Elodie Chaillou"
     ],
     "year": 2022,
+    "publication_date": "2022-05-18T00:00:00Z",
+    "year_month_day": "2022-05-18T00:00:00Z",
+    "abstract": "Cognitive neuroscience has enormous potential to infer and investigate the mental lives of animals. In humans, and to lesser extents in non-human primates and rodents, functional magnetic resonance imaging (fMRI) is routinely used to infer perceptual processes, cognitive mechanisms, emotions, mental states and ultimately consciousness. With the inclusion of concepts such as “positive mental state”, “expectations”, and “perception” in a recent definition of animal welfare (ANSES, 2018), it is evident that cognitive neuroscience can help us understand the welfare needs of animals. Even when not investigating welfare per se cognitive neuroimaging can inform us about the perceptual and cognitive capacities and preferences of animals – determining factors of the welfare needs of a particular species or even individual (Nawroth 2019). Such knowledge would also contribute to the debate on the legal status of animals, in which cognitive capacities are an important consideration. Despite its potential impact, livestock cognitive neuroimaging is only at the stage of conception. Sheep use visual, olfactory and auditory cues for social communication. The neural substrates of olfactory and visual social interaction, in particular between a mother and her lamb, have been studied by cellular or electrophysiological approaches (Lévy 2017), while their auditory system remains unexplored.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1856,6 +1988,9 @@
       "Frédéric Andersson"
     ],
     "year": 2022,
+    "publication_date": "2022-07-09T00:00:00Z",
+    "year_month_day": "2022-07-09T00:00:00Z",
+    "abstract": "One aim of comparative neuroanatomy is to better understand brain function among species. It is tempting to try and explain brain differences throughout the animal kingdom by differences in adaptive behaviors as well as ecological factors. Based on this idea, we explored, with MRI, the brain morphology of three species with different sociality and predator avoidance (Bongo, Java deer mouse and Maki Catta). Brains were collected after death of natural causes and MR-imaged. Brain and body weights were collected, and volumes of brain were estimated after MRI segmentation. The brain-to-body weight ratio was close to 1 for the Java deer mouse (1.04%) and the maki catta (1.05%) but only 0.26% for the bongo. Encephalization quotients (EQ) were calculated using formulas defined for human (hEQ, constants 0.12 and 2/3; Cairó 2011, doi:10.3389/fnhum.2011.00108) and for dog (dEQ, constants 0.14 and 0.528; Saganuwan 2021, doi:10.1186/s13104-021- 05638-0). Whatever the method, the Java deer mouse EQs were the smallest (hEQ=0.98; dEQ=0.88). The maki catta had a higher hEQ (1.23) than the bongo (1.14) whereas the order was reversed for the dEQ (maki catta dEQ=1.21; bongo dEQ=1.96). These values are coherent with the idea that EQ is higher in prey species using active predator avoidance (bongo) and in social species (bongo and maki catta)",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1905,6 +2040,9 @@
       "Elodie Chaillou"
     ],
     "year": 2022,
+    "publication_date": "2022-07-09T00:00:00Z",
+    "year_month_day": "2022-07-09T00:00:00Z",
+    "abstract": "The psychoendocrine evaluation of lamb development has demonstrated that maternal deprivation and milk replacement alters health, behavior and endocrine profiles. While lambs are able to discriminate familiar and non-familiar conspecifics (mother or lamb), only lambs reared with their mother develop such clear social discrimination or preference. Lambs reared without mother display no preference for a specific lamb from its own group. Differences in exploratory and emotional behaviours between mother-reared and mother deprived lambs have also been reported. As these behavioural abilities are supported by the brain, we hypothesize that rearing with maternal deprivation and milk replacement leads to altered brain development and maturation. To test this hypothesis, we examined brain morphometric and microstructural variables extracted from in-vivo T1-weighted and diffusion-weighted magnetic resonance images acquired longitudinally (1 week, 1.5 months and 4.5 months of age) in mother-reared and mother-deprived lambs. From the morphometric variables the caudate nuclei volume was found to be smaller for mother-deprived than for mother-reared lambs. T1-weighted signal intensity and radial diffusivity were higher for mother-deprived than for mother-reared lambs in both the white and gray matters. The fractional anisotropy of the white matter was lower for mother-deprived than for mother-reared lambs. Based on these morphometric and microstructural characteristics we conclude that maternal deprivation delays and affects lamb brain growth and maturation.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -1941,6 +2079,9 @@
       "Elodie Chaillou"
     ],
     "year": 2022,
+    "publication_date": "2022-05-27T00:00:00Z",
+    "year_month_day": "2022-05-27T00:00:00Z",
+    "abstract": "If you have ever been out to the countryside in the spring, you might have heard sheep bleating to their lambs. Sheep also bleat when they are separated from the flock or stressed in some other way. To us, all these bleats sound very similar. But do you think they also sound similar to the lambs? Or do you think the lambs know whose mother is calling and what they are saying? Scientists try to interpret the bleats of sheep by observing their behavior when they hear these sounds. They study the sound waves of recorded bleats to identify each sheep’s unique voice and even determine which emotions the sheep are feeling. They also investigate the brain to find out what is going on inside the heads of sheep when they hear and understand the sounds of other sheep. Studies show that sheep really can recognize each other’s voices and communicate vocally.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -1987,6 +2128,9 @@
       "Cyril Poupon"
     ],
     "year": 2022,
+    "publication_date": "2022-01-01T00:00:00Z",
+    "year_month_day": "2022-01-01T00:00:00Z",
+    "abstract": "The structural connectivity of animal brains can be revealed using post-mortem diffusion-weighted magnetic resonance imaging (MRI). Despite the existence of several structural atlases of avian brains, few of them address the bird’s structural connectivity. In this study, a novel atlas of the structural connectivity is proposed for the male Japanese quail ( Coturnix japonica ), aiming at investigating two lines divergent on their emotionality trait: the short tonic immobility (STI) and the long tonic immobility (LTI) lines. The STI line presents a low emotionality trait, while the LTI line expresses a high emotionality trait. 21 male Japanese quail brains from both lines were scanned post-mortem for this study, using a preclinical Bruker 11.7 T MRI scanner. Diffusion-weighted MRI was performed using a 3D segmented echo planar imaging (EPI) pulsed gradient spin-echo (PGSE) sequence with a 200 μm isotropic resolution, 75 diffusion-encoding directions and a b-value fixed at 4500 s/mm 2 . Anatomical MRI was likewise performed using a 2D anatomical T 2 -weighted spin-echo (SE) sequence with a 150 μm isotropic resolution. This very first anatomical connectivity atlas of the male Japanese quail reveals 34 labeled fiber tracts and the existence of structural differences between the connectivity patterns characterizing the two lines. Thus, the link between the male Japanese quail’s connectivity and its underlying anatomical structures has reached a better understanding.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -2031,6 +2175,9 @@
       "Tsang-Wei Tu"
     ],
     "year": 2022,
+    "publication_date": "2022-01-14T00:00:00Z",
+    "year_month_day": "2022-01-14T00:00:00Z",
+    "abstract": "The olive baboon ( Papio anubis ) is phylogenetically proximal to humans. Investigation into the baboon brain has shed light on the function and organization of the human brain, as well as on the mechanistic insights of neurological disorders such as Alzheimer’s and Parkinson’s. Non-invasive brain imaging, including positron emission tomography (PET) and magnetic resonance imaging (MRI), are the primary outcome measures frequently used in baboon studies. PET functional imaging has long been used to study cerebral metabolic processes, though it lacks clear and reliable anatomical information. In contrast, MRI provides a clear definition of soft tissue with high resolution and contrast to distinguish brain pathology and anatomy, but lacks specific markers of neuroreceptors and/or neurometabolites. There is a need to create a brain atlas that combines the anatomical and functional/neurochemical data independently available from MRI and PET. For this purpose, a three-dimensional atlas of the olive baboon brain was developed to enable multimodal imaging analysis. The atlas was created on a population-representative template encompassing 89 baboon brains. The atlas defines 24 brain regions, including the thalamus, cerebral cortex, putamen, corpus callosum, and insula. The atlas was evaluated with four MRI images and 20 PET images employing the radiotracers for [ 11 C]benzamide, [ 11 C]metergoline, [ 18 F]FAHA, and [ 11 C]rolipram, with and without structural aids like [ 18 F]flurodeoxyglycose images. The atlas-based analysis pipeline includes automated segmentation, registration, quantification of region volume, the volume of distribution, and standardized uptake value. Results showed that, in comparison to PET analysis utilizing the “gold standard” manual quantification by neuroscientists, the performance of the atlas-based analysis was at &gt;80 and &gt;70% agreement for MRI and PET, respectively. The atlas can serve as a foundation for further refinement, and incorporation into a high-throughput workflow of baboon PET and MRI data. The new atlas is freely available on the Figshare online repository ( https://doi.org/10.6084/m9.figshare.16663339 ), and the template images are available from neuroImaging tools &amp; resources collaboratory (NITRC) ( https://www.nitrc.org/projects/haiko89/ ).",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -2081,6 +2228,9 @@
       "Odile Petit"
     ],
     "year": 2021,
+    "publication_date": "2021-11-17T00:00:00Z",
+    "year_month_day": "2021-11-17T00:00:00Z",
+    "abstract": "Chez les mammifères, la séparation maternelle à la naissance induit un stress chronique avec pour conséquences des altérations comportementales et neurobiologiques. Ainsi, en élevage ovin, les agneaux surnuméraires sont séparés de leur mère à la naissance et nourris avec des laits artificiels, induisant de telles altérations. Des études montrent l’importance du microbiote intestinal sur le développement comportemental. Notre hypothèse est qu’une alimentation enrichie en prébiotique dès la naissance contribuerait, via une action sur le microbiote, à prévenir certains des désordres associés au stress de séparation maternelle, en particulier comportementaux. Des agnelles ont reçu le colostrum de leur mère les 2 jours suivant la naissance avant d’être séparées et nourries avec un lait commercial dépourvu (Preb-) ou enrichi avec un prébiotique (Preb+, 1% galactofructose) jusqu’au sevrage à 7 semaines. Après le sevrage, les agnelles ont toutes reçu une nourriture standard d’élevage. La maturation du microbiote fécal des agnelles a été suivie par séquençage de la région V3-V4 du gène codant l’ARNs 16S à l’âge de 3, 7 et 10 semaines. Parallèlement, leur comportement social a été comparé par une approche éthologique. La position des individus et leurs activités au sein du groupe ont été quantifiées toutes les 10 minutes pendant 3 heures par jour ainsi que les interactions affiliatives et agonistiques, et les vocalisations. Sur la période durant laquelle le galactofructose est apporté par le lait, une restructuration de la composition du microbiote révélant les propriétés bifidogènes du prébiotique est observée : la sur-implantation précoce de 3 espèces de Bifidobactéries au détriment de nombreuses communautés appartenant aux Clostridiales se traduit par une moindre richesse d’espèces dans le groupe Preb+. Elles présentent parallèlement sur le plan comportemental des indices d’association significativement plus importants et des interactions affiliatives plus fréquentes. Elles ont également tendance à manifester moins d’interactions agonistiques et à moins vocaliser. Enfin, les agnelles Preb+ consacrent davantage de temps à consommer du lait sans que ce comportement n’affecte leur croissance. Après le sevrage, une empreinte spécifique du microbiote des agnelles Preb+ est conservée et se caractérise par un meilleur équilibre de l’abondance des espèces présentes, avec notamment, une abondance augmentée des Clostridiales et une meilleure colonisation par Akkermansia muciniphila. Si les différences de comportement social s’estompent après le sevrage, en revanche les agnelles Preb+ présentent un réseau social plus structuré. Enfin, l’intégration de ces données à celles du microbiote par des analyses multidimensionnelles révèle des covariations significatives, mettant ainsi en exergue de potentielles relations entre les modulations du microbiote intestinal et le comportement social lors du développement. En conclusion, l’apport précoce de galactofructose dans le lait diminue durablement les troubles du comportement social des agnelles soumises à un allaitement artificiel et l’absence maternelle. Cette étude suggère que ce prébiotique, via ses répercussions sur la maturation du microbiote intestinal, pourrait compenser certains des effets délétères associés aux stress précoces.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -2130,6 +2280,9 @@
       "Elodie Chaillou"
     ],
     "year": 2021,
+    "publication_date": "2021-04-23T00:00:00Z",
+    "year_month_day": "2021-04-23T00:00:00Z",
+    "abstract": "The psychoendocrine evaluation of lamb development has demonstrated that maternal deprivation and milk replacement alters health, behavior and endocrine profiles. While lambs are able to discriminate familiar and non-familiar conspecifics (mother or lamb), only lambs reared with their mother develop such clear social discrimination or preference. Lambs reared without mother display no preference for a specific lamb from its own group. Differences in exploratory and emotional behaviours between mother-reared and mother deprived lambs have also been reported. As these behavioural abilities are supported by the brain, we hypothesize that rearing with maternal deprivation and milk replacement leads to altered brain development and maturation. To test this hypothesis, we examined brain morphometric and microstructural variables extracted from in-vivo T1-weighted and diffusion-weighted magnetic resonance images acquired longitudinally (1 week, 1.5 months and 4.5 months of age) in mother-reared and mother-deprived lambs. From the morphometric variables the caudate nuclei volume was found to be smaller for mother-deprived than for mother-reared lambs. T1-weighted signal intensity and radial diffusivity were higher for mother-deprived than for mother-reared lambs in both the white and gray matters. The fractional anisotropy of the white matter was lower for mother-deprived than for mother-reared lambs. Based on these morphometric and microstructural characteristics we conclude that maternal deprivation delays and affects lamb brain growth and maturation.",
     "hal_type": "UNDEFINED",
     "category": "Preprint",
     "presentation_type": null,
@@ -2174,6 +2327,9 @@
       "Elodie Chaillou"
     ],
     "year": 2021,
+    "publication_date": "2021-10-21T00:00:00Z",
+    "year_month_day": "2021-10-21T00:00:00Z",
+    "abstract": "Japanese quails (Coturnix japonica) divergently selected based on their behavior during a tonic immobility test are an excellent model to study the link between brain morphology and behavior expression. The LTI (Long Tonic Immobility) and STI (Short Tonic Immobility) quail lines differ in their level of emotivity, with LTI quails being selected for their high-trait emotivity. Here, comparing the brain regions of the LTI and STI lines of male Japanese quails, we test the hypothesis that this divergent selection could have influenced brain anatomy, in particular, those regions involved in sensory and emotional processing. The heads of twenty, 10 weeks old male Japanese quails (10 STI and 10 LTI) were imaged ex-vivo using ultra high-resolution (11.7 Tesla) magnetic resonance imaging. The resulting images were used to create a population-averaged quail brain template and manually segmented 3D whole-brain atlas (openly available: https://doi.org/10.5281/zenodo.4700522). The atlas is composed of 191 brain regions, the ventricular system, pineal and pituitary glands. Thanks to this atlas, an exploratory analysis was conducted to compare brain regions between the two lines: the relative volumes of 33 regions were impacted (with 24 larger relative volumes being found in STI). This demonstrates for the first time in male Japanese quail that genetic selection for a specific emotional behavior (tonic immobility) modifies the anatomy of brain regions involved in sensory and emotional processing.",
     "hal_type": "UNDEFINED",
     "category": "Preprint",
     "presentation_type": null,
@@ -2211,6 +2367,9 @@
       "Marko Nardini"
     ],
     "year": 2020,
+    "publication_date": "2020-10-01T00:00:00Z",
+    "year_month_day": "2020-10-01T00:00:00Z",
+    "abstract": "The brain’s ability to integrate information from the different senses is essential for decreasing sensory uncertainty and ultimately limiting errors. Temporal correspondence is one of the key processes that determines whether information from different senses will be integrated and is influenced by both experience- and task-dependent mechanisms in adults. Here we investigated the development of both task- and experience-dependent temporal mechanisms by testing 7–8-year-old children, 10–11-year-old children, and adults in two tasks (simultaneity judgment, temporal order judgment) using audiovisual stimuli with differing degrees of association based on prior experience (low for beep-flash vs. high for face–voice). By fitting an independent channels model to the data, we found that while the experience-dependent mechanism of audiovisual simultaneity perception is already adult-like in 10–11-year-old children, the task-dependent mechanism is still not. These results indicate that differing maturation rates of experience-dependent and task-dependent mechanisms underlie the development of multisensory integration. Understanding this development has important implications for clinical and educational interventions.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -2254,6 +2413,9 @@
       "Aline Bertin"
     ],
     "year": 2020,
+    "publication_date": "2020-01-01T00:00:00Z",
+    "year_month_day": "2020-01-01T00:00:00Z",
+    "abstract": "Avoidance of novelty, termed neophobia, protects animals from potential dangers but can also impair their adaptation to novel environments or food resources. This behaviour is particularly well described in birds but the neurobiological correlates remain unexplored. Here, we measured neuronal activity in the amygdala and the striatum, two brain regions believed to be involved in novelty detection, by labelling the early gene c-fos following chicks exposure to a novel food (NF), a novel object (NO) or a familiar food (FF). NF and NO chicks showed significantly longer latencies to touch the food, less time eating and emitted more fear-vocalizations than control chicks. Latency to touch the food was also longer for NO than for NF chicks. Significantly higher densities of c-fos positive cells were present in all the nuclei of the arcopallium/amygdala of NF and NO chicks compared to FF chicks. Also, NO chicks showed higher positive cell densities than NF chicks in the posterior amygdaloid, the intermediate and the medial arcopallium. Exposure to novel food or object induced a similar increase in c-fos expression in the nucleus accumbens and the medial striatum. Our data provide evidence activation of the arcopallium/amygdala is specific of the type of novelty. The activation of striatum may be more related to novelty seeking.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -2295,6 +2457,9 @@
       "Elodie Chaillou"
     ],
     "year": 2019,
+    "publication_date": "2019-01-01T00:00:00Z",
+    "year_month_day": "2019-01-01T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -2338,6 +2503,9 @@
       "C. Poupon"
     ],
     "year": 2019,
+    "publication_date": "2019-01-01T00:00:00Z",
+    "year_month_day": "2019-01-01T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -2381,6 +2549,9 @@
       "C. Poupon"
     ],
     "year": 2019,
+    "publication_date": "2019-06-09T00:00:00Z",
+    "year_month_day": "2019-06-09T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -2423,6 +2594,9 @@
       "Raymond Nowak"
     ],
     "year": 2019,
+    "publication_date": "2019-10-02T00:00:00Z",
+    "year_month_day": "2019-10-02T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -2468,6 +2642,9 @@
       "Frédéric Lévy"
     ],
     "year": 2019,
+    "publication_date": "2019-06-11T00:00:00Z",
+    "year_month_day": "2019-06-11T00:00:00Z",
+    "abstract": "La déprivation maternelle induit de nombreux désordres physiologiques et comportementaux chez les mammifères. Chez l'agneau, l'élevage par allaitement artificiel conduit à des perturbations comportementales et cérébrales qui seraient dues à une inadaptation au lait artificiel eUou au stress précoce de déprivation maternelle. Un nombre grandissant d'études montre l'importance du microbiote intestinal lors du développement non seulement sur les plans immunitaire et métabolique, mais également sur les plans comportemental et cérébral. Notre hypothèse est qu'une nutrition précoce enrichie en prébiotique contribuerait, via une action sur le microbiote, à prévenir certains des désordres associés au stress précoce, en particulier comportementaux. Nous avons comparé les interactions sociales et les activités de 2 groupes d'agnelles élevées en allaitement artificiel jusqu'à l'âge du sevrage (à 7 semaines) et nourries avec un lait commercial dépourvu (Preb-, n=12) ou enrichi en prébiotique (Preb+, galactofructose, n=12). Après le sevrage, les agnelles ont reçu une nourriture standard d'élevage (granulés, foin et paille). La position des individus et leurs activités au sein du groupe ont été quantifiées toutes les 1 O minutes pendant 3 heures par jour. Les interactions affiliatives et agonistiques, et les vocalisations ont également été relevées. Nos résultats indiquent qu'avant le sevrage, les agnelles Preb+ présentent des indices d'association significativement plus importants et des interactions affiliatives plus fréquentes que les agnelles Preb-. Les agnelles Preb+ ont également tendance à présenter moins d'interactions agonistiques et à moins vocaliser que les agnelles Preb-. Enfin, les agnelles Preb+ passent moins de temps à consommer du lait que les agnelles Preb-. Toutefois cela n'a aucune incidence sur leur croissance. Ces différences s'estompent après le sevrage excepté pour les interactions affiliatives et les vocalisations. Ainsi, les agnelles Preb+ présentent un réseau social plus structuré que les agnelles Preb-. En conclusion, l'apport de galactofructose dans le lait diminue les troubles du comportement social induifs par l'allaitement artificiel et l'absence maternelle. Notre étude suggère que les prébiotiques pourraient compenser certains effets délétères des stress précoces. L'étude du microbiote et du développement cérébral de ces agnelles permettra de proposer les voies d'action du galactofructose qui pourrait agir sur le développement cérébral via le microbiote intestinal.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -2511,6 +2688,9 @@
       "Raymond Nowak"
     ],
     "year": 2019,
+    "publication_date": "2019-01-01T00:00:00Z",
+    "year_month_day": "2019-01-01T00:00:00Z",
+    "abstract": "The olfactory bulb and the hippocampus represent the main regions in the mammalian brain where new neurons continue to be added throughout life. Early-life stress affects the neurogenesis process in these areas. Gut microbiota modulates hippocampal neurogenesis and both probiotics and prebiotics supplementation can prevent the stress-induced reduction in hippocampal neurogenesis. The impact of gut microbiota and its modifications on olfactory neurogenesis has not been explored yet. Here, we investigate the effect of the prebiotic lactulose - an artificial disaccharide- on bulbar neurogenesis in maternally deprived lambs, a sheep model of early-life stress. Twenty-four female lambs were separated from their mother 24 hours after parturition and randomly assigne the Prebiotic group (P, N=12) or the Control group (C, N=12), housed separately. P lambs were fed with lactulose-suppleented (1%) artificial milk, while C lambs with non-supplemented artificial milk. At eleven weeks of age, olfactory neurogenesis was investigated by quantifying the number of neuroblasts (visualized with doublecortin (DCX) immunistaining) in the granular layer of the main olfactory bulb (MLB). DCX-positive cells were counted manually in frontal sections of the left MOB (four per animal) using Mercator software. The numer of DCX-positive cells observed in the granular layer of the left MOB did not significantly differ (unpaired t-tes : t(71)=1.54, P=0.128, two -tailed) between P lambs (mean± SEM = 35.18 ± 2.17 cells/mm2} and C lambs (31.31 ± 1.45 cells/mm2). We found no evidence that lactulose supplementation affects olfactory neurogenesis in maternally deprived lambs. However, we are currently investigating whether lactulose modulates hippocampal neurogenesis.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -2553,6 +2733,9 @@
       "Raymond Nowak"
     ],
     "year": 2019,
+    "publication_date": "2019-07-10T00:00:00Z",
+    "year_month_day": "2019-07-10T00:00:00Z",
+    "abstract": "The prebiotic lactulose does not affect olfactory neurogenesis in a sheep model of early life stress. FENS regional meeting",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -2596,6 +2779,9 @@
       "Adrien Meguerditchian"
     ],
     "year": 2018,
+    "publication_date": "2018-05-01T00:00:00Z",
+    "year_month_day": "2018-05-01T00:00:00Z",
+    "abstract": "The planum temporale (PT) is a critical region of the language functional network in the human brain showing a striking size asymmetry toward the left hemisphere. Historically considered as a structural landmark of the left-brain specialization for language, a similar anatomical bias has been described in great apes but never in monkeys-indicating that this brain landmark might be unique to Hominidae evolution. In the present in vivo magnetic resonance imaging study, we show clearly for the first time in a nonhominid primate species, an Old World monkey, a left size predominance of the PT among 96 olive baboons (Papio anubis), using manual delineation of this region in each individual hemisphere. This asymmetric distribution was quasi-identical to that found originally in humans. Such a finding questions the relationship between PT asymmetry and the emergence of language, indicating that the origin of this cerebral specialization could be much older than previously thought, dating back, not to the Hominidae, but rather to the Catarrhini evolution at the common ancestor of humans, great apes and Old World monkeys, 30-40 million years ago.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -2635,6 +2821,9 @@
       "Elodie Chaillou"
     ],
     "year": 2018,
+    "publication_date": "2018-06-22T00:00:00Z",
+    "year_month_day": "2018-06-22T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -2674,6 +2863,9 @@
       "Elodie Chaillou"
     ],
     "year": 2018,
+    "publication_date": "2018-01-01T00:00:00Z",
+    "year_month_day": "2018-01-01T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -2714,6 +2906,9 @@
       "Elodie Chaillou"
     ],
     "year": 2018,
+    "publication_date": "2018-10-11T00:00:00Z",
+    "year_month_day": "2018-10-11T00:00:00Z",
+    "abstract": "L’existence des lignées de cailles STI (Short Tonic Immobility) et LTI (Long Tonic Immobility), issues d’une sélection génétique divergente sur la durée d’immobilité tonique (IT), offre une opportunité unique d’étudier la variabilité anatomique de l’encéphale corrélée à différentes réponses au comportement de peur. Les cailles STI se révèlent moins peureuses que les cailles LTI dans des situations effrayantes (néophobie). Une des hypothèses avancées est que la différence de comportement entre les deux lignées serait corrélée à des différences de connectivité des structures impliquées dans le circuit fonctionnel associé. Des cerveaux de cailles mâles adultes LTI (n=10) et STI (n=10) ont été imagés ex vivo avec une IRM 11,7T (NeuroSpin). Les données décrivant la neuroanatomie du cerveau de caille étant rares et incomplètes, nous avons fait un premier travail comparatif avec des données IRM cérébrales décrites chez d’autres oiseaux. Comme le système visuel joue un rôle important dans la perception de l’environnement, nous avons d’abord réalisé l’identification et la segmentation de structures tels que les nerfs optiques, le chiasma optique et le tectum. Dans ce dernier cas, nous avons observé des contrastes différents sur les IRM qui pourraient correspondre aux couches de cellules identifiées sur des coupes d’encéphales de cailles, colorées au violet de Crésyl. Une fois toutes les structures cérébrales segmentées, nous pourrons construire un atlas IRM probabiliste du cerveau de caille et calculer les cartes de connectivité entre les différentes structures grâce à l’utilisation de la tractographie. Nous chercherons ensuite à vérifier que les connectivités des structures du réseau neuronal de la peur diffèrent entre les cailles STI et LTI, en cohérence avec les données comportementales et physiologiques.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -2752,6 +2947,9 @@
       "Frank E. Pollick"
     ],
     "year": 2018,
+    "publication_date": "2018-01-01T00:00:00Z",
+    "year_month_day": "2018-01-01T00:00:00Z",
+    "abstract": "Multisensory processing is a core perceptual capability, and the need to understand its neural bases provides a fundamental problem in the study of brain function. Both synchrony and temporal order judgments are commonly used to investigate synchrony perception between different sensory cues and multisensory perception in general. However, extensive behavioral evidence indicates that these tasks do not measure identical perceptual processes. Here we used functional magnetic resonance imaging to investigate how behavioral differences between the tasks are instantiated as neural differences. As these neural differences could manifest at either the sustained (task/state-related) and/or transient (event-related) levels of processing, a mixed block/event-related design was used to investigate the neural response of both time-scales. Clear differences in both sustained and transient BOLD responses were observed between the two tasks, consistent with behavioral differences indeed arising from overlapping but divergent neural mechanisms. Temporal order judgments, but not synchrony judgments, required transient activation in several left hemisphere regions, which may reflect increased task demands caused by an extra stage of processing. Our results highlight that multisensory integration mechanisms can be task dependent, which, in particular, has implications for the study of atypical temporal processing in clinical populations.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -2795,6 +2993,9 @@
       "Romain Lacoste"
     ],
     "year": 2017,
+    "publication_date": "2017-08-21T00:00:00Z",
+    "year_month_day": "2017-08-21T00:00:00Z",
+    "abstract": "Language is a unique system of communication in humans and involves hemispheric specialization and complex cortical organization of the brain. Given the hylogenetic proximity between humans and non-human primate species, a comparative approach to lateralization of the communicative system and to its cortical organization in apes and monkeys might enable the detection of the potential precursors of hemispheric specialization for language processing in our common ancestors. In previous studies we found that both chimpanzees and baboons – a non-hominid Old World monkey species – showed a robust predominance of right-hand use for communicative manual gestures specifically, indicating that the left-hemisphere might be dominant for the control of gestural communication. In the present brain studies using MRI at the Centre IRMf of Marseille, we investigate the anatomical brain asymmetries of some of the key cortical regions for language in 96 olive baboons ( Papio anubis) which were housed in social groups at the Station de Primatologie CNRS. We found, for the first time in a non-hominid species, human-like significant neuroanatomical asymmetries toward the left hemisphere for the planum temporale surface and toward the right hemisphere for a specific portion of the Superior Temporal Sulcus’s and of the Arcuate’s depth. Interestingly, inter-hemispheric symmetries of the central sulcus depth were shown to be significantly driven by the contralateral direction of handedness (i.e. left- or right-hand), which were previously assessed in these individuals using a bimanual coordinated task. These collective findings suggest that the continuity of hemispheric specializa-tion between apes and humans extends to baboons for key structures of language and handed-ness. These findings argue that prerequisites of hemispheric specialization for language and handedness might date back to the common ancestor of Catarrhini at 30–40 million years ago.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -2836,6 +3037,9 @@
       "Clovis Tauber"
     ],
     "year": 2017,
+    "publication_date": "2017-06-10T00:00:00Z",
+    "year_month_day": "2017-06-10T00:00:00Z",
+    "abstract": "In the healthy brain there is minimal expression of the 18 kDa translocator protein (TSPO); however, it is up-regulated due to neuroinflammation caused by, for example, cerebral stroke1. Such clinical changes in the density of this TSPO can potentially be measured using the [18F]DPA-714 radioligand and dynamic positron emission tomography2,3 (PET). To avoid the invasive collection of arterial blood sampling, which is required for the gold standard analysis of dynamic PET studies4 (2T4k) the creation of alternative reference kinetics are required to enable the use of simplified quantification techniques. Recent [18F]DPA-714 studies have used an anatomically defined cerebellum as reference region for quantification5,6; however, this approach may not be robust nor invariant for some populations of subjects. For the kinetic modelling of the [11C]-(R)-PK11195 molecular marker a supervised clustering approach (SVCA) was proposed7, and modified8, as a more robust method of creating reference kinetics. Here we aimed to improve the SVCA method and to test its ability to robustly define reference regions for use in the quantification of clinical [18F]DPA-714 dynamic PET studies.Methods: Dynamic PET scans (59 min) were acquired from 2 stroke patients and 8 healthy subjects using a Philips Ingenuity TF camera. Dynamic data were binned into 31 time frames: 6x10 sec, 8x30 sec, 4x60 sec, 5x120 sec, 8x300 sec. Structural T1-weighted MRI were acquired from all participants and rigidly registered to the mean image of the dynamic PET data using Freesurfer. During definition of the SVCA predefined classes, dynamic PET data were normalized (mean activity in brain mask subtracted from the activity of each voxel and divided by the standard deviation) to scale each frame. The predefined kinetic classes were calculated as the mean, across voxels and participants, of the normalized PET data from regions defined in an iterative process as containing blood, white matter, and low specific binding grey matter using the T1 image and Freesurfer. The specific binding grey matter class was defined by expert manual segmentation of hyperintense voxels in the reconstructed PET data of stroke patients. Nonnegative least-squares linear regression was used to quantify the contribution of each of the 4 classes to the kinetic of each voxel. For each subject, a reference curve was created as the weighted combination of the time activity curves (TAC) of a selection of voxels. The selection was based on percentiles of the weights of their decomposition over the 4 classes. An SRTM2 approach was used to calculate voxel-wise binding potentials (BP), both using the TAC of the cerebellum and the generated curve as references.Results: Using largely automated techniques, coherent TACs were created for all four classes: nonspecific grey matter, white matter, blood and TSPO. Importantly, stroke damaged brain regions were successfully detected using the proposed version of SVCA to define the reference region required for the SRTM2 compartment model. From area under the curve values, there was no significant difference [t(18)=.09,p=0.9] between the cerebellum and SVCA generated reference TACs. There were significant correlations between the BPs within a region of interest (e.g., thalamus) calculated either using the SVCA or cerebellum references.Conclusion: The modified SVCA method presented here can be used with [18F]DPA-714 dynamic PET data to detect brain tissue with neuroinflammation caused by stroke. In this study where the subjects were supposedly devoid of neuroinflammation in the cerebellum, the reference curves found by the proposed approach were very similar to those of the cerebellum while not being based on any anatomical prior. Future work should continue to optimize the method and to investigate the generalizability of the current finding to other clinical cases where neuroinflammation can occur significantly in the cerebellum.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -2872,6 +3076,9 @@
       "Marianne Latinus"
     ],
     "year": 2017,
+    "publication_date": "2017-01-01T00:00:00Z",
+    "year_month_day": "2017-01-01T00:00:00Z",
+    "abstract": "The ability to recognize an individual from their voice is a widespread ability with a long evolutionary history. Yet, the perceptual representation of familiar voices is ill-defined. In two experiments, we explored the neuropsychological processes involved in the perception of voice identity. We specifically explored the hypothesis that familiar voices (trained-to-familiar (Experiment 1), and famous voices (Experiment 2)) are represented as a whole complex pattern, well approximated by the average of multiple utterances produced by a single speaker. In experiment 1, participants learned three voices over several sessions, and performed a three-alternative forced-choice identification task on original voice samples and several “speaker averages,” created by morphing across varying numbers of different vowels, e.g., (a) and (i) produced by the same speaker. In experiment 2, the same participants performed the same task on voice samples produced by familiar speakers. The two experiments showed that for famous voices, but not for trained-to-familiar voices, identification performance increased and response times decreased as a function of the number of utterances in the averages. This study sheds light on the perceptual representation of familiar voices, and demonstrates the power of average in recognizing familiar voices. The speaker average captures the unique characteristics of a speaker, and thus retains the information essential for recognition; it acts as a prototype of the speaker.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -2912,6 +3119,9 @@
       "Elodie Chaillou"
     ],
     "year": 2017,
+    "publication_date": "2017-01-01T00:00:00Z",
+    "year_month_day": "2017-01-01T00:00:00Z",
+    "abstract": "Updated labelling and description of the gross anatomy of the sheep cortex derived from surface reconstruction of the brain. . New animal models to understand the brain",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -2955,6 +3165,9 @@
       "Raymond Nowak"
     ],
     "year": 2017,
+    "publication_date": "2017-01-01T00:00:00Z",
+    "year_month_day": "2017-01-01T00:00:00Z",
+    "abstract": "Impact of early rearing experience on brain development in sheep infant. . New animal models to understand the brain",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -2997,6 +3210,9 @@
       "Ilyess Zemmoura"
     ],
     "year": 2017,
+    "publication_date": "2017-01-01T00:00:00Z",
+    "year_month_day": "2017-01-01T00:00:00Z",
+    "abstract": "The precise sulcogyral localization of cortical lesions is mandatory to improve communication between practitioners and to predict and prevent post-operative deficits. This process, which assumes a good knowledge of the cortex anatomy and a systematic analysis of images, is, nevertheless, sometimes neglected in the neurological and neurosurgical training. This didactic paper proposes a brief overview of the sulcogyral anatomy, using conventional MR-slices, and also reconstructions of the cortical surface after a more or less extended inflation process. This method simplifies the cortical anatomy by removing part of the cortical complexity induced by the folding process, and makes it more understandable. We then reviewed several methods for localizing cortical structures, and proposed a three-step identification: after localizing the lateral, medial or ventro-basal aspect of the hemisphere (step 1), the main interlobar sulci were located to limit the lobes (step 2). Finally, intralobar sulci and gyri were identified (step 3) thanks to the same set of rules. This paper does not propose any new identification method but should be regarded as a set of practical guidelines, useful in daily clinical practice, for detecting the main sulci and gyri of the human cortex.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -3040,6 +3256,9 @@
       "Olivier A Coulon"
     ],
     "year": 2016,
+    "publication_date": "2016-03-21T00:00:00Z",
+    "year_month_day": "2016-03-21T00:00:00Z",
+    "abstract": "Language is a unique system of communication in humans and involves complex hemispheric specialization of the brain (Vigneau et al., 2006, 2011). Brain regions such as the motor cortex, Broca’s area and the Planum Temporale play key-roles within the language network. Given the phylogenetic proximity between humans and nonhuman primates, the investigation of the cortical organization in apes and monkeys within a comparative approach might enable detecting the potential precursors of hemispheric specialization for language processing. Most comparative studies have focused on great apes, particularly chimpanzees (Hopkins & Cantalupo, 2008). Similarly to humans, leftward asymmetries of the planum temporale (Gannon et al., 1998; Hopkins & Nir, 2010) and rightward asymmetries of the superior temporal sulcus (Leroy et al., 2015) have been documented in chimpanzees, but not in non-hominidae….",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -3077,6 +3296,9 @@
       "Frank E. Pollick"
     ],
     "year": 2016,
+    "publication_date": "2016-05-11T00:00:00Z",
+    "year_month_day": "2016-05-11T00:00:00Z",
+    "abstract": "Background: The ability to integrate auditory and visual information is crucial to everyday life. Behavioural results have predominantly shown that individuals with Autism Spectrum Disorder (ASD) have deficits in audiovisual integration. These findings have recently been supported by electroencephalography (EEG) studies (Brandwein et al., 2015). Objectives: There are limited data from functional magnetic resonance imaging (fMRI) studies investigating audiovisual processing in ASD. To address this issue and to reveal brain areas involved in audiovisual processing, the current fMRI study looked at audiovisual, unisensory auditory and unisensory visual processing in ASD. Two types of stimuli were used, complex social face-voice (FV) displays and simple non-social beep-flash (BF) displays. Methods: Participants included 13 adult males with ASD and age and 13 IQ-matched typically developed (TD) males. FV displays included an audiovisual condition of a face moving to say a single word and the voice saying the word, an auditory condition of a voice, and a visual condition a face moving to say a word. Similarly the BF displays included an audiovisual condition of a beep with a flashing circle, an auditory condition of a beep, and a visual condition of a flashing circle. The BOLD signal was obtained while participants were presented with blocks of audiovisual, auditory and visual conditions of FV and BF displays. Results: A random effects analysis contrasting groups revealed that processing of audiovisual as well as auditory and visual stimulus conditions in both the FV and BF displays was associated with reduced activation in ASD. Audiovisual, auditory and visual conditions of FV stimuli revealed reduced activation in ASD in regions of the frontal cortex, while BF stimuli revealed reduced activation in the lingual gyri. The inferior parietal gyrus revealed an interaction between sensory condition of BF displays and group. A conjunction analysis was performed to show areas of audiovisual processing and revealed that the bilateral superior temporal cortex (STC) was sensitive to audiovisual information in ASD and TD for both types of displays. However, the activation regions of the STC were smaller in the ASD group. Additionally a superior frontal area was shown to be sensitive to audiovisual FV displays in the TD group, but not in the ASD group. Conclusions: Overall this study indicated differences in brain activity for audiovisual, auditory and visual processing of social FV and non-social BF displays in ASD compared to TD. These results were mainly characterized by the ASD group showing less activation than the TD group in auditory, visual and audiovisual regions. In addition, differences were found in frontal cortex for FV displays.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3116,6 +3338,9 @@
       "Elodie Chaillou"
     ],
     "year": 2016,
+    "publication_date": "2016-05-24T00:00:00Z",
+    "year_month_day": "2016-05-24T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3159,6 +3384,9 @@
       "Adrien Meguerditchian"
     ],
     "year": 2016,
+    "publication_date": "2016-06-26T00:00:00Z",
+    "year_month_day": "2016-06-26T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3201,6 +3429,9 @@
       "Adrien Meguerditchian"
     ],
     "year": 2016,
+    "publication_date": "2016-06-26T00:00:00Z",
+    "year_month_day": "2016-06-26T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3245,6 +3476,9 @@
       "Raymond Nowak"
     ],
     "year": 2016,
+    "publication_date": "2016-07-02T00:00:00Z",
+    "year_month_day": "2016-07-02T00:00:00Z",
+    "abstract": "The psychoendocrine evaluation of infant attachment recently demonstrated that early rearing experience modifies the endocrine profiles and the social interaction between a lamb and its attachment figure. While lambs are able to discriminate familiar and non-familiar conspecifics (mother or lamb), only lambs reared with their mother develop such clear social discrimination or preference. Lambs reared without mother displayed no preference for a specific lamb from its own group. Other differences were reported in exploratory and emotional behaviours. Moreover, lambs reared with their mother only present lower plasma cortisol and higher plasma oxytocin levels than lambs reared with same age conspecifics only. Because these behavioural and endocrine responses are supported by brain organisation, we decided to describe and compare the brain development of lambs reared in group with and without mother by using T1-weigthed- and diffusion tensor MRI at 1 week, 1, 2 and 4 months of age. Using texture analysis of the T1w MRI, we showed that the differentiation of the pituitary differed between the two groups. The extraction of diffusion parameters allowed to show that the white matter fractional anisotropy increased from 1 week to 4 months, whatever the group. Moreover, some differences were noticed between groups in specific brain areas. The impact of early rearing experience found in our study could reflect the consequences of social environment.",
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3287,6 +3521,9 @@
       "Adrien Meguerditchian"
     ],
     "year": 2016,
+    "publication_date": "2016-06-01T00:00:00Z",
+    "year_month_day": "2016-06-01T00:00:00Z",
+    "abstract": "no abstract",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -3331,6 +3568,9 @@
       "Adrien Meguerditchian"
     ],
     "year": 2016,
+    "publication_date": "2016-06-01T00:00:00Z",
+    "year_month_day": "2016-06-01T00:00:00Z",
+    "abstract": "no abstract",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -3373,6 +3613,9 @@
       "Adrien Meguerditchian"
     ],
     "year": 2016,
+    "publication_date": "2016-05-01T00:00:00Z",
+    "year_month_day": "2016-05-01T00:00:00Z",
+    "abstract": "The baboon (Papio) brain is a remarkable model for investigating the brain. The current work aimed at creating a population-average baboon (Papio anubis) brain template and its left/right hemisphere symmetric version from a large sample of T1-weighted magnetic resonance images collected from 89 individuals. Averaging the prior probability maps output during the segmentation of each individual also produced the first baboon brain tissue probability maps for gray matter, white matter and cerebrospinal fluid. The templates and the tissue probability maps were created using state-of-the-art, freely available software tools and are being made freely and publicly available: http://www.nitrc.org/projects/haiko89/ or http://lpc.univ-amu.fr/spip.php?article589. It is hoped that these images will aid neuroimaging research of the baboon by, for example, providing a modern, high quality normalization target and accompanying standardized coordinate system as well as probabilistic priors that can be used during tissue segmentation.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -3414,6 +3657,9 @@
       "Jean Luc Anton"
     ],
     "year": 2015,
+    "publication_date": "2015-10-14T00:00:00Z",
+    "year_month_day": "2015-10-14T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -3456,6 +3702,9 @@
       "Aina Puce"
     ],
     "year": 2015,
+    "publication_date": "2015-01-01T00:00:00Z",
+    "year_month_day": "2015-01-01T00:00:00Z",
+    "abstract": "Social decisions affect neural activity to perceived dynamic gaze",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -3497,6 +3746,9 @@
       "Swapnaa Jayaraman"
     ],
     "year": 2015,
+    "publication_date": "2015-01-01T00:00:00Z",
+    "year_month_day": "2015-01-01T00:00:00Z",
+    "abstract": "In this chapter we focus on the neural processes that occur in the mature healthy human brain in response to evaluating another’s social attention. We first examine the brain’s sensitivity to gaze direction of others, social attention (as typically indicated by gaze contact), and joint attention. Brain regions such as the superior temporal sulcus (STS), the amygdala, and the fusiform gyrus have been previously demonstrated to be sensitive to gaze changes, most frequently with functional magnetic resonance imaging (fMRI). Neurophysiological investigations, using electroencephalography (EEG) and magnetoencephalography (MEG), have identified event-related potentials (ERPs) such as the N170 that are sensitive to changes in gaze direction and head direction. We advance a putative model that explains findings relating to the neurophysiology of social attention , based mainly on our studies. This model proposes two brain modes of social information processing—a nonsocial “Default” mode and a social mode that we have named “Socially Aware”. In Default mode, there is an internal focus on executing actions to achieve our goals, as evident in studies in which passive viewing or tasks involving nonsocial judgments have been used. In contrast, Socially Aware mode is active when making explicit social judgments. Switching between these two modes is rapid and can occur via either top-down or bottom-up routes. From a different perspective, most of the literature, including our own studies, has focused on social attention phenomena as experienced from the first-person perspective, i.e., gaze changes or social attention directed at, or away from, the observer. However, in daily life we are actively involved in observing social interactions between others, where their social attention focus may not include us, or their gaze may not meet ours. Hence, changes in eye gaze and social attention are experienced from the third-person perspective. This area of research is still fairly small, but nevertheless important in the study of social and joint attention, and we discuss this very small literature briefly at the end of the chapter. We conclude the chapter with some outstanding questions, which are aimed at the main knowledge gaps in the literature.",
     "hal_type": "COUV",
     "category": "Book chapter",
     "presentation_type": null,
@@ -3544,6 +3796,9 @@
       "Olivier Coulon"
     ],
     "year": 2015,
+    "publication_date": "2015-01-01T00:00:00Z",
+    "year_month_day": "2015-01-01T00:00:00Z",
+    "abstract": "no abstract",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -3593,6 +3848,9 @@
       "William D Hopkins"
     ],
     "year": 2014,
+    "publication_date": "2015-03-31T00:00:00Z",
+    "year_month_day": "2015-03-31T00:00:00Z",
+    "abstract": "La plupart des fonctions cognitives impliquées dans le langage sont principalement sous le contrôle de l'hémisphère gauche du cerveau au sein d'un réseau cérébral complexe dans lequel les aires de Broca et de Wernicke jouent un rôle clé. Au regard de la proximité phylogénétique des primates humains et non humains, les études sur les asymétries des systèmes de communication de nos cousins les primates peuvent nous aider à détecter les précurseurs éventuels de cette spécialisation hémisphérique du langage chez notre ancêtre commun. Dans nos travaux, les chimpanzés et les babouins ont montré des degrés d’asymétries en faveur de la main droite pour les gestes communicatifs bien plus prononcés que ceux rapportés pour des tâches non communicatives de manipulation d’objets. Nous avons ainsi suggéré l'hypothèse selon laquelle la communication gestuelle pourrait impliquer davantage l'hémisphère gauche et constituer ainsi un système latéralisé précurseur de celui du langage chez l'homme. Pour tester cette hypothèse, il est important de mener des recherches sur les bases neuronales de ces asymétries comportementales gestuelles, notamment chez le babouin. Des questions se posent (1) sur l'existence ou non d'asymétries morphologiques entre l'hémisphère droit et l'hémisphère gauche concernant les zones homologues des aires de Broca et de Wernicke dans le cerveau des babouins, et (2) sur leurs liens potentiels avec les asymétries des gestes communicatifs. Dans cette présentation, nous introduirons nos travaux en neuroimagerie non invasive IRM (Imagerie par résonance magnétique) menés sur des babouins Papio anubis anesthésiés puis remis dans leur groupe social. Ces recherches visent à constituer une base de données la plus large possible d'images cérébrales anatomiques auprès de sujets hébergés et observés à la station de primatologie de Rousset. Nous ferons le point sur les méthodes que nous avons développées pour collecter des images auprès de sujets in vivo au Centre IRMf de l'Institut des Neurosciences de la Timone à Marseille. Ces méthodes incluent la préparation du singe, le protocole d’anesthésie, l’installation du sujet et son monitoring dans la machine IRM 3Tesla Bruker, ainsi que l'ensemble des étapes de traitement d'images pour étudier les corrélats neuroanatomiques de la communication gestuelle chez le babouin. Un aperçu des premiers résultats sera présenté.",
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -3629,6 +3887,9 @@
       "Pascal Belin"
     ],
     "year": 2014,
+    "publication_date": "2014-09-13T00:00:00Z",
+    "year_month_day": "2014-09-13T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3671,6 +3932,9 @@
       "George Nathalie"
     ],
     "year": 2014,
+    "publication_date": "2015-01-01T00:00:00Z",
+    "year_month_day": "2015-01-01T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Invited talk",
@@ -3708,6 +3972,9 @@
       "Frank Pollick"
     ],
     "year": 2014,
+    "publication_date": "2014-05-16T00:00:00Z",
+    "year_month_day": "2014-05-16T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3749,6 +4016,9 @@
       "D Leopold"
     ],
     "year": 2014,
+    "publication_date": "2014-11-15T00:00:00Z",
+    "year_month_day": "2014-11-15T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3787,6 +4057,9 @@
       "Jeffrey M. Zacks"
     ],
     "year": 2014,
+    "publication_date": "2014-01-01T00:00:00Z",
+    "year_month_day": "2014-01-01T00:00:00Z",
+    "abstract": "It has been proposed that we make sense of the movements of others by observing fluctuations in the kinematic properties of their actions. At the neural level, activity in the human motion complex (hMT+) and posterior superior temporal sulcus (pSTS) has been implicated in this relationship. However, previous neuroimaging studies have largely utilized brief, diminished stimuli, and the role of relevant kinematic parameters for the processing of human action remains unclear. We addressed this issue by showing extended-duration natural displays of an actor engaged in two common activities, to 12 participants in an fMRI study under passive viewing conditions. Our region-of-interest analysis focused on three neural areas (hMT+, pSTS, and fusiform face area) and was accompanied by a whole-brain analysis. The kinematic properties of the actor, particularly the speed of body part motion and the distance between body parts, were related to activity in hMT+ and pSTS. Whole-brain exploratory analyses revealed additional areas in posterior cortex, frontal cortex, and the cerebellum whose activity was related to these features. These results indicate that the kinematic properties of peoples’ movements are continually monitored during everyday activity as a step to determining actions and intent.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -3824,6 +4097,9 @@
       "M Nardini"
     ],
     "year": 2013,
+    "publication_date": "2013-05-10T00:00:00Z",
+    "year_month_day": "2013-05-10T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3862,6 +4138,9 @@
       "Frank Pollick"
     ],
     "year": 2013,
+    "publication_date": "2013-05-10T00:00:00Z",
+    "year_month_day": "2013-05-10T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -3901,6 +4180,9 @@
       "Frank E. Pollick"
     ],
     "year": 2013,
+    "publication_date": "2013-01-01T00:00:00Z",
+    "year_month_day": "2013-01-01T00:00:00Z",
+    "abstract": "The superior temporal sulcus (STS) and gyrus (STG) are commonly identified to be functionally relevant for multisensory integration of audiovisual (AV) stimuli. However, most neuroimaging studies on AV integration used stimuli of short duration in explicit evaluative tasks. Importantly though, many of our AV experiences are of a long duration and ambiguous. It is unclear if the enhanced activity in audio, visual, and AV brain areas would also be synchronised over time across subjects when they are exposed to such multisensory stimuli. We used intersubject correlation to investigate which brain areas are synchronised across novices for uni- and multisensory versions of a 6-min 26-s recording of an unfamiliar, unedited Indian dance recording (Bharatanatyam). In Bharatanatyam, music and dance are choreographed together in a highly intermodal-dependent manner. Activity in the middle and posterior STG was significantly correlated between subjects and showed also significant enhancement for AV integration when the functional magnetic resonance signals were contrasted against each other using a general linear model conjunction analysis. These results extend previous studies by showing an intermediate step of synchronisation for novices: while there was a consensus across subjects' brain activity in areas relevant for unisensory processing and AV integration of related audio and visual stimuli, we found no evidence for synchronisation of higher level cognitive processes, suggesting these were idiosyncratic.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -3938,6 +4220,9 @@
       "Frank E. Pollick"
     ],
     "year": 2013,
+    "publication_date": "2013-01-01T00:00:00Z",
+    "year_month_day": "2013-01-01T00:00:00Z",
+    "abstract": "Background Synchrony judgments involve deciding whether cues to an event are in synch or out of synch, while temporal order judgments involve deciding which of the cues came first. When the cues come from different sensory modalities these judgments can be used to investigate multisensory integration in the temporal domain. However, evidence indicates that that these two tasks should not be used interchangeably as it is unlikely that they measure the same perceptual mechanism. The current experiment further explores this issue across a variety of different audiovisual stimulus types. Methodology/Principal Findings Participants were presented with 5 audiovisual stimulus types, each at 11 parametrically manipulated levels of cue asynchrony. During separate blocks, participants had to make synchrony judgments or temporal order judgments. For some stimulus types many participants were unable to successfully make temporal order judgments, but they were able to make synchrony judgments. The mean points of subjective simultaneity for synchrony judgments were all video-leading, while those for temporal order judgments were all audio-leading. In the within participants analyses no correlation was found across the two tasks for either the point of subjective simultaneity or the temporal integration window. Conclusions Stimulus type influenced how the two tasks differed; nevertheless, consistent differences were found between the two tasks regardless of stimulus type. Therefore, in line with previous work, we conclude that synchrony and temporal order judgments are supported by different perceptual mechanisms and should not be interpreted as being representative of the same perceptual process.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -3973,6 +4258,9 @@
       "Scott Love"
     ],
     "year": 2013,
+    "publication_date": "2013-01-01T00:00:00Z",
+    "year_month_day": "2013-01-01T00:00:00Z",
+    "abstract": "Typically, the actions of agents in classical animacy displays are synthetically created, thus forming artificial displays of biological movement. Therefore, the link between the motion in animacy displays and that of actual biological motion is unclear. In this chapter we will look at work being done to clarify this relationship. We will first discuss a modern approach to the creation of animacy displays whereby full-video displays of human interactions are reduced into simple animacy displays; this results in animate shapes whose motions are directly derived from human actions. Second, we will review what is known about the ability of typically developed adults and people with autism spectrum disorders to perceive the intentionality within these displays. Finally, we will explore the effects that motion parameters such as speed and acceleration, measured directly from original human actions, have on the perception of intent; fMRI studies that connect neural networks to motion parameters, and the resultant perception of animacy and intention, will also be examined.",
     "hal_type": "COUV",
     "category": "Book chapter",
     "presentation_type": null,
@@ -4009,6 +4297,9 @@
       "Fabien D’hondt"
     ],
     "year": 2013,
+    "publication_date": "2013-01-01T00:00:00Z",
+    "year_month_day": "2013-01-01T00:00:00Z",
+    "abstract": "Face–voice integration has been extensively explored among healthy participants during the last decades. Nevertheless, while binding alterations constitute a core feature of many psychiatric diseases, these crossmodal processing have been very little explored in these populations. This chapter presents three studies offering an integrative use of behavioural, electrophysiological and neuroimaging techniques to explore the audio–visual integration of emotional stimuli in alcohol dependence. These results constitute a preliminary step towards a multidisciplinary exploration of crossmodal processing in psychiatry, extending to other stimulations, sensorial modalities and populations. The exploration of impaired crossmodal abilities could renew the knowledge on “normal” audio–visual integration and could lead to innovative therapeutic programs.",
     "hal_type": "COUV",
     "category": "Book chapter",
     "presentation_type": null,
@@ -4045,6 +4336,9 @@
       "Karin Petrini"
     ],
     "year": 2012,
+    "publication_date": "2012-01-01T00:00:00Z",
+    "year_month_day": "2012-01-01T00:00:00Z",
+    "abstract": "The ability to successfully integrate information from different senses is of paramount importance for perceiving the world and has been shown to change with experience. We first review how experience, in particular musical experience, brings about changes in our ability to fuse together sensory information about the world. We next discuss evidence from drumming studies that demonstrate how the perception of audiovisual synchrony depends on experience. These studies show that drummers are more robust than novices to perturbations of the audiovisual signals and appear to use different neural mechanisms in fusing sight and sound. Finally, we examine how experience influences audiovisual speech perception. We present an experiment investigating how perceiving an unfamiliar language influences judgments of temporal synchrony of the audiovisual speech signal. These results highlight the influence of both the listener’s experience with hearing an unfamiliar language as well as the speaker’s experience with producing non-native words.",
     "hal_type": "COUV",
     "category": "Book chapter",
     "presentation_type": null,
@@ -4084,6 +4378,9 @@
       "Scott Love"
     ],
     "year": 2011,
+    "publication_date": "2011-01-01T00:00:00Z",
+    "year_month_day": "2011-01-01T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -4123,6 +4420,9 @@
       "P Belin"
     ],
     "year": 2011,
+    "publication_date": "2011-06-26T00:00:00Z",
+    "year_month_day": "2011-06-26T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -4159,6 +4459,9 @@
       "M Becirspahic"
     ],
     "year": 2011,
+    "publication_date": "2011-01-01T00:00:00Z",
+    "year_month_day": "2011-01-01T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -4196,6 +4499,9 @@
       "Frank Pollick"
     ],
     "year": 2011,
+    "publication_date": "2011-05-06T00:00:00Z",
+    "year_month_day": "2011-05-06T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -4236,6 +4542,9 @@
       "P Belin"
     ],
     "year": 2011,
+    "publication_date": "2011-01-01T00:00:00Z",
+    "year_month_day": "2011-01-01T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",
@@ -4272,6 +4581,9 @@
       "Marianne Latinus"
     ],
     "year": 2011,
+    "publication_date": "2011-01-01T00:00:00Z",
+    "year_month_day": "2011-01-01T00:00:00Z",
+    "abstract": "Perception of faces and voices plays a prominent role in human social interaction, making multisensory integration of cross-modal speech a topic of great interest in cognitive neuroscience. How to define potential sites of multisensory integration using functional magnetic resonance imaging (fMRI) is currently under debate, with three statistical criteria frequently used (e.g., super-additive, max and mean criteria). In the present fMRI study, 20 participants were scanned in a block design under three stimulus conditions: dynamic unimodal face, unimodal voice and bimodal face–voice. Using this single dataset, we examine all these statistical criteria in an attempt to define loci of face–voice integration. While the super-additive and mean criteria essentially revealed regions in which one of the unimodal responses was a deactivation, the max criterion appeared stringent and only highlighted the left hippocampus as a potential site of face– voice integration. Psychophysiological interaction analysis showed that connectivity between occipital and temporal cortices increased during bimodal compared to unimodal conditions. We concluded that, when investigating multisensory integration with fMRI, all these criteria should be used in conjunction with manipulation of stimulus signal-to-noise ratio and/or cross-modal congruency.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -4315,6 +4627,9 @@
       "Aina Puce"
     ],
     "year": 2011,
+    "publication_date": "2011-01-01T00:00:00Z",
+    "year_month_day": "2011-01-01T00:00:00Z",
+    "abstract": "When we observe someone perform a familiar action, we can usually predict what kind of sound that action will produce. Musical actions are over-experienced by musicians and not by non-musicians, and thus offer a unique way to examine how action expertise affects brain processes when the predictability of the produced sound is manipulated. We used functional magnetic resonance imaging to scan 11 drummers and 11 age- and gender-matched novices who made judgments on point-light drumming movements presented with sound. In Experiment 1, sound was synchronized or desynchronized with drumming strikes, while in Experiment 2 sound was always synchronized, but the natural covariation between sound intensity and velocity of the drumming strike was maintained or eliminated. Prior to MRI scanning, each participant completed psychophysical testing to identify personal levels of synchronous and asynchronous timing to be used in the two fMRI activation tasks. In both experiments, the drummers' brain activation was reduced in motor and action representation brain regions when sound matched the observed movements, and was similar to that of novices when sound was mismatched. This reduction in neural activity occurred bilaterally in the cerebellum and left parahippocampal gyrus in Experiment 1, and in the right inferior parietal lobule, inferior temporal gyrus, middle frontal gyrus and precentral gyrus in Experiment 2. Our results indicate that brain functions in action-sound representation areas are modulated by multimodal action expertise.",
     "hal_type": "ART",
     "category": "Journal article",
     "presentation_type": null,
@@ -4352,6 +4667,9 @@
       "Frank Pollick"
     ],
     "year": 2010,
+    "publication_date": "2010-06-16T00:00:00Z",
+    "year_month_day": "2010-06-16T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -4390,6 +4708,9 @@
       "Jeffrey M. Zacks"
     ],
     "year": 2010,
+    "publication_date": "2010-06-06T00:00:00Z",
+    "year_month_day": "2010-06-06T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -4427,6 +4748,9 @@
       "Frank Pollick"
     ],
     "year": 2010,
+    "publication_date": "2010-06-06T00:00:00Z",
+    "year_month_day": "2010-06-06T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -4463,6 +4787,9 @@
       "Frank Earl Pollick"
     ],
     "year": 2008,
+    "publication_date": "2008-07-16T00:00:00Z",
+    "year_month_day": "2008-07-16T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -4503,6 +4830,9 @@
       "Frank Pollick"
     ],
     "year": 2007,
+    "publication_date": "2007-05-11T00:00:00Z",
+    "year_month_day": "2007-05-11T00:00:00Z",
+    "abstract": null,
     "hal_type": "POSTER",
     "category": "Conference presentation",
     "presentation_type": "Poster",
@@ -4541,6 +4871,9 @@
       "Karin Petrini"
     ],
     "year": 2007,
+    "publication_date": "2007-01-01T00:00:00Z",
+    "year_month_day": "2007-01-01T00:00:00Z",
+    "abstract": null,
     "hal_type": "COMM",
     "category": "Conference presentation",
     "presentation_type": "Oral presentation",

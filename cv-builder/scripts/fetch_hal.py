@@ -7,6 +7,9 @@ from pathlib import Path
 import requests
 import yaml
 
+import re
+import xml.etree.ElementTree as ET
+
 ROOT = Path(__file__).resolve().parents[1]
 
 PROFILE_FILE = ROOT / "data" / "profile.yml"
@@ -18,6 +21,7 @@ MAX_FETCH_ATTEMPTS = 3
 BACKOFF_BASE_SECONDS = 1
 
 
+# 2) Expand FIELDS list (replace current FIELDS with this version)
 FIELDS = [
     # Identifiers
     "docid",
@@ -27,10 +31,23 @@ FIELDS = [
     "docType_s",
     "title_s",
     "authFullName_s",
+
+    # Date fields (richer precision)
     "producedDateY_i",
+    "producedDateM_i",
+    "producedDateD_i",
+    "producedDate_tdate",
+    "publicationDateY_i",
+    "publicationDateM_i",
+    "publicationDateD_i",
+    "publicationDate_tdate",
+    "submittedDate_tdate",
+    "releasedDate_tdate",
+
     # Journal information
     "journalTitle_s",
     "doiId_s",
+
     # Conference information
     "conferenceTitle_s",
     "conferenceStartDate_s",
@@ -39,11 +56,13 @@ FIELDS = [
     "city_s",
     "country_s",
     "publisherLink_s",
+
     # Conference characteristics
     "invitedCommunication_s",
     "peerReviewing_s",
     "audience_s",
     "proceedings_s",
+
     # Other potentially useful bibliographic information
     "source_s",
     "volume_s",
@@ -51,9 +70,19 @@ FIELDS = [
     "page_s",
     "publisher_s",
     "serie_s",
+
     # Book chapter/container metadata (if available)
     "bookTitle_s",
     "editorFullName_s",
+
+    # Abstract candidates (HAL index can vary naming)
+    "abstract_s",
+    "abstract_t",
+    "en_abstract_s",
+    "fr_abstract_s",
+
+    # Fallback source for abstract extraction
+    "label_xml",
 ]
 
 
@@ -61,6 +90,94 @@ FIELDS = [
 # Helpers
 # ---------------------------------------------------------------------------
 
+# 3) Add helpers (place in Helpers section)
+
+HAL_TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
+
+
+def _to_int(value):
+    try:
+        if value is None:
+            return None
+        if isinstance(value, bool):
+            return None
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _iso_date_from_parts(year, month=None, day=None):
+    y = _to_int(year)
+    if not y or y < 1 or y > 9999:
+        return None
+
+    m = _to_int(month)
+    d = _to_int(day)
+
+    # HAL sometimes uses 0 for unknown month/day
+    if not m or m < 1 or m > 12:
+        m = 1
+    if not d or d < 1 or d > 31:
+        d = 1
+
+    try:
+        return f"{y:04d}-{m:02d}-{d:02d}T00:00:00Z"
+    except ValueError:
+        return None
+
+
+def _strip_xml_text(value):
+    if not value:
+        return None
+    cleaned = re.sub(r"\s+", " ", str(value)).strip()
+    return cleaned or None
+
+
+def _extract_abstract_from_label_xml(label_xml, preferred_langs=("en", "fr")):
+    if not label_xml:
+        return None
+
+    try:
+        root = ET.fromstring(label_xml)
+    except ET.ParseError:
+        return None
+
+    # HAL TEI usually has abstract/p blocks with xml:lang
+    abstracts = root.findall(".//tei:abstract", HAL_TEI_NS)
+    if not abstracts:
+        return None
+
+    xml_lang_attr = "{http://www.w3.org/XML/1998/namespace}lang"
+
+    # Pass 1: preferred language
+    for lang in preferred_langs:
+        for node in abstracts:
+            if (node.get(xml_lang_attr) or "").lower() == lang.lower():
+                text = " ".join(node.itertext())
+                text = _strip_xml_text(text)
+                if text:
+                    return text
+
+    # Pass 2: first non-empty abstract
+    for node in abstracts:
+        text = " ".join(node.itertext())
+        text = _strip_xml_text(text)
+        if text:
+            return text
+
+    return None
+
+
+def _pick_abstract(doc):
+    # prefer explicit indexed fields first
+    for key in ("en_abstract_s", "abstract_s", "fr_abstract_s", "abstract_t"):
+        value = first_value(doc.get(key))
+        value = _strip_xml_text(value)
+        if value:
+            return value
+
+    # fallback to TEI payload
+    return _extract_abstract_from_label_xml(doc.get("label_xml"))
 
 def first_value(value):
     """Return the first value if HAL provides a list."""
@@ -277,79 +394,103 @@ def main(
 
     publications = []
     for doc in docs:
-        hal_id = first_value(doc.get("halId_s"))
-        doc_type = first_value(doc.get("docType_s"))
-        invited = first_value(doc.get("invitedCommunication_s"))
-        peer_reviewed = first_value(doc.get("peerReviewing_s"))
-        classification = classify_document(
-            doc_type,
-            invited,
-            peer_reviewed,
-            doi=first_value(doc.get("doiId_s")),
-            journal=first_value(doc.get("journalTitle_s")),
-            conference=first_value(doc.get("conferenceTitle_s")),
-            book_title=first_value(doc.get("bookTitle_s")),
-        )
-        if classification is None:
-            continue
-        publication = {
-            # ---------------------------------------------------------------
-            # Identifiers
-            # ---------------------------------------------------------------
-            "hal_id": hal_id,
-            "docid": doc.get("docid"),
-            "hal_url": first_value(doc.get("uri_s")),
-            # ---------------------------------------------------------------
-            # General bibliographic information
-            # ---------------------------------------------------------------
-            "title": first_value(doc.get("title_s")),
-            "authors": clean_authors(doc.get("authFullName_s")),
-            "year": doc.get("producedDateY_i"),
-            # ---------------------------------------------------------------
-            # HAL classification
-            # ---------------------------------------------------------------
-            "hal_type": doc_type,
-            "category": classification["category"],
-            "presentation_type": classification["presentation_type"],
-            # ---------------------------------------------------------------
-            # Journal information
-            # ---------------------------------------------------------------
-            "journal": first_value(doc.get("journalTitle_s")),
-            "doi": first_value(doc.get("doiId_s")),
-            # ---------------------------------------------------------------
-            # Conference information
-            # ---------------------------------------------------------------
-            "conference": first_value(doc.get("conferenceTitle_s")),
-            "conference_start": first_value(doc.get("conferenceStartDate_s")),
-            "conference_end": first_value(doc.get("conferenceEndDate_s")),
-            "conference_organizer": first_value(doc.get("conferenceOrganizer_s")),
-            "city": first_value(doc.get("city_s")),
-            "country": first_value(doc.get("country_s")),
-            "conference_url": first_value(doc.get("publisherLink_s")),
-            # ---------------------------------------------------------------
-            # Conference characteristics
-            # ---------------------------------------------------------------
-            "invited": invited,
-            "peer_reviewed": peer_reviewed,
-            "audience": first_value(doc.get("audience_s")),
-            "proceedings": first_value(doc.get("proceedings_s")),
-            # ---------------------------------------------------------------
-            # Additional bibliographic information
-            # ---------------------------------------------------------------
-            "source": first_value(doc.get("source_s")),
-            "volume": first_value(doc.get("volume_s")),
-            "issue": first_value(doc.get("issue_s")),
-            "pages": first_value(doc.get("page_s")),
-            "publisher": first_value(doc.get("publisher_s")),
-            "series": first_value(doc.get("serie_s")),
-            # ---------------------------------------------------------------
-            # Book chapter metadata
-            # ---------------------------------------------------------------
-            "book_title": first_value(doc.get("bookTitle_s")),
-            "editors": clean_authors(doc.get("editorFullName_s")),
-        }
+            hal_id = first_value(doc.get("halId_s"))
+            doc_type = first_value(doc.get("docType_s"))
+            invited = first_value(doc.get("invitedCommunication_s"))
+            peer_reviewed = first_value(doc.get("peerReviewing_s"))
+            classification = classify_document(
+                doc_type,
+                invited,
+                peer_reviewed,
+                doi=first_value(doc.get("doiId_s")),
+                journal=first_value(doc.get("journalTitle_s")),
+                conference=first_value(doc.get("conferenceTitle_s")),
+                book_title=first_value(doc.get("bookTitle_s")),
+            )
+            if classification is None:
+                continue
+            publication = {
+                # ---------------------------------------------------------------
+                # Identifiers
+                # ---------------------------------------------------------------
+                "hal_id": hal_id,
+                "docid": doc.get("docid"),
+                "hal_url": first_value(doc.get("uri_s")),
+                # ---------------------------------------------------------------
+                # General bibliographic information
+                # ---------------------------------------------------------------
+                "title": first_value(doc.get("title_s")),
+                "authors": clean_authors(doc.get("authFullName_s")),
+                "year": doc.get("producedDateY_i"),
 
-        publications.append(publication)
+                # NEW: richer date precision fields
+                "publication_date": (
+                    first_value(doc.get("publicationDate_tdate"))
+                    or first_value(doc.get("producedDate_tdate"))
+                    or first_value(doc.get("releasedDate_tdate"))
+                    or first_value(doc.get("submittedDate_tdate"))
+                ),
+                "year_month_day": (
+                    _iso_date_from_parts(
+                        first_value(doc.get("publicationDateY_i")),
+                        first_value(doc.get("publicationDateM_i")),
+                        first_value(doc.get("publicationDateD_i")),
+                    )
+                    or _iso_date_from_parts(
+                        first_value(doc.get("producedDateY_i")),
+                        first_value(doc.get("producedDateM_i")),
+                        first_value(doc.get("producedDateD_i")),
+                    )
+                ),
+
+                # NEW: HAL abstract extraction
+                "abstract": _pick_abstract(doc),
+
+                # ---------------------------------------------------------------
+                # HAL classification
+                # ---------------------------------------------------------------
+                "hal_type": doc_type,
+                "category": classification["category"],
+                "presentation_type": classification["presentation_type"],
+                # ---------------------------------------------------------------
+                # Journal information
+                # ---------------------------------------------------------------
+                "journal": first_value(doc.get("journalTitle_s")),
+                "doi": first_value(doc.get("doiId_s")),
+                # ---------------------------------------------------------------
+                # Conference information
+                # ---------------------------------------------------------------
+                "conference": first_value(doc.get("conferenceTitle_s")),
+                "conference_start": first_value(doc.get("conferenceStartDate_s")),
+                "conference_end": first_value(doc.get("conferenceEndDate_s")),
+                "conference_organizer": first_value(doc.get("conferenceOrganizer_s")),
+                "city": first_value(doc.get("city_s")),
+                "country": first_value(doc.get("country_s")),
+                "conference_url": first_value(doc.get("publisherLink_s")),
+                # ---------------------------------------------------------------
+                # Conference characteristics
+                # ---------------------------------------------------------------
+                "invited": invited,
+                "peer_reviewed": peer_reviewed,
+                "audience": first_value(doc.get("audience_s")),
+                "proceedings": first_value(doc.get("proceedings_s")),
+                # ---------------------------------------------------------------
+                # Additional bibliographic information
+                # ---------------------------------------------------------------
+                "source": first_value(doc.get("source_s")),
+                "volume": first_value(doc.get("volume_s")),
+                "issue": first_value(doc.get("issue_s")),
+                "pages": first_value(doc.get("page_s")),
+                "publisher": first_value(doc.get("publisher_s")),
+                "series": first_value(doc.get("serie_s")),
+                # ---------------------------------------------------------------
+                # Book chapter metadata
+                # ---------------------------------------------------------------
+                "book_title": first_value(doc.get("bookTitle_s")),
+                "editors": clean_authors(doc.get("editorFullName_s")),
+            }
+
+            publications.append(publication)
 
     publications.sort(
         key=lambda p: (

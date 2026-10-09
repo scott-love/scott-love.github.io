@@ -33,15 +33,6 @@ jobs:
         with:
           enable-cache: true
 
-      - name: Install TeX Live
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            texlive-latex-base \
-            texlive-latex-extra \
-            texlive-fonts-extra \
-            texlive-xetex
-
       - name: Install Python dependencies
         run: uv sync --dev
 
@@ -74,7 +65,44 @@ jobs:
             exit 1
           fi
 
+      - name: Detect real changes
+        id: changes
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          cv_diff="$(git status --porcelain -- cv-builder/data/publications.json)"
+          if [ -n "$cv_diff" ]; then
+            echo "cv_changed=true" >> "$GITHUB_OUTPUT"
+            echo "CV publication data changed:"
+            printf '%s\n' "$cv_diff"
+          else
+            echo "cv_changed=false" >> "$GITHUB_OUTPUT"
+            echo "No CV publication changes."
+          fi
+
+          site_diff="$(git status --porcelain -- content/en/publication cv-builder/data/publications.json)"
+          if [ -n "$site_diff" ]; then
+            echo "site_changed=true" >> "$GITHUB_OUTPUT"
+            echo "Site content changed:"
+            printf '%s\n' "$site_diff"
+          else
+            echo "site_changed=false" >> "$GITHUB_OUTPUT"
+            echo "No site content changes."
+          fi
+
+      - name: Install TeX Live
+        if: steps.changes.outputs.cv_changed == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-latex-base \
+            texlive-latex-extra \
+            texlive-fonts-extra \
+            texlive-xetex
+
       - name: Generate and compile CV PDFs
+        if: steps.changes.outputs.cv_changed == 'true'
         run: |
           set -euo pipefail
           uv run python cv-builder/scripts/generate_cv_latex.py
@@ -85,9 +113,11 @@ jobs:
           xelatex -interaction=nonstopmode -halt-on-error -output-directory=. cv_short.tex
 
       - name: Update the site's CV download
+        if: steps.changes.outputs.cv_changed == 'true'
         run: cp cv-builder/cv/cv.pdf static/files/cv.pdf
 
       - name: Select release tag
+        if: steps.changes.outputs.cv_changed == 'true'
         id: release_tag
         shell: bash
         run: |
@@ -104,6 +134,7 @@ jobs:
           echo "tag=${date_tag}" >> "$GITHUB_OUTPUT"
 
       - name: Publish CV release
+        if: steps.changes.outputs.cv_changed == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.release_tag.outputs.tag }}
@@ -114,6 +145,7 @@ jobs:
           generate_release_notes: true
 
       - name: Open or update publications pull request
+        if: steps.changes.outputs.site_changed == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ github.token }}
@@ -127,11 +159,10 @@ jobs:
           commit-message: "chore: refresh publications and CV"
           title: "chore: refresh publications and CV"
           body: |
-            Monthly/manual refresh of HAL publications and the generated CV.
+            Monthly/manual refresh of HAL publications.
 
             - Publication changes retain the website's editorial overrides.
-            - The site download at `/files/cv.pdf` is included in this PR alongside the release assets.
+            - When the CV data changed, the site download at `/files/cv.pdf` is updated here and a matching release was published.
             - Publication removals are blocked for manual review.
 
-            Before the first run, enable GitHub Actions to create and approve PRs in repository settings.
-            Pull requests created with the default `GITHUB_TOKEN` do not trigger other workflows. Review and validate this PR manually, or configure a PAT/GitHub App token if automatic CI on generated PRs is required.
+            Pull requests created with the default `GITHUB_TOKEN` do not trigger other workflows. Review and validate this PR manually (approve the `publication-overrides-ci.yml` run), or configure a PAT/GitHub App token if automatic CI on generated PRs is required.

@@ -10,7 +10,7 @@ authors:
 - Annabelle Pinateau
 - Cécile Arnould
 - Léa Lansade
-date: '2023-01-01T00:00:00Z'
+date: '2023-03-01T00:00:00Z'
 publication_types:
 - article-journal
 publication: Behavioural Processes

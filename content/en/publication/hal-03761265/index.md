@@ -9,7 +9,7 @@ authors:
 - Baptiste Mulot
 - Scott A. Love
 - Elodie Chaillou
-date: '2022-01-01T00:00:00Z'
+date: '2022-09-30T00:00:00Z'
 publication_types:
 - article-journal
 publication: Journal of Interdisciplinary Methodologies and Issues in Science

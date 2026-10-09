@@ -8,7 +8,7 @@ authors:
 - Cécile Arnould
 - Elodie Chaillou
 - Scott A Love
-date: '2024-01-01T00:00:00Z'
+date: '2024-06-21T00:00:00Z'
 publication_types:
 - article-journal
 publication: Behavior Research Methods

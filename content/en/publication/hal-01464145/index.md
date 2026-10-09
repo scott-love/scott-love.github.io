@@ -10,7 +10,7 @@ authors:
 - Olivier A Coulon
 - Jean-Luc A Anton
 - Adrien Meguerditchian
-date: '2016-01-01T00:00:00Z'
+date: '2016-05-01T00:00:00Z'
 publication_types:
 - article-journal
 publication: NeuroImage

@@ -1,8 +1,0 @@
-git clone https://github.com/scott-love/personal-site
-cd personal-site/
-git rm -r public
-
-## make changes ##
-
-git submodule add https://github.com/scott-love/scott-love.github.io.git public
-./deploy.sh "comment"

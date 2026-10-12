@@ -31,3 +31,7 @@ _vendor/
 
 # Hugo local build lock
 .hugo_build.lock
+
+.Rhistory
+.RData
+.Rproj.user/

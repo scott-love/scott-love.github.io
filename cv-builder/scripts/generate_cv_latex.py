@@ -11,6 +11,7 @@ This script:
 
 import json
 import re
+import shutil
 import unicodedata
 from pathlib import Path
 from datetime import datetime
@@ -27,12 +28,20 @@ DATA = ROOT / "data"
 CV_DIR = ROOT / "cv"
 OUTPUT_FILE = CV_DIR / "cv.tex"
 SHORT_OUTPUT_FILE = CV_DIR / "cv_short.tex"
-PHOTO_FILE = CV_DIR / "pictures" / "scott.jpg"
+WEBSITE_PHOTO_SOURCE = ROOT / "assets" / "media" / "authors" / "scott.jpg"
+CV_PHOTO_FILE = CV_DIR / "pictures" / "scott.jpg"
 PHOTO_LATEX_PATH = "pictures/scott"
 HAL_PROFILE_BASE_URL = "https://cv.hal.science/"
 
 # Ensure output directory exists
 CV_DIR.mkdir(parents=True, exist_ok=True)
+CV_PHOTO_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+
+def sync_photo_asset():
+    """Copy the website avatar into the CV build output location."""
+    if WEBSITE_PHOTO_SOURCE.exists():
+        shutil.copy2(WEBSITE_PHOTO_SOURCE, CV_PHOTO_FILE)
 
 
 # ---------------------------------------------------------------------------
@@ -849,7 +858,7 @@ def add_document_preamble(add_line):
         add_line(r"  \pagestyle{plain}}")
         add_line(r"\makeatother")
 
-    if PHOTO_FILE.exists():
+    if CV_PHOTO_FILE.exists():
         add_line(f"\\photo[64pt][0.4pt]{{{PHOTO_LATEX_PATH}}}")
     else:
         add_line(f"% \\photo[64pt][0.4pt]{{{PHOTO_LATEX_PATH}}}")
@@ -857,6 +866,13 @@ def add_document_preamble(add_line):
     add_line()
     add_line(r"\begin{document}")
     add_line(r"\makecvtitle")
+
+
+# ---------------------------------------------------------------------------
+# Main build
+# ---------------------------------------------------------------------------
+
+sync_photo_asset()
 
 
 def add_profile_block(add_line, compact_spacing=False):
@@ -1260,7 +1276,7 @@ print(f"Generated {OUTPUT_FILE}")
 print(f"Generated {SHORT_OUTPUT_FILE}")
 print("  - Style: casual (blue)")
 print(f"  - Profile: {profile.get('name')}")
-print(f"  - Photo: {'Present' if PHOTO_FILE.exists() else 'Not found (placeholder commented out)'}")
+print(f"  - Photo: {'Present' if CV_PHOTO_FILE.exists() else 'Not found (placeholder commented out)'}")
 print(f"  - Publications: {total_pubs} total")
 print(f"    - Journal articles: {len(pubs['journal_articles'])}")
 print(f"    - Book chapters: {len(pubs['book_chapters'])}")

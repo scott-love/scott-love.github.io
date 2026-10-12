@@ -1,4 +1,5 @@
 import json
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -10,6 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 FULL_OUTPUT_FILE = ROOT / "cv" / "cv.tex"
 SHORT_OUTPUT_FILE = ROOT / "cv" / "cv_short.tex"
 HAL_PROFILE_BASE_URL = "https://cv.hal.science/"
+WEBSITE_PHOTO_SOURCE = ROOT / "assets" / "media" / "authors" / "scott.jpg"
+CV_PHOTO_FILE = ROOT / "cv" / "pictures" / "scott.jpg"
 
 
 def escape_latex(text):
@@ -47,6 +50,37 @@ def escape_latex_url(url):
     return "".join(replacements.get(char, char) for char in str(url).replace(" ", "%20"))
 
 
+def run_generator():
+    subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
+        check=True,
+        cwd=ROOT,
+    )
+
+
+def test_generator_syncs_cv_photo_from_website_avatar_source():
+    original_source = WEBSITE_PHOTO_SOURCE.read_bytes() if WEBSITE_PHOTO_SOURCE.exists() else None
+    original_cv_photo = CV_PHOTO_FILE.read_bytes() if CV_PHOTO_FILE.exists() else None
+
+    try:
+        WEBSITE_PHOTO_SOURCE.write_bytes(b"website-photo-source-test")
+        CV_PHOTO_FILE.unlink(missing_ok=True)
+
+        run_generator()
+
+        assert CV_PHOTO_FILE.read_bytes() == b"website-photo-source-test"
+    finally:
+        if original_source is None:
+            WEBSITE_PHOTO_SOURCE.unlink(missing_ok=True)
+        else:
+            WEBSITE_PHOTO_SOURCE.write_bytes(original_source)
+
+        if original_cv_photo is None:
+            CV_PHOTO_FILE.unlink(missing_ok=True)
+        else:
+            CV_PHOTO_FILE.write_bytes(original_cv_photo)
+
+
 def test_generator_emits_expected_header_profile_links_for_full_and_short_cv():
     original_full_content = (
         FULL_OUTPUT_FILE.read_text(encoding="utf-8") if FULL_OUTPUT_FILE.exists() else None
@@ -55,11 +89,7 @@ def test_generator_emits_expected_header_profile_links_for_full_and_short_cv():
         SHORT_OUTPUT_FILE.read_text(encoding="utf-8") if SHORT_OUTPUT_FILE.exists() else None
     )
     try:
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         profile = yaml.safe_load((ROOT / "data" / "profile.yml").read_text(encoding="utf-8")) or {}
 
         expected_parts = []
@@ -126,11 +156,7 @@ def test_generator_emits_icon_only_footer_profile_links_for_full_and_short_cv():
         SHORT_OUTPUT_FILE.read_text(encoding="utf-8") if SHORT_OUTPUT_FILE.exists() else None
     )
     try:
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         profile = yaml.safe_load((ROOT / "data" / "profile.yml").read_text(encoding="utf-8")) or {}
 
         expected_parts = []
@@ -212,11 +238,7 @@ def test_profile_and_research_interests_render_as_single_heading_free_block():
             yaml.safe_dump(test_profile, allow_unicode=True, sort_keys=False),
             encoding="utf-8",
         )
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         latex = output_file.read_text(encoding="utf-8")
         profile_block = latex.split("\\section{Education}", 1)[0]
 
@@ -233,7 +255,7 @@ def test_profile_and_research_interests_render_as_single_heading_free_block():
         assert f"{escaped_summary}\\\\" in profile_block
         assert escaped_interests in profile_block
         assert profile_block.index(escaped_summary) < profile_block.index(escaped_interests)
-        assert r"\textbackslash\{\}" not in profile_block
+        assert r"\textbackslash\{}" not in profile_block
         assert "·" not in profile_block
         assert "��" not in latex
     finally:
@@ -249,11 +271,7 @@ def test_publications_abbreviate_and_bold_scott_name():
     original_output = output_file.read_text(encoding="utf-8") if output_file.exists() else None
 
     try:
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         latex = output_file.read_text(encoding="utf-8")
 
         assert "\\textbf{Love SA}" in latex
@@ -272,11 +290,7 @@ def test_publications_abbreviate_hyphenated_given_names():
 
     try:
 
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         latex = output_file.read_text(encoding="utf-8")
 
         assert "Graïc JM" in latex
@@ -354,11 +368,7 @@ def test_generator_escapes_author_and_country_text():
             yaml.safe_dump(test_teaching, allow_unicode=True, sort_keys=False),
             encoding="utf-8",
         )
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         latex = output_file.read_text(encoding="utf-8")
 
         assert "Wesson\\&A S" in latex
@@ -568,11 +578,7 @@ def test_funding_omit_coordinator_line_when_role_is_coordinator():
             yaml.safe_dump(test_funding, allow_unicode=True, sort_keys=False),
             encoding="utf-8",
         )
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         latex = output_file.read_text(encoding="utf-8")
 
         assert "\\textbf{Role:} LOCAL coordinator" in latex
@@ -594,11 +600,7 @@ def test_employment_dates_use_readable_mixed_precision_formatting():
     original_output = output_file.read_text(encoding="utf-8") if output_file.exists() else None
 
     try:
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         latex = output_file.read_text(encoding="utf-8")
         employment_start = latex.index("\\section{Professional Experience}")
         funding_start = latex.index("\\section{Funding}")
@@ -648,11 +650,7 @@ def test_supervision_uses_structured_layout_and_optional_fields():
             yaml.safe_dump(test_supervision, allow_unicode=True, sort_keys=False),
             encoding="utf-8",
         )
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         latex = output_file.read_text(encoding="utf-8")
 
         assert "\\cventry{2024 -- present}{Alice Example}{PhD}{University of Tours}{}{" in latex
@@ -682,11 +680,7 @@ def test_short_cv_keeps_header_and_employment_but_only_highest_degree_and_recent
     )
 
     try:
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
         full_latex = full_output.read_text(encoding="utf-8")
         short_latex = short_output.read_text(encoding="utf-8")
 
@@ -826,11 +820,7 @@ def test_short_cv_selects_five_newest_peer_reviewed_articles_and_compacts_profil
             encoding="utf-8",
         )
 
-        subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "generate_cv_latex.py")],
-            check=True,
-            cwd=ROOT,
-        )
+        run_generator()
 
         full_latex = full_output.read_text(encoding="utf-8")
         short_latex = short_output.read_text(encoding="utf-8")

@@ -116,3 +116,10 @@ uv run python scripts/apply_publication_overrides.py
 
 See [the publication pipeline guide](docs/data-flow-specification.md) and
 [`cv-builder/README.md`](cv-builder/README.md) for more detail.
+
+## Shared profile photo
+
+The website avatar and CV photo are both sourced from
+`assets/media/authors/scott.jpg`. The CV generator copies that image into
+`cv-builder/cv/pictures/scott.jpg` during the build so the website and PDF stay
+in sync without maintaining duplicate source images.

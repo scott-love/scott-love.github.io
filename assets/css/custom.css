@@ -1,0 +1,29 @@
+/* Alternating site palette */
+
+/* Light mode */
+section.hbb-section {
+  background-color: #f1f5f9;
+}
+
+section.hbb-section:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+/* Dark mode — deep navy with subtle plum */
+.dark section.hbb-section {
+  background-color: #0f172a;
+}
+
+.dark section.hbb-section:nth-of-type(even) {
+  background-color: #1c1a2b;
+}
+
+/* Allow section background colours to show through */
+section.hbb-section > .home-section-bg:not([style]) {
+  background: transparent;
+}
+
+/* Make the header border visible in dark mode */
+.dark #site-header.header {
+  border-bottom: 1px solid #49334f;
+}

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FULL_OUTPUT_FILE = ROOT / "cv" / "cv.tex"
 SHORT_OUTPUT_FILE = ROOT / "cv" / "cv_short.tex"
 HAL_PROFILE_BASE_URL = "https://cv.hal.science/"
-WEBSITE_PHOTO_SOURCE = ROOT / "assets" / "media" / "authors" / "scott.jpg"
+WEBSITE_PHOTO_SOURCE = ROOT.parent / "assets" / "media" / "authors" / "scott.jpg"
 CV_PHOTO_FILE = ROOT / "cv" / "pictures" / "scott.jpg"
 
 
